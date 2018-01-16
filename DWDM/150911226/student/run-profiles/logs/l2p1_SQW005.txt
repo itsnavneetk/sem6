@@ -1,0 +1,30 @@
+ Data-Flows  Jan 16, 2018 2:59:36 PM   SQW03415I: Flow execution started for SQW005 (/student/data-flows/l2p1)
+ Data-Flows  Jan 16, 2018 2:59:36 PM   SQW38501I: Execution log file:  E:/150911226/student/run-profiles/logs/l2p1_SQW005.txt
+ Data-Flows  Jan 16, 2018 2:59:36 PM   SQW38509I: Execution temporary work directory:  E:/150911226/student/run-profiles/tmp\l2p1_SQW005
+ Data-Flows  Jan 16, 2018 2:59:38 PM   SQW03275I: Execution of SQL statement "SET CURRENT SCHEMA "IWSCHEMA4D794C_a"" through JDBC connection finished successfully
+ Data-Flows  Jan 16, 2018 2:59:38 PM   SQW030821E: Error while attempting to make connection to . SQW03430E: Cannot open connection: No database has been selected
+ Data-Flows  Jan 16, 2018 2:59:38 PM   SQW03368I: Dumping variable values : 
+     ${INT-RES/RUN-ID} = 4D794C
+     ${RESERVED/APP_NAME} = l2p1
+     ${RESERVED/APP_PATH} = E:/150911226/student/run-profiles/rp4d5430/
+     ${RESERVED/CURRENT_TIMESTAMP} = 2018-01-16 14:59:38
+     ${RESERVED/DATE} = 2018-01-16
+     ${RESERVED/DAYNAME_SHORT} = Tue
+     ${RESERVED/DAYNAME} = Tuesday
+     ${RESERVED/DAY} = 16
+     ${RESERVED/INSTANCE_NAME} = SQW005
+     ${RESERVED/MISC_DIR} = E:/150911226\student\package-misc\
+     ${RESERVED/MONTHNAME_SHORT} = Jan
+     ${RESERVED/MONTHNAME} = January
+     ${RESERVED/MONTH} = 01
+     ${RESERVED/PROC_NAME} = l2p1
+     ${RESERVED/RUN_ID} = 4D794C
+     ${RESERVED/START_TIMESTAMP} = 2018-01-16 14:59:38
+     ${RESERVED/TIME} = 14:59:38
+     ${RESERVED/TMP_DIR} = E:/150911226/student/run-profiles/tmp\l2p1_SQW005
+     ${RESERVED/USER_DIR} = C:\Program Files\IBM\ISWarehouse\ds
+     ${RESERVED/USER_HOME} = C:\Users\student
+     ${RESERVED/USER_NAME} = student
+     ${RESERVED/YEAR} = 2018
+ Data-Flows  Jan 16, 2018 2:59:39 PM   SQW03408I: Flow execution finished for SQW005 (/student/data-flows/l2p1)
+ Data-Flows  Jan 16, 2018 2:59:39 PM   SQW38508I: Closing log file E:/150911226/student/run-profiles/logs/l2p1_SQW005.txt.

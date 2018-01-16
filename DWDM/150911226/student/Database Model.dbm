@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/7.5.2.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:LUW="http:///com/ibm/db/models/db2/luw.ecore" xmlns:SQLAccessControl="http:///org/eclipse/datatools/modelbase/sql/accesscontrol.ecore">
+  <LUW:LUWDatabase xmi:id="_F8i1wfdVEeeQx_Cn4GgJTA" name="GSDBITD" vendor="DB2 UDB" version="V9.7" authorizationIds="_F8smwfdVEeeQx_Cn4GgJTA _F8snGvdVEeeQx_Cn4GgJTA _F8snCvdVEeeQx_Cn4GgJTA _F8snH_dVEeeQx_Cn4GgJTA" groups="_F8snHPdVEeeQx_Cn4GgJTA" bufferpools="_F8snIfdVEeeQx_Cn4GgJTA _F8snIvdVEeeQx_Cn4GgJTA" tablespaces="_F8snGfdVEeeQx_Cn4GgJTA _F8snHvdVEeeQx_Cn4GgJTA">
+    <eAnnotations xmi:id="_F8i1wvdVEeeQx_Cn4GgJTA" source="ConnectionURI">
+      <details xmi:id="_F8i1w_dVEeeQx_Cn4GgJTA" key="ConnectionKey" value="GSDBITD"/>
+    </eAnnotations>
+  </LUW:LUWDatabase>
+  <SQLAccessControl:User xmi:id="_F8smwfdVEeeQx_Cn4GgJTA" name="ITSTUDENTB2" description="" Database="_F8i1wfdVEeeQx_Cn4GgJTA">
+    <receivedPrivilege xmi:id="_F8smwvdVEeeQx_Cn4GgJTA" grantable="true" action="INSERT" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smw_dVEeeQx_Cn4GgJTA" grantable="true" action="INSERT" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smxPdVEeeQx_Cn4GgJTA" grantable="true" action="REFERENCES" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smxfdVEeeQx_Cn4GgJTA" grantable="true" action="INDEX" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smxvdVEeeQx_Cn4GgJTA" grantable="true" action="ALTERIN" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smx_dVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smyPdVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smyfdVEeeQx_Cn4GgJTA" grantable="true" action="UPDATE" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smyvdVEeeQx_Cn4GgJTA" grantable="true" action="UPDATE" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smy_dVEeeQx_Cn4GgJTA" grantable="true" action="REFERENCES" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smzPdVEeeQx_Cn4GgJTA" grantable="true" action="SELECT" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smzfdVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smzvdVEeeQx_Cn4GgJTA" grantable="true" action="INDEX" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smz_dVEeeQx_Cn4GgJTA" grantable="true" action="ALTER" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm0PdVEeeQx_Cn4GgJTA" grantable="true" action="ALTER" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm0fdVEeeQx_Cn4GgJTA" grantable="true" action="ALTER" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm0vdVEeeQx_Cn4GgJTA" grantable="true" action="DELETE" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm0_dVEeeQx_Cn4GgJTA" grantable="true" action="DELETE" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm1PdVEeeQx_Cn4GgJTA" grantable="true" action="REFERENCES" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm1fdVEeeQx_Cn4GgJTA" grantable="true" action="DELETE" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm1vdVEeeQx_Cn4GgJTA" grantable="true" action="INSERT" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm1_dVEeeQx_Cn4GgJTA" grantable="true" action="SELECT" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm2PdVEeeQx_Cn4GgJTA" grantable="true" action="SELECT" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm2fdVEeeQx_Cn4GgJTA" grantable="true" action="DROPIN" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm2vdVEeeQx_Cn4GgJTA" grantable="true" action="UPDATE" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm2_dVEeeQx_Cn4GgJTA" grantable="true" action="INDEX" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm3PdVEeeQx_Cn4GgJTA" grantable="true" action="INDEX" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm3fdVEeeQx_Cn4GgJTA" grantable="true" action="INDEX" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm3vdVEeeQx_Cn4GgJTA" grantable="true" action="SELECT" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm3_dVEeeQx_Cn4GgJTA" grantable="true" action="DELETE" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm4PdVEeeQx_Cn4GgJTA" grantable="true" action="INSERT" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm4fdVEeeQx_Cn4GgJTA" grantable="true" action="REFERENCES" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm4vdVEeeQx_Cn4GgJTA" grantable="true" action="REFERENCES" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm4_dVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm5PdVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm5fdVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm5vdVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm5_dVEeeQx_Cn4GgJTA" grantable="true" action="SELECT" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm6PdVEeeQx_Cn4GgJTA" grantable="true" action="DELETE" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm6fdVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm6vdVEeeQx_Cn4GgJTA" grantable="true" action="ALTER" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm6_dVEeeQx_Cn4GgJTA" grantable="true" action="INSERT" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm7PdVEeeQx_Cn4GgJTA" grantable="true" action="ALTER" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm7fdVEeeQx_Cn4GgJTA" grantable="true" action="SELECT" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm7vdVEeeQx_Cn4GgJTA" grantable="true" action="UPDATE" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm7_dVEeeQx_Cn4GgJTA" grantable="true" action="UPDATE" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm8PdVEeeQx_Cn4GgJTA" grantable="true" action="INSERT" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm8fdVEeeQx_Cn4GgJTA" grantable="true" action="ALTER" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm8vdVEeeQx_Cn4GgJTA" grantable="true" action="UPDATE" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm8_dVEeeQx_Cn4GgJTA" grantable="true" action="INSERT" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm9PdVEeeQx_Cn4GgJTA" grantable="true" action="CREATEIN" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm9fdVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm9vdVEeeQx_Cn4GgJTA" grantable="true" action="UPDATE" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm9_dVEeeQx_Cn4GgJTA" grantable="true" action="REFERENCES" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm-PdVEeeQx_Cn4GgJTA" grantable="true" action="INSERT" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm-fdVEeeQx_Cn4GgJTA" grantable="true" action="DELETE" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm-vdVEeeQx_Cn4GgJTA" grantable="true" action="DELETE" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm-_dVEeeQx_Cn4GgJTA" grantable="true" action="DELETE" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm_PdVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm_fdVEeeQx_Cn4GgJTA" grantable="true" action="ALTER" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm_vdVEeeQx_Cn4GgJTA" grantable="true" action="INDEX" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm__dVEeeQx_Cn4GgJTA" grantable="true" action="UPDATE" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8snAPdVEeeQx_Cn4GgJTA" grantable="true" action="SELECT" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8snAfdVEeeQx_Cn4GgJTA" grantable="true" action="SELECT" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8snAvdVEeeQx_Cn4GgJTA" grantable="true" action="ALTER" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8snA_dVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8snBPdVEeeQx_Cn4GgJTA" grantable="true" action="INDEX" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8snBfdVEeeQx_Cn4GgJTA" grantable="true" action="REFERENCES" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8snBvdVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8snB_dVEeeQx_Cn4GgJTA" grantable="true" action="REFERENCES" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8snCPdVEeeQx_Cn4GgJTA" grantable="true" action="INDEX" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8snCfdVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA"/>
+  </SQLAccessControl:User>
+  <SQLAccessControl:User xmi:id="_F8snCvdVEeeQx_Cn4GgJTA" name="SYSIBM" Database="_F8i1wfdVEeeQx_Cn4GgJTA" grantedPrivilege="_F8smwvdVEeeQx_Cn4GgJTA _F8smw_dVEeeQx_Cn4GgJTA _F8smxPdVEeeQx_Cn4GgJTA _F8smxfdVEeeQx_Cn4GgJTA _F8smxvdVEeeQx_Cn4GgJTA _F8smx_dVEeeQx_Cn4GgJTA _F8smyPdVEeeQx_Cn4GgJTA _F8smyfdVEeeQx_Cn4GgJTA _F8smyvdVEeeQx_Cn4GgJTA _F8smy_dVEeeQx_Cn4GgJTA _F8smzPdVEeeQx_Cn4GgJTA _F8smzfdVEeeQx_Cn4GgJTA _F8smzvdVEeeQx_Cn4GgJTA _F8smz_dVEeeQx_Cn4GgJTA _F8sm0PdVEeeQx_Cn4GgJTA _F8sm0fdVEeeQx_Cn4GgJTA _F8sm0vdVEeeQx_Cn4GgJTA _F8sm0_dVEeeQx_Cn4GgJTA _F8sm1PdVEeeQx_Cn4GgJTA _F8sm1fdVEeeQx_Cn4GgJTA _F8snG_dVEeeQx_Cn4GgJTA _F8sm1vdVEeeQx_Cn4GgJTA _F8sm1_dVEeeQx_Cn4GgJTA _F8sm2PdVEeeQx_Cn4GgJTA _F8sm2fdVEeeQx_Cn4GgJTA _F8sm2vdVEeeQx_Cn4GgJTA _F8sm2_dVEeeQx_Cn4GgJTA _F8sm3PdVEeeQx_Cn4GgJTA _F8sm3fdVEeeQx_Cn4GgJTA _F8sm3vdVEeeQx_Cn4GgJTA _F8sm3_dVEeeQx_Cn4GgJTA _F8sm4PdVEeeQx_Cn4GgJTA _F8sm4fdVEeeQx_Cn4GgJTA _F8sm4vdVEeeQx_Cn4GgJTA _F8sm4_dVEeeQx_Cn4GgJTA _F8sm5PdVEeeQx_Cn4GgJTA _F8sm5fdVEeeQx_Cn4GgJTA _F8sm5vdVEeeQx_Cn4GgJTA _F8sm5_dVEeeQx_Cn4GgJTA _F8sm6PdVEeeQx_Cn4GgJTA _F8sm6fdVEeeQx_Cn4GgJTA _F8sm6vdVEeeQx_Cn4GgJTA _F8snIPdVEeeQx_Cn4GgJTA _F8sm6_dVEeeQx_Cn4GgJTA _F8sm7PdVEeeQx_Cn4GgJTA _F8sm7fdVEeeQx_Cn4GgJTA _F8sm7vdVEeeQx_Cn4GgJTA _F8sm7_dVEeeQx_Cn4GgJTA _F8sm8PdVEeeQx_Cn4GgJTA _F8sm8fdVEeeQx_Cn4GgJTA _F8sm8vdVEeeQx_Cn4GgJTA _F8sm8_dVEeeQx_Cn4GgJTA _F8sm9PdVEeeQx_Cn4GgJTA _F8sm9fdVEeeQx_Cn4GgJTA _F8sm9vdVEeeQx_Cn4GgJTA _F8sm9_dVEeeQx_Cn4GgJTA _F8sm-PdVEeeQx_Cn4GgJTA _F8sm-fdVEeeQx_Cn4GgJTA _F8sm-vdVEeeQx_Cn4GgJTA _F8sm-_dVEeeQx_Cn4GgJTA _F8sm_PdVEeeQx_Cn4GgJTA _F8sm_fdVEeeQx_Cn4GgJTA _F8sm_vdVEeeQx_Cn4GgJTA _F8sm__dVEeeQx_Cn4GgJTA _F8snAPdVEeeQx_Cn4GgJTA _F8snAfdVEeeQx_Cn4GgJTA _F8snAvdVEeeQx_Cn4GgJTA _F8snA_dVEeeQx_Cn4GgJTA _F8snBPdVEeeQx_Cn4GgJTA _F8snBfdVEeeQx_Cn4GgJTA _F8snBvdVEeeQx_Cn4GgJTA _F8snB_dVEeeQx_Cn4GgJTA _F8snCPdVEeeQx_Cn4GgJTA _F8snCfdVEeeQx_Cn4GgJTA"/>
+  <LUW:LUWTableSpace xmi:id="_F8snGfdVEeeQx_Cn4GgJTA" name="USERSPACE1" privileges="_F8snG_dVEeeQx_Cn4GgJTA" tablespaceType="LARGE" managementType="DATABASE_MANAGED" extentSize="32" preFetchSize="-1" overhead="7.5" transferRate="0.06" recoverDroppedTableOn="true" pageSize="SIXTEEN_K" group="_F8snHPdVEeeQx_Cn4GgJTA" bufferPool="_F8snIvdVEeeQx_Cn4GgJTA" database="_F8i1wfdVEeeQx_Cn4GgJTA"/>
+  <SQLAccessControl:Group xmi:id="_F8snGvdVEeeQx_Cn4GgJTA" name="PUBLIC" description="" Database="_F8i1wfdVEeeQx_Cn4GgJTA">
+    <receivedPrivilege xmi:id="_F8snG_dVEeeQx_Cn4GgJTA" action="USE" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snGfdVEeeQx_Cn4GgJTA"/>
+  </SQLAccessControl:Group>
+  <LUW:LUWPartitionGroup xmi:id="_F8snHPdVEeeQx_Cn4GgJTA" name="IBMDEFAULTGROUP" partitions="_F8snHfdVEeeQx_Cn4GgJTA" tableSpaces="_F8snGfdVEeeQx_Cn4GgJTA _F8snHvdVEeeQx_Cn4GgJTA" database="_F8i1wfdVEeeQx_Cn4GgJTA"/>
+  <LUW:LUWDatabasePartition xmi:id="_F8snHfdVEeeQx_Cn4GgJTA" group="_F8snHPdVEeeQx_Cn4GgJTA"/>
+  <LUW:LUWTableSpace xmi:id="_F8snHvdVEeeQx_Cn4GgJTA" name="GOSALES_TS" privileges="_F8snIPdVEeeQx_Cn4GgJTA" extentSize="32" preFetchSize="-1" overhead="7.5" transferRate="0.06" recoverDroppedTableOn="true" pageSize="SIXTEEN_K" group="_F8snHPdVEeeQx_Cn4GgJTA" bufferPool="_F8snIfdVEeeQx_Cn4GgJTA" database="_F8i1wfdVEeeQx_Cn4GgJTA"/>
+  <SQLAccessControl:User xmi:id="_F8snH_dVEeeQx_Cn4GgJTA" name="DB2ADMIN" description="" Database="_F8i1wfdVEeeQx_Cn4GgJTA">
+    <receivedPrivilege xmi:id="_F8snIPdVEeeQx_Cn4GgJTA" grantable="true" action="USE" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snHvdVEeeQx_Cn4GgJTA"/>
+  </SQLAccessControl:User>
+  <LUW:LUWBufferPool xmi:id="_F8snIfdVEeeQx_Cn4GgJTA" name="GOSALES_BP" size="250" pageSize="SIXTEEN_K" blockSize="0" tableSpaces="_F8snHvdVEeeQx_Cn4GgJTA" database="_F8i1wfdVEeeQx_Cn4GgJTA"/>
+  <LUW:LUWBufferPool xmi:id="_F8snIvdVEeeQx_Cn4GgJTA" name="IBMDEFAULTBP" size="-2" pageSize="SIXTEEN_K" blockSize="0" tableSpaces="_F8snGfdVEeeQx_Cn4GgJTA" database="_F8i1wfdVEeeQx_Cn4GgJTA"/>
+</xmi:XMI>

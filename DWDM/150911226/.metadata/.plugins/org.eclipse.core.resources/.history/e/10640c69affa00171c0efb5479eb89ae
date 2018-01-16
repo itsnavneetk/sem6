@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/7.5.2.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DB2Model="http:///com/ibm/db/models/db2/db2.ecore" xmlns:LUW="http:///com/ibm/db/models/db2/luw.ecore" xmlns:SQLConstraints="http:///org/eclipse/datatools/modelbase/sql/constraints.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore" xmlns:datanotation="http:///datanotation.ecore">
+  <LUW:LUWDatabase xmi:id="_h5RFsPddEeeQx_Cn4GgJTA" name="Database" vendor="DB2 UDB" version="V9.7" schemas="_h7WwYPddEeeQx_Cn4GgJTA"/>
+  <DB2Model:DB2Schema xmi:id="_h7WwYPddEeeQx_Cn4GgJTA" name="emp226" tables="_rdSZoPddEeeQx_Cn4GgJTA _tbNe4PddEeeQx_Cn4GgJTA _u3J4cPddEeeQx_Cn4GgJTA _vxRXUPddEeeQx_Cn4GgJTA _uFcpcPqkEeevH-0jVAWGpA _PSW6QPqlEeevH-0jVAWGpA _J0rUIPqmEeevH-0jVAWGpA _SdNQMPqmEeevH-0jVAWGpA" database="_h5RFsPddEeeQx_Cn4GgJTA">
+    <eAnnotations xmi:id="_h7WwYfddEeeQx_Cn4GgJTA" source="diagram">
+      <contents xsi:type="datanotation:DataDiagram" xmi:id="_h7WwYvddEeeQx_Cn4GgJTA" type="IE_CrowFoot" name="Diagram1" viewKind="ProjectExplorer" notation="IE_CrowFoot" kind="Physical">
+        <styles xsi:type="datanotation:DataAttributeStyle" xmi:id="_h7WwY_ddEeeQx_Cn4GgJTA"/>
+        <styles xsi:type="datanotation:DataCompartmentStyle" xmi:id="_h7WwZPddEeeQx_Cn4GgJTA"/>
+        <styles xsi:type="datanotation:DataDisplayStyle" xmi:id="_h7WwZfddEeeQx_Cn4GgJTA"/>
+        <styles xsi:type="datanotation:DataDiagramRelationshipStyle" xmi:id="_h7WwZvddEeeQx_Cn4GgJTA"/>
+        <styles xsi:type="datanotation:DataShapeNameStyle" xmi:id="_h7WwZ_ddEeeQx_Cn4GgJTA"/>
+        <styles xsi:type="datanotation:DataDiagramFormattingStyle" xmi:id="_h7WwaPddEeeQx_Cn4GgJTA"/>
+        <element xsi:nil="true"/>
+      </contents>
+    </eAnnotations>
+  </DB2Model:DB2Schema>
+  <LUW:LUWTable xmi:id="_rdSZoPddEeeQx_Cn4GgJTA" name="employee" schema="_h7WwYPddEeeQx_Cn4GgJTA" referencingForeignKeys="_Q1Q4cPqaEeevH-0jVAWGpA _vtnFoPqaEeevH-0jVAWGpA _Lt98kPqcEeevH-0jVAWGpA">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_xsz28PddEeeQx_Cn4GgJTA" name="empID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_y-xOEPddEeeQx_Cn4GgJTA" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_zWLBcPddEeeQx_Cn4GgJTA" name="name">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_zWLBcfddEeeQx_Cn4GgJTA" name="CHAR" length="15"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2ixgUPddEeeQx_Cn4GgJTA" name="street">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_2ixgUfddEeeQx_Cn4GgJTA" name="CHAR" length="15"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_k5MEUPqbEeevH-0jVAWGpA" name="city">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_k5MEUfqbEeevH-0jVAWGpA" name="CHAR" length="15"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_y4qmEPddEeeQx_Cn4GgJTA" name="employee_PK" members="_xsz28PddEeeQx_Cn4GgJTA" ForeignKey="_Q1Q4cPqaEeevH-0jVAWGpA _vtnFoPqaEeevH-0jVAWGpA _Lt98kPqcEeevH-0jVAWGpA"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_vtnFoPqaEeevH-0jVAWGpA" name="employee_employee_FK" members="_xsz28PddEeeQx_Cn4GgJTA" onDelete="CASCADE" uniqueConstraint="_y4qmEPddEeeQx_Cn4GgJTA" referencedTable="_rdSZoPddEeeQx_Cn4GgJTA">
+      <eAnnotations xmi:id="_vtnFofqaEeevH-0jVAWGpA" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_vtnFovqaEeevH-0jVAWGpA" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_vtnFo_qaEeevH-0jVAWGpA" key="FK_CHILD_MULTIPLICITY" value=""/>
+        <details xmi:id="_vtnFpPqaEeevH-0jVAWGpA" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+        <details xmi:id="_vtnFpfqaEeevH-0jVAWGpA" key="FK_PARENT_MULTIPLICITY" value=""/>
+        <details xmi:id="_vtnFpvqaEeevH-0jVAWGpA" key="FK_PARENT_ROLE_NAME" value=""/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_tbNe4PddEeeQx_Cn4GgJTA" name="works" schema="_h7WwYPddEeeQx_Cn4GgJTA">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_9WLpkPqZEeevH-0jVAWGpA" name="empID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_-jXOYPqZEeevH-0jVAWGpA" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="__gwqwPqZEeevH-0jVAWGpA" name="compID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_AiemcPqaEeevH-0jVAWGpA" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_CvScQPqaEeevH-0jVAWGpA" name="companyname">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_CvScQfqaEeevH-0jVAWGpA" name="CHAR" length="15"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_FJz98PqaEeevH-0jVAWGpA" name="salary">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_HFWdkPqaEeevH-0jVAWGpA" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_--x_EPqZEeevH-0jVAWGpA" name="works_PK" members="_9WLpkPqZEeevH-0jVAWGpA __gwqwPqZEeevH-0jVAWGpA"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_Q1Q4cPqaEeevH-0jVAWGpA" name="works_employee_FK" members="_9WLpkPqZEeevH-0jVAWGpA" onDelete="CASCADE" uniqueConstraint="_y4qmEPddEeeQx_Cn4GgJTA" referencedTable="_rdSZoPddEeeQx_Cn4GgJTA">
+      <eAnnotations xmi:id="_Q1Q4cfqaEeevH-0jVAWGpA" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_Q1Q4cvqaEeevH-0jVAWGpA" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_Q1Q4c_qaEeevH-0jVAWGpA" key="FK_CHILD_MULTIPLICITY" value="1"/>
+        <details xmi:id="_Q1Q4dPqaEeevH-0jVAWGpA" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+        <details xmi:id="_Q1Q4dfqaEeevH-0jVAWGpA" key="FK_PARENT_MULTIPLICITY" value=""/>
+        <details xmi:id="_Q1Q4dvqaEeevH-0jVAWGpA" key="FK_PARENT_ROLE_NAME" value=""/>
+      </eAnnotations>
+    </constraints>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_TOmHUPqaEeevH-0jVAWGpA" name="works_company_FK" members="__gwqwPqZEeevH-0jVAWGpA" onDelete="CASCADE" uniqueConstraint="_zuKmcPqZEeevH-0jVAWGpA" referencedTable="_u3J4cPddEeeQx_Cn4GgJTA">
+      <eAnnotations xmi:id="_TOmHUfqaEeevH-0jVAWGpA" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_TOmHUvqaEeevH-0jVAWGpA" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_TOmHU_qaEeevH-0jVAWGpA" key="FK_CHILD_MULTIPLICITY" value="1"/>
+        <details xmi:id="_TOmHVPqaEeevH-0jVAWGpA" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+        <details xmi:id="_TOmHVfqaEeevH-0jVAWGpA" key="FK_PARENT_MULTIPLICITY" value=""/>
+        <details xmi:id="_TOmHVvqaEeevH-0jVAWGpA" key="FK_PARENT_ROLE_NAME" value=""/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_u3J4cPddEeeQx_Cn4GgJTA" name="company" schema="_h7WwYPddEeeQx_Cn4GgJTA" referencingForeignKeys="_TOmHUPqaEeevH-0jVAWGpA">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_oAxyQfqZEeevH-0jVAWGpA" name="compID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_qFQLcPqZEeevH-0jVAWGpA" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_rBme8PqZEeevH-0jVAWGpA" name="city">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_rBme8fqZEeevH-0jVAWGpA" name="CHAR" length="15"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_zuKmcPqZEeevH-0jVAWGpA" name="company_PK" members="_oAxyQfqZEeevH-0jVAWGpA" ForeignKey="_TOmHUPqaEeevH-0jVAWGpA"/>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_vxRXUPddEeeQx_Cn4GgJTA" name="manages" schema="_h7WwYPddEeeQx_Cn4GgJTA">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_2u1iIPqZEeevH-0jVAWGpA" name="empID">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_34vwgPqZEeevH-0jVAWGpA" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_4-yLgPqZEeevH-0jVAWGpA" name="managerID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_6uZH8PqZEeevH-0jVAWGpA" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_DqYgoPqcEeevH-0jVAWGpA" name="manages_PK" members="_4-yLgPqZEeevH-0jVAWGpA"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_Lt98kPqcEeevH-0jVAWGpA" name="manages_employee_FK" members="_2u1iIPqZEeevH-0jVAWGpA" onDelete="CASCADE" uniqueConstraint="_y4qmEPddEeeQx_Cn4GgJTA" referencedTable="_rdSZoPddEeeQx_Cn4GgJTA">
+      <eAnnotations xmi:id="_Lt98kfqcEeevH-0jVAWGpA" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_Lt98kvqcEeevH-0jVAWGpA" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_Lt98k_qcEeevH-0jVAWGpA" key="FK_CHILD_MULTIPLICITY" value="1"/>
+        <details xmi:id="_Lt98lPqcEeevH-0jVAWGpA" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+        <details xmi:id="_Lt98lfqcEeevH-0jVAWGpA" key="FK_PARENT_MULTIPLICITY" value=""/>
+        <details xmi:id="_Lt98lvqcEeevH-0jVAWGpA" key="FK_PARENT_ROLE_NAME" value=""/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_uFcpcPqkEeevH-0jVAWGpA" name="l2p1" schema="_h7WwYPddEeeQx_Cn4GgJTA">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_0bgzoPqkEeevH-0jVAWGpA" name="name">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_0bgzofqkEeevH-0jVAWGpA" name="CHAR" length="15"/>
+    </columns>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_PSW6QPqlEeevH-0jVAWGpA" name="l2p2" schema="_h7WwYPddEeeQx_Cn4GgJTA">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_QdeCgPqlEeevH-0jVAWGpA" name="name">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_QdeCgfqlEeevH-0jVAWGpA" name="CHAR" length="15"/>
+    </columns>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_J0rUIPqmEeevH-0jVAWGpA" name="l2p3" schema="_h7WwYPddEeeQx_Cn4GgJTA">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_LN7mEPqmEeevH-0jVAWGpA" name="empID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_LN7mEfqmEeevH-0jVAWGpA" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_SdNQMPqmEeevH-0jVAWGpA" name="l2p4" schema="_h7WwYPddEeeQx_Cn4GgJTA">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_T1bAUPqmEeevH-0jVAWGpA" name="empID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_T1bAUfqmEeevH-0jVAWGpA" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+  </LUW:LUWTable>
+</xmi:XMI>

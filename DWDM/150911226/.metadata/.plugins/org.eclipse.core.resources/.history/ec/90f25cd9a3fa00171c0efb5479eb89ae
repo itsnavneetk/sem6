@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/7.5.2.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DB2Model="http:///com/ibm/db/models/db2/db2.ecore" xmlns:LUW="http:///com/ibm/db/models/db2/luw.ecore" xmlns:SQLAccessControl="http:///org/eclipse/datatools/modelbase/sql/accesscontrol.ecore" xmlns:SQLConstraints="http:///org/eclipse/datatools/modelbase/sql/constraints.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore">
+  <LUW:LUWDatabase xmi:id="_F8i1wfdVEeeQx_Cn4GgJTA" name="GSDBITD" vendor="DB2 UDB" version="V9.7" schemas="_F8smwPdVEeeQx_Cn4GgJTA" authorizationIds="_F8smwfdVEeeQx_Cn4GgJTA _F8snGvdVEeeQx_Cn4GgJTA _F8snCvdVEeeQx_Cn4GgJTA _F8snH_dVEeeQx_Cn4GgJTA" groups="_F8snHPdVEeeQx_Cn4GgJTA" bufferpools="_F8snIfdVEeeQx_Cn4GgJTA _F8snIvdVEeeQx_Cn4GgJTA" tablespaces="_F8snGfdVEeeQx_Cn4GgJTA _F8snHvdVEeeQx_Cn4GgJTA">
+    <eAnnotations xmi:id="_F8i1wvdVEeeQx_Cn4GgJTA" source="ConnectionURI">
+      <details xmi:id="_F8i1w_dVEeeQx_Cn4GgJTA" key="ConnectionKey" value="GSDBITD"/>
+    </eAnnotations>
+  </LUW:LUWDatabase>
+  <DB2Model:DB2Schema xmi:id="_F8smwPdVEeeQx_Cn4GgJTA" name="KUCHIB212" privileges="_F8smxvdVEeeQx_Cn4GgJTA _F8sm9PdVEeeQx_Cn4GgJTA _F8sm2fdVEeeQx_Cn4GgJTA" indices="_F8snNPdVEeeQx_Cn4GgJTA _F81wsPdVEeeQx_Cn4GgJTA _F8snF_dVEeeQx_Cn4GgJTA _F81wuPdVEeeQx_Cn4GgJTA _F81wwPdVEeeQx_Cn4GgJTA" tables="_F8snI_dVEeeQx_Cn4GgJTA _F8snLPdVEeeQx_Cn4GgJTA _F8snNvdVEeeQx_Cn4GgJTA _F8snPfdVEeeQx_Cn4GgJTA _F8snC_dVEeeQx_Cn4GgJTA _F81wsvdVEeeQx_Cn4GgJTA _F81wuvdVEeeQx_Cn4GgJTA _F81wwvdVEeeQx_Cn4GgJTA" database="_F8i1wfdVEeeQx_Cn4GgJTA" owner="_F8smwfdVEeeQx_Cn4GgJTA"/>
+  <SQLAccessControl:User xmi:id="_F8smwfdVEeeQx_Cn4GgJTA" name="ITSTUDENTB2" description="" ownedSchema="_F8smwPdVEeeQx_Cn4GgJTA" Database="_F8i1wfdVEeeQx_Cn4GgJTA">
+    <receivedPrivilege xmi:id="_F8smwvdVEeeQx_Cn4GgJTA" grantable="true" action="INSERT" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snC_dVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smw_dVEeeQx_Cn4GgJTA" grantable="true" action="INSERT" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wwvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smxPdVEeeQx_Cn4GgJTA" grantable="true" action="REFERENCES" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snLPdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smxfdVEeeQx_Cn4GgJTA" grantable="true" action="INDEX" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wsvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smxvdVEeeQx_Cn4GgJTA" grantable="true" action="ALTERIN" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8smwPdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smx_dVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wuPdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smyPdVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snNPdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smyfdVEeeQx_Cn4GgJTA" grantable="true" action="UPDATE" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snC_dVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smyvdVEeeQx_Cn4GgJTA" grantable="true" action="UPDATE" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wwvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smy_dVEeeQx_Cn4GgJTA" grantable="true" action="REFERENCES" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wsvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smzPdVEeeQx_Cn4GgJTA" grantable="true" action="SELECT" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snNvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smzfdVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wsvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smzvdVEeeQx_Cn4GgJTA" grantable="true" action="INDEX" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wuvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8smz_dVEeeQx_Cn4GgJTA" grantable="true" action="ALTER" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snC_dVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm0PdVEeeQx_Cn4GgJTA" grantable="true" action="ALTER" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wwvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm0fdVEeeQx_Cn4GgJTA" grantable="true" action="ALTER" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snNvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm0vdVEeeQx_Cn4GgJTA" grantable="true" action="DELETE" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snI_dVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm0_dVEeeQx_Cn4GgJTA" grantable="true" action="DELETE" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snLPdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm1PdVEeeQx_Cn4GgJTA" grantable="true" action="REFERENCES" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wuvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm1fdVEeeQx_Cn4GgJTA" grantable="true" action="DELETE" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snPfdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm1vdVEeeQx_Cn4GgJTA" grantable="true" action="INSERT" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snNvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm1_dVEeeQx_Cn4GgJTA" grantable="true" action="SELECT" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snI_dVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm2PdVEeeQx_Cn4GgJTA" grantable="true" action="SELECT" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snPfdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm2fdVEeeQx_Cn4GgJTA" grantable="true" action="DROPIN" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8smwPdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm2vdVEeeQx_Cn4GgJTA" grantable="true" action="UPDATE" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snNvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm2_dVEeeQx_Cn4GgJTA" grantable="true" action="INDEX" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snC_dVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm3PdVEeeQx_Cn4GgJTA" grantable="true" action="INDEX" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wwvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm3fdVEeeQx_Cn4GgJTA" grantable="true" action="INDEX" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snNvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm3vdVEeeQx_Cn4GgJTA" grantable="true" action="SELECT" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snLPdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm3_dVEeeQx_Cn4GgJTA" grantable="true" action="DELETE" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wsvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm4PdVEeeQx_Cn4GgJTA" grantable="true" action="INSERT" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snI_dVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm4fdVEeeQx_Cn4GgJTA" grantable="true" action="REFERENCES" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snC_dVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm4vdVEeeQx_Cn4GgJTA" grantable="true" action="REFERENCES" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wwvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm4_dVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snC_dVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm5PdVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wsPdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm5fdVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wwvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm5vdVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snNvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm5_dVEeeQx_Cn4GgJTA" grantable="true" action="SELECT" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wsvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm6PdVEeeQx_Cn4GgJTA" grantable="true" action="DELETE" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wuvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm6fdVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wuvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm6vdVEeeQx_Cn4GgJTA" grantable="true" action="ALTER" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snI_dVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm6_dVEeeQx_Cn4GgJTA" grantable="true" action="INSERT" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snPfdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm7PdVEeeQx_Cn4GgJTA" grantable="true" action="ALTER" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snLPdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm7fdVEeeQx_Cn4GgJTA" grantable="true" action="SELECT" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wuvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm7vdVEeeQx_Cn4GgJTA" grantable="true" action="UPDATE" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snI_dVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm7_dVEeeQx_Cn4GgJTA" grantable="true" action="UPDATE" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snPfdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm8PdVEeeQx_Cn4GgJTA" grantable="true" action="INSERT" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snLPdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm8fdVEeeQx_Cn4GgJTA" grantable="true" action="ALTER" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snPfdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm8vdVEeeQx_Cn4GgJTA" grantable="true" action="UPDATE" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snLPdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm8_dVEeeQx_Cn4GgJTA" grantable="true" action="INSERT" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wsvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm9PdVEeeQx_Cn4GgJTA" grantable="true" action="CREATEIN" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8smwPdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm9fdVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snI_dVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm9vdVEeeQx_Cn4GgJTA" grantable="true" action="UPDATE" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wsvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm9_dVEeeQx_Cn4GgJTA" grantable="true" action="REFERENCES" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snNvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm-PdVEeeQx_Cn4GgJTA" grantable="true" action="INSERT" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wuvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm-fdVEeeQx_Cn4GgJTA" grantable="true" action="DELETE" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snC_dVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm-vdVEeeQx_Cn4GgJTA" grantable="true" action="DELETE" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wwvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm-_dVEeeQx_Cn4GgJTA" grantable="true" action="DELETE" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snNvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm_PdVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snF_dVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm_fdVEeeQx_Cn4GgJTA" grantable="true" action="ALTER" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wsvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm_vdVEeeQx_Cn4GgJTA" grantable="true" action="INDEX" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snI_dVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8sm__dVEeeQx_Cn4GgJTA" grantable="true" action="UPDATE" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wuvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8snAPdVEeeQx_Cn4GgJTA" grantable="true" action="SELECT" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snC_dVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8snAfdVEeeQx_Cn4GgJTA" grantable="true" action="SELECT" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wwvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8snAvdVEeeQx_Cn4GgJTA" grantable="true" action="ALTER" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wuvdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8snA_dVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snLPdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8snBPdVEeeQx_Cn4GgJTA" grantable="true" action="INDEX" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snPfdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8snBfdVEeeQx_Cn4GgJTA" grantable="true" action="REFERENCES" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snI_dVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8snBvdVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snPfdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8snB_dVEeeQx_Cn4GgJTA" grantable="true" action="REFERENCES" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snPfdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8snCPdVEeeQx_Cn4GgJTA" grantable="true" action="INDEX" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snLPdVEeeQx_Cn4GgJTA"/>
+    <receivedPrivilege xmi:id="_F8snCfdVEeeQx_Cn4GgJTA" action="CONTROL" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F81wwPdVEeeQx_Cn4GgJTA"/>
+  </SQLAccessControl:User>
+  <SQLAccessControl:User xmi:id="_F8snCvdVEeeQx_Cn4GgJTA" name="SYSIBM" Database="_F8i1wfdVEeeQx_Cn4GgJTA" grantedPrivilege="_F8smwvdVEeeQx_Cn4GgJTA _F8smw_dVEeeQx_Cn4GgJTA _F8smxPdVEeeQx_Cn4GgJTA _F8smxfdVEeeQx_Cn4GgJTA _F8smxvdVEeeQx_Cn4GgJTA _F8smx_dVEeeQx_Cn4GgJTA _F8smyPdVEeeQx_Cn4GgJTA _F8smyfdVEeeQx_Cn4GgJTA _F8smyvdVEeeQx_Cn4GgJTA _F8smy_dVEeeQx_Cn4GgJTA _F8smzPdVEeeQx_Cn4GgJTA _F8smzfdVEeeQx_Cn4GgJTA _F8smzvdVEeeQx_Cn4GgJTA _F8smz_dVEeeQx_Cn4GgJTA _F8sm0PdVEeeQx_Cn4GgJTA _F8sm0fdVEeeQx_Cn4GgJTA _F8sm0vdVEeeQx_Cn4GgJTA _F8sm0_dVEeeQx_Cn4GgJTA _F8sm1PdVEeeQx_Cn4GgJTA _F8sm1fdVEeeQx_Cn4GgJTA _F8snG_dVEeeQx_Cn4GgJTA _F8sm1vdVEeeQx_Cn4GgJTA _F8sm1_dVEeeQx_Cn4GgJTA _F8sm2PdVEeeQx_Cn4GgJTA _F8sm2fdVEeeQx_Cn4GgJTA _F8sm2vdVEeeQx_Cn4GgJTA _F8sm2_dVEeeQx_Cn4GgJTA _F8sm3PdVEeeQx_Cn4GgJTA _F8sm3fdVEeeQx_Cn4GgJTA _F8sm3vdVEeeQx_Cn4GgJTA _F8sm3_dVEeeQx_Cn4GgJTA _F8sm4PdVEeeQx_Cn4GgJTA _F8sm4fdVEeeQx_Cn4GgJTA _F8sm4vdVEeeQx_Cn4GgJTA _F8sm4_dVEeeQx_Cn4GgJTA _F8sm5PdVEeeQx_Cn4GgJTA _F8sm5fdVEeeQx_Cn4GgJTA _F8sm5vdVEeeQx_Cn4GgJTA _F8sm5_dVEeeQx_Cn4GgJTA _F8sm6PdVEeeQx_Cn4GgJTA _F8sm6fdVEeeQx_Cn4GgJTA _F8sm6vdVEeeQx_Cn4GgJTA _F8snIPdVEeeQx_Cn4GgJTA _F8sm6_dVEeeQx_Cn4GgJTA _F8sm7PdVEeeQx_Cn4GgJTA _F8sm7fdVEeeQx_Cn4GgJTA _F8sm7vdVEeeQx_Cn4GgJTA _F8sm7_dVEeeQx_Cn4GgJTA _F8sm8PdVEeeQx_Cn4GgJTA _F8sm8fdVEeeQx_Cn4GgJTA _F8sm8vdVEeeQx_Cn4GgJTA _F8sm8_dVEeeQx_Cn4GgJTA _F8sm9PdVEeeQx_Cn4GgJTA _F8sm9fdVEeeQx_Cn4GgJTA _F8sm9vdVEeeQx_Cn4GgJTA _F8sm9_dVEeeQx_Cn4GgJTA _F8sm-PdVEeeQx_Cn4GgJTA _F8sm-fdVEeeQx_Cn4GgJTA _F8sm-vdVEeeQx_Cn4GgJTA _F8sm-_dVEeeQx_Cn4GgJTA _F8sm_PdVEeeQx_Cn4GgJTA _F8sm_fdVEeeQx_Cn4GgJTA _F8sm_vdVEeeQx_Cn4GgJTA _F8sm__dVEeeQx_Cn4GgJTA _F8snAPdVEeeQx_Cn4GgJTA _F8snAfdVEeeQx_Cn4GgJTA _F8snAvdVEeeQx_Cn4GgJTA _F8snA_dVEeeQx_Cn4GgJTA _F8snBPdVEeeQx_Cn4GgJTA _F8snBfdVEeeQx_Cn4GgJTA _F8snBvdVEeeQx_Cn4GgJTA _F8snB_dVEeeQx_Cn4GgJTA _F8snCPdVEeeQx_Cn4GgJTA _F8snCfdVEeeQx_Cn4GgJTA"/>
+  <LUW:LUWTable xmi:id="_F8snC_dVEeeQx_Cn4GgJTA" name="STUDENT" privileges="_F8sm4_dVEeeQx_Cn4GgJTA _F8smz_dVEeeQx_Cn4GgJTA _F8sm-fdVEeeQx_Cn4GgJTA _F8sm2_dVEeeQx_Cn4GgJTA _F8smwvdVEeeQx_Cn4GgJTA _F8snAPdVEeeQx_Cn4GgJTA _F8sm4fdVEeeQx_Cn4GgJTA _F8smyfdVEeeQx_Cn4GgJTA" schema="_F8smwPdVEeeQx_Cn4GgJTA" index="_F8snF_dVEeeQx_Cn4GgJTA" regularDataTableSpace="_F8snGfdVEeeQx_Cn4GgJTA" partitionMode=" ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F8snDPdVEeeQx_Cn4GgJTA" name="SNUM" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_F8snDfdVEeeQx_Cn4GgJTA" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F8snDvdVEeeQx_Cn4GgJTA" name="DEPTID">
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_F8snD_dVEeeQx_Cn4GgJTA" name="DECIMAL" primitiveType="DECIMAL" precision="5"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F8snEPdVEeeQx_Cn4GgJTA" name="SLEVEL">
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_F8snEfdVEeeQx_Cn4GgJTA" name="DECIMAL" primitiveType="DECIMAL" precision="4"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F8snEvdVEeeQx_Cn4GgJTA" name="AGE">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_F8snE_dVEeeQx_Cn4GgJTA" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F8snFPdVEeeQx_Cn4GgJTA" name="SNAME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_F8snFfdVEeeQx_Cn4GgJTA" name="CHAR" length="10"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_F8snFvdVEeeQx_Cn4GgJTA" name="STUDENT_PK" members="_F8snDPdVEeeQx_Cn4GgJTA"/>
+  </LUW:LUWTable>
+  <LUW:LUWIndex xmi:id="_F8snF_dVEeeQx_Cn4GgJTA" name="STUDENT_PK" privileges="_F8sm_PdVEeeQx_Cn4GgJTA" Schema="_F8smwPdVEeeQx_Cn4GgJTA" fillFactor="10" unique="true" systemGenerated="true" table="_F8snC_dVEeeQx_Cn4GgJTA" tablespace="_F8snGfdVEeeQx_Cn4GgJTA">
+    <members xmi:id="_F8snGPdVEeeQx_Cn4GgJTA" column="_F8snDPdVEeeQx_Cn4GgJTA"/>
+  </LUW:LUWIndex>
+  <LUW:LUWTableSpace xmi:id="_F8snGfdVEeeQx_Cn4GgJTA" name="USERSPACE1" privileges="_F8snG_dVEeeQx_Cn4GgJTA" tablespaceType="LARGE" managementType="DATABASE_MANAGED" extentSize="32" preFetchSize="-1" overhead="7.5" transferRate="0.06" recoverDroppedTableOn="true" pageSize="SIXTEEN_K" group="_F8snHPdVEeeQx_Cn4GgJTA" bufferPool="_F8snIvdVEeeQx_Cn4GgJTA" regularDataTables="_F8snI_dVEeeQx_Cn4GgJTA _F8snLPdVEeeQx_Cn4GgJTA _F8snNvdVEeeQx_Cn4GgJTA _F8snPfdVEeeQx_Cn4GgJTA _F8snC_dVEeeQx_Cn4GgJTA _F81wsvdVEeeQx_Cn4GgJTA _F81wuvdVEeeQx_Cn4GgJTA _F81wwvdVEeeQx_Cn4GgJTA" database="_F8i1wfdVEeeQx_Cn4GgJTA" indexes="_F8snNPdVEeeQx_Cn4GgJTA _F81wsPdVEeeQx_Cn4GgJTA _F8snF_dVEeeQx_Cn4GgJTA _F81wuPdVEeeQx_Cn4GgJTA _F81wwPdVEeeQx_Cn4GgJTA"/>
+  <SQLAccessControl:Group xmi:id="_F8snGvdVEeeQx_Cn4GgJTA" name="PUBLIC" description="" Database="_F8i1wfdVEeeQx_Cn4GgJTA">
+    <receivedPrivilege xmi:id="_F8snG_dVEeeQx_Cn4GgJTA" action="USE" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snGfdVEeeQx_Cn4GgJTA"/>
+  </SQLAccessControl:Group>
+  <LUW:LUWPartitionGroup xmi:id="_F8snHPdVEeeQx_Cn4GgJTA" name="IBMDEFAULTGROUP" partitions="_F8snHfdVEeeQx_Cn4GgJTA" tableSpaces="_F8snGfdVEeeQx_Cn4GgJTA _F8snHvdVEeeQx_Cn4GgJTA" database="_F8i1wfdVEeeQx_Cn4GgJTA"/>
+  <LUW:LUWDatabasePartition xmi:id="_F8snHfdVEeeQx_Cn4GgJTA" group="_F8snHPdVEeeQx_Cn4GgJTA"/>
+  <LUW:LUWTableSpace xmi:id="_F8snHvdVEeeQx_Cn4GgJTA" name="GOSALES_TS" privileges="_F8snIPdVEeeQx_Cn4GgJTA" extentSize="32" preFetchSize="-1" overhead="7.5" transferRate="0.06" recoverDroppedTableOn="true" pageSize="SIXTEEN_K" group="_F8snHPdVEeeQx_Cn4GgJTA" bufferPool="_F8snIfdVEeeQx_Cn4GgJTA" database="_F8i1wfdVEeeQx_Cn4GgJTA"/>
+  <SQLAccessControl:User xmi:id="_F8snH_dVEeeQx_Cn4GgJTA" name="DB2ADMIN" description="" Database="_F8i1wfdVEeeQx_Cn4GgJTA">
+    <receivedPrivilege xmi:id="_F8snIPdVEeeQx_Cn4GgJTA" grantable="true" action="USE" grantor="_F8snCvdVEeeQx_Cn4GgJTA" object="_F8snHvdVEeeQx_Cn4GgJTA"/>
+  </SQLAccessControl:User>
+  <LUW:LUWBufferPool xmi:id="_F8snIfdVEeeQx_Cn4GgJTA" name="GOSALES_BP" size="250" pageSize="SIXTEEN_K" blockSize="0" tableSpaces="_F8snHvdVEeeQx_Cn4GgJTA" database="_F8i1wfdVEeeQx_Cn4GgJTA"/>
+  <LUW:LUWBufferPool xmi:id="_F8snIvdVEeeQx_Cn4GgJTA" name="IBMDEFAULTBP" size="-2" pageSize="SIXTEEN_K" blockSize="0" tableSpaces="_F8snGfdVEeeQx_Cn4GgJTA" database="_F8i1wfdVEeeQx_Cn4GgJTA"/>
+  <LUW:LUWTable xmi:id="_F8snI_dVEeeQx_Cn4GgJTA" name="CLASS" privileges="_F8sm9fdVEeeQx_Cn4GgJTA _F8sm6vdVEeeQx_Cn4GgJTA _F8sm0vdVEeeQx_Cn4GgJTA _F8sm_vdVEeeQx_Cn4GgJTA _F8sm4PdVEeeQx_Cn4GgJTA _F8sm1_dVEeeQx_Cn4GgJTA _F8snBfdVEeeQx_Cn4GgJTA _F8sm7vdVEeeQx_Cn4GgJTA" schema="_F8smwPdVEeeQx_Cn4GgJTA" regularDataTableSpace="_F8snGfdVEeeQx_Cn4GgJTA" partitionMode=" ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F8snJPdVEeeQx_Cn4GgJTA" name="CNAME" nullable="false">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_F8snJfdVEeeQx_Cn4GgJTA" name="CHAR" length="10"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F8snJvdVEeeQx_Cn4GgJTA" name="TIME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_F8snJ_dVEeeQx_Cn4GgJTA" name="CHAR" length="5"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F8snKPdVEeeQx_Cn4GgJTA" name="ROOM">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_F8snKfdVEeeQx_Cn4GgJTA" name="CHAR" length="5"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F8snKvdVEeeQx_Cn4GgJTA" name="FID">
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_F8snK_dVEeeQx_Cn4GgJTA" name="DECIMAL" primitiveType="DECIMAL" precision="5"/>
+    </columns>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_F8snLPdVEeeQx_Cn4GgJTA" name="DEPARTMENT" privileges="_F8snA_dVEeeQx_Cn4GgJTA _F8sm7PdVEeeQx_Cn4GgJTA _F8sm0_dVEeeQx_Cn4GgJTA _F8snCPdVEeeQx_Cn4GgJTA _F8sm8PdVEeeQx_Cn4GgJTA _F8sm3vdVEeeQx_Cn4GgJTA _F8smxPdVEeeQx_Cn4GgJTA _F8sm8vdVEeeQx_Cn4GgJTA" schema="_F8smwPdVEeeQx_Cn4GgJTA" index="_F8snNPdVEeeQx_Cn4GgJTA" regularDataTableSpace="_F8snGfdVEeeQx_Cn4GgJTA" partitionMode=" ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F8snLfdVEeeQx_Cn4GgJTA" name="DEPTID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_F8snLvdVEeeQx_Cn4GgJTA" name="DECIMAL" primitiveType="DECIMAL" precision="5"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F8snL_dVEeeQx_Cn4GgJTA" name="DNAME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_F8snMPdVEeeQx_Cn4GgJTA" name="CHAR" length="10"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F8snMfdVEeeQx_Cn4GgJTA" name="LOCATION">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_F8snMvdVEeeQx_Cn4GgJTA" name="CHAR" length="20"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_F8snM_dVEeeQx_Cn4GgJTA" name="DEPARTMENT_PK" members="_F8snLfdVEeeQx_Cn4GgJTA"/>
+  </LUW:LUWTable>
+  <LUW:LUWIndex xmi:id="_F8snNPdVEeeQx_Cn4GgJTA" name="DEPARTMENT_PK" privileges="_F8smyPdVEeeQx_Cn4GgJTA" Schema="_F8smwPdVEeeQx_Cn4GgJTA" fillFactor="10" unique="true" systemGenerated="true" table="_F8snLPdVEeeQx_Cn4GgJTA" tablespace="_F8snGfdVEeeQx_Cn4GgJTA">
+    <members xmi:id="_F8snNfdVEeeQx_Cn4GgJTA" column="_F8snLfdVEeeQx_Cn4GgJTA"/>
+  </LUW:LUWIndex>
+  <LUW:LUWTable xmi:id="_F8snNvdVEeeQx_Cn4GgJTA" name="ENROLLED" privileges="_F8sm5vdVEeeQx_Cn4GgJTA _F8sm0fdVEeeQx_Cn4GgJTA _F8sm-_dVEeeQx_Cn4GgJTA _F8sm3fdVEeeQx_Cn4GgJTA _F8sm1vdVEeeQx_Cn4GgJTA _F8smzPdVEeeQx_Cn4GgJTA _F8sm9_dVEeeQx_Cn4GgJTA _F8sm2vdVEeeQx_Cn4GgJTA" schema="_F8smwPdVEeeQx_Cn4GgJTA" regularDataTableSpace="_F8snGfdVEeeQx_Cn4GgJTA" partitionMode=" ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F8snN_dVEeeQx_Cn4GgJTA" name="SNUM" nullable="false">
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_F8snOPdVEeeQx_Cn4GgJTA" name="DECIMAL" primitiveType="DECIMAL" precision="5"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F8snOfdVEeeQx_Cn4GgJTA" name="CNAME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_F8snOvdVEeeQx_Cn4GgJTA" name="CHAR" length="4"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F8snO_dVEeeQx_Cn4GgJTA" name="GRADE">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_F8snPPdVEeeQx_Cn4GgJTA" name="CHAR" length="2"/>
+    </columns>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_F8snPfdVEeeQx_Cn4GgJTA" name="FACULTY" privileges="_F8snBvdVEeeQx_Cn4GgJTA _F8sm8fdVEeeQx_Cn4GgJTA _F8sm1fdVEeeQx_Cn4GgJTA _F8snBPdVEeeQx_Cn4GgJTA _F8sm6_dVEeeQx_Cn4GgJTA _F8sm2PdVEeeQx_Cn4GgJTA _F8snB_dVEeeQx_Cn4GgJTA _F8sm7_dVEeeQx_Cn4GgJTA" schema="_F8smwPdVEeeQx_Cn4GgJTA" index="_F81wsPdVEeeQx_Cn4GgJTA" regularDataTableSpace="_F8snGfdVEeeQx_Cn4GgJTA" partitionMode=" ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F8snPvdVEeeQx_Cn4GgJTA" name="FID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_F8snP_dVEeeQx_Cn4GgJTA" name="DECIMAL" primitiveType="DECIMAL" precision="5"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F8snQPdVEeeQx_Cn4GgJTA" name="FNAME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_F8snQfdVEeeQx_Cn4GgJTA" name="CHAR" length="10"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F8snQvdVEeeQx_Cn4GgJTA" name="DEPTID">
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_F8snQ_dVEeeQx_Cn4GgJTA" name="DECIMAL" primitiveType="DECIMAL" precision="5"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_F8snRPdVEeeQx_Cn4GgJTA" name="FACULTY_PK" members="_F8snPvdVEeeQx_Cn4GgJTA"/>
+  </LUW:LUWTable>
+  <LUW:LUWIndex xmi:id="_F81wsPdVEeeQx_Cn4GgJTA" name="FACULTY_PK" privileges="_F8sm5PdVEeeQx_Cn4GgJTA" Schema="_F8smwPdVEeeQx_Cn4GgJTA" fillFactor="10" unique="true" systemGenerated="true" table="_F8snPfdVEeeQx_Cn4GgJTA" tablespace="_F8snGfdVEeeQx_Cn4GgJTA">
+    <members xmi:id="_F81wsfdVEeeQx_Cn4GgJTA" column="_F8snPvdVEeeQx_Cn4GgJTA"/>
+  </LUW:LUWIndex>
+  <LUW:LUWTable xmi:id="_F81wsvdVEeeQx_Cn4GgJTA" name="T1" privileges="_F8smzfdVEeeQx_Cn4GgJTA _F8sm_fdVEeeQx_Cn4GgJTA _F8sm3_dVEeeQx_Cn4GgJTA _F8smxfdVEeeQx_Cn4GgJTA _F8sm8_dVEeeQx_Cn4GgJTA _F8sm5_dVEeeQx_Cn4GgJTA _F8smy_dVEeeQx_Cn4GgJTA _F8sm9vdVEeeQx_Cn4GgJTA" schema="_F8smwPdVEeeQx_Cn4GgJTA" index="_F81wuPdVEeeQx_Cn4GgJTA" regularDataTableSpace="_F8snGfdVEeeQx_Cn4GgJTA" partitionMode=" ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F81ws_dVEeeQx_Cn4GgJTA" name="ID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_F81wtPdVEeeQx_Cn4GgJTA" name="DECIMAL" primitiveType="DECIMAL" precision="5"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F81wtfdVEeeQx_Cn4GgJTA" name="NAME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_F81wtvdVEeeQx_Cn4GgJTA" name="CHAR" length="10"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_F81wt_dVEeeQx_Cn4GgJTA" name="T1_PK" members="_F81ws_dVEeeQx_Cn4GgJTA"/>
+  </LUW:LUWTable>
+  <LUW:LUWIndex xmi:id="_F81wuPdVEeeQx_Cn4GgJTA" name="T1_PK" privileges="_F8smx_dVEeeQx_Cn4GgJTA" Schema="_F8smwPdVEeeQx_Cn4GgJTA" fillFactor="10" unique="true" systemGenerated="true" table="_F81wsvdVEeeQx_Cn4GgJTA" tablespace="_F8snGfdVEeeQx_Cn4GgJTA">
+    <members xmi:id="_F81wufdVEeeQx_Cn4GgJTA" column="_F81ws_dVEeeQx_Cn4GgJTA"/>
+  </LUW:LUWIndex>
+  <LUW:LUWTable xmi:id="_F81wuvdVEeeQx_Cn4GgJTA" name="T2" privileges="_F8sm6fdVEeeQx_Cn4GgJTA _F8snAvdVEeeQx_Cn4GgJTA _F8sm6PdVEeeQx_Cn4GgJTA _F8smzvdVEeeQx_Cn4GgJTA _F8sm-PdVEeeQx_Cn4GgJTA _F8sm7fdVEeeQx_Cn4GgJTA _F8sm1PdVEeeQx_Cn4GgJTA _F8sm__dVEeeQx_Cn4GgJTA" schema="_F8smwPdVEeeQx_Cn4GgJTA" index="_F81wwPdVEeeQx_Cn4GgJTA" regularDataTableSpace="_F8snGfdVEeeQx_Cn4GgJTA" partitionMode=" ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F81wu_dVEeeQx_Cn4GgJTA" name="ID2" nullable="false">
+      <containedType xsi:type="SQLDataTypes:FixedPrecisionDataType" xmi:id="_F81wvPdVEeeQx_Cn4GgJTA" name="DECIMAL" primitiveType="DECIMAL" precision="5"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F81wvfdVEeeQx_Cn4GgJTA" name="NAME2">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_F81wvvdVEeeQx_Cn4GgJTA" name="CHAR" length="10"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_F81wv_dVEeeQx_Cn4GgJTA" name="T2_PK" members="_F81wu_dVEeeQx_Cn4GgJTA"/>
+  </LUW:LUWTable>
+  <LUW:LUWIndex xmi:id="_F81wwPdVEeeQx_Cn4GgJTA" name="T2_PK" privileges="_F8snCfdVEeeQx_Cn4GgJTA" Schema="_F8smwPdVEeeQx_Cn4GgJTA" fillFactor="10" unique="true" systemGenerated="true" table="_F81wuvdVEeeQx_Cn4GgJTA" tablespace="_F8snGfdVEeeQx_Cn4GgJTA">
+    <members xmi:id="_F81wwfdVEeeQx_Cn4GgJTA" column="_F81wu_dVEeeQx_Cn4GgJTA"/>
+  </LUW:LUWIndex>
+  <LUW:LUWTable xmi:id="_F81wwvdVEeeQx_Cn4GgJTA" name="TARG01" privileges="_F8sm5fdVEeeQx_Cn4GgJTA _F8sm0PdVEeeQx_Cn4GgJTA _F8sm-vdVEeeQx_Cn4GgJTA _F8sm3PdVEeeQx_Cn4GgJTA _F8smw_dVEeeQx_Cn4GgJTA _F8snAfdVEeeQx_Cn4GgJTA _F8sm4vdVEeeQx_Cn4GgJTA _F8smyvdVEeeQx_Cn4GgJTA" schema="_F8smwPdVEeeQx_Cn4GgJTA" regularDataTableSpace="_F8snGfdVEeeQx_Cn4GgJTA" partitionMode=" ">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F81ww_dVEeeQx_Cn4GgJTA" name="SNUM">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_F81wxPdVEeeQx_Cn4GgJTA" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_F81wxfdVEeeQx_Cn4GgJTA" name="SNAME">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_F81wxvdVEeeQx_Cn4GgJTA" name="CHAR" length="10"/>
+    </columns>
+  </LUW:LUWTable>
+</xmi:XMI>

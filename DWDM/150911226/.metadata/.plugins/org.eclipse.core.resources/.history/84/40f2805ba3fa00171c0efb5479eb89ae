@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.datatools.etl.dataflow.view:ETLFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.datatools.etl.dataflow.view="http:///com/ibm/datatools/etl/dataflow/view.ecore">
+  <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLOperator" x="118" y="209" height="-1" width="-1" type="http:///com/ibm/datatools/etl/dataflow/core.oplib/Extract/DBSources/TableSelect">
+    <outputs type="OutputPort">
+      <fields name="SNUM">
+        <input/>
+        <output type="OutputPort"/>
+      </fields>
+      <fields name="CNAME">
+        <input/>
+        <output type="OutputPort"/>
+      </fields>
+      <fields name="GRADE">
+        <input/>
+        <output type="OutputPort"/>
+      </fields>
+      <fields name="DEPTID">
+        <input/>
+        <output type="OutputPort"/>
+      </fields>
+      <fields name="FID">
+        <input/>
+        <output type="OutputPort"/>
+      </fields>
+      <operatorPort href="l2q3.etlmetadataxmi#//@operatorMap.0/@value/@outputPortMap.0/@value"/>
+    </outputs>
+    <operator href="l2q3.etlmetadataxmi#//@operatorMap.0/@value"/>
+  </elements>
+  <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLOperator" x="225" y="112" height="-1" width="-1" type="http:///com/ibm/datatools/etl/dataflow/core.oplib/Extract/DBSources/TableSelect">
+    <outputs type="OutputPort">
+      <operatorPort href="l2q3.etlmetadataxmi#//@operatorMap.1/@value/@outputPortMap.0/@value"/>
+    </outputs>
+    <operator href="l2q3.etlmetadataxmi#//@operatorMap.1/@value"/>
+  </elements>
+  <dataflow href="l2q3.etlmetadataxmi#/"/>
+</com.ibm.datatools.etl.dataflow.view:ETLFlow>

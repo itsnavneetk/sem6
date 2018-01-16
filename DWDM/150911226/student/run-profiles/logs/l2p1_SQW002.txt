@@ -1,0 +1,41 @@
+ Data-Flows  Jan 16, 2018 2:51:58 PM   SQW03415I: Flow execution started for SQW002 (/student/data-flows/l2p1)
+ Data-Flows  Jan 16, 2018 2:51:58 PM   SQW38501I: Execution log file:  E:/150911226/student/run-profiles/logs/l2p1_SQW002.txt
+ Data-Flows  Jan 16, 2018 2:51:58 PM   SQW38509I: Execution temporary work directory:  E:/150911226/student/run-profiles/tmp\l2p1_SQW002
+ Data-Flows  Jan 16, 2018 2:52:00 PM   SQW03275I: Execution of SQL statement "SET CURRENT SCHEMA "IWSCHEMA467A9F_2"" through JDBC connection finished successfully
+ Data-Flows  Jan 16, 2018 2:52:00 PM   SQW03275I: Execution of SQL statement "CREATE VIEW INPUT_03_0(
+  SNAME, 
+  SNUM, 
+  DEPTID, 
+  SLEVEL, 
+  AGE
+) AS 
+SELECT Q120.SNAME AS SNAME, Q120.SNUM AS SNUM, Q120.DEPTID AS DEPTID,
+       Q120.SLEVEL AS SLEVEL, Q120.AGE AS AGE
+  FROM NAV226.STUDENT Q120" through JDBC connection finished successfully
+ Data-Flows  Jan 16, 2018 2:52:00 PM   SQW03276E: Execution of SQL statement "INSERT INTO "NAV226"."L2P1"() SELECT  FROM "INPUT_03_0"" through JDBC connection failed. Exception: SQL Exception. SQL state = 42601; error code = -104; error Message = An unexpected token "INSERT INTO "NAV226"."L2P1"" was found following "BEGIN-OF-STATEMENT".  Expected tokens may include:  "<create_proc>".. SQLCODE=-104, SQLSTATE=42601, DRIVER=4.7.89SQL Exception. SQL state = 56098; error code = -727; error Message = An error occurred during implicit system action type "2". Information returned for the error includes SQLCODE "-104", SQLSTATE "42601" and message tokens "INSERT INTO "NAV226"."L2P1"|BEGIN-OF-STATEMENT|<create_pr".. SQLCODE=-727, SQLSTATE=56098, DRIVER=4.7.89SQL Exception. SQL state = 56098; error code = -727; error Message = An error occurred during implicit system action type "2". Information returned for the error includes SQLCODE "-104", SQLSTATE "42601" and message tokens "INSERT INTO "NAV226"."L2P1"|BEGIN-OF-STATEMENT|<create_pr".. SQLCODE=-727, SQLSTATE=56098, DRIVER=4.7.89
+ Data-Flows  Jan 16, 2018 2:52:00 PM   SQW03275I: Execution of SQL statement "DROP VIEW INPUT_03_0" through JDBC connection finished successfully
+ Data-Flows  Jan 16, 2018 2:52:00 PM   SQW03368I: Dumping variable values : 
+     ${INT-RES/RUN-ID} = 467A9F
+     ${RESERVED/APP_NAME} = l2p1
+     ${RESERVED/APP_PATH} = E:/150911226/student/run-profiles/rp4625a9/
+     ${RESERVED/CURRENT_TIMESTAMP} = 2018-01-16 14:52:00
+     ${RESERVED/DATE} = 2018-01-16
+     ${RESERVED/DAYNAME_SHORT} = Tue
+     ${RESERVED/DAYNAME} = Tuesday
+     ${RESERVED/DAY} = 16
+     ${RESERVED/INSTANCE_NAME} = SQW002
+     ${RESERVED/MISC_DIR} = E:/150911226\student\package-misc\
+     ${RESERVED/MONTHNAME_SHORT} = Jan
+     ${RESERVED/MONTHNAME} = January
+     ${RESERVED/MONTH} = 01
+     ${RESERVED/PROC_NAME} = l2p1
+     ${RESERVED/RUN_ID} = 467A9F
+     ${RESERVED/START_TIMESTAMP} = 2018-01-16 14:51:59
+     ${RESERVED/TIME} = 14:51:59
+     ${RESERVED/TMP_DIR} = E:/150911226/student/run-profiles/tmp\l2p1_SQW002
+     ${RESERVED/USER_DIR} = C:\Program Files\IBM\ISWarehouse\ds
+     ${RESERVED/USER_HOME} = C:\Users\student
+     ${RESERVED/USER_NAME} = student
+     ${RESERVED/YEAR} = 2018
+ Data-Flows  Jan 16, 2018 2:52:00 PM   SQW03408I: Flow execution finished for SQW002 (/student/data-flows/l2p1)
+ Data-Flows  Jan 16, 2018 2:52:00 PM   SQW38508I: Closing log file E:/150911226/student/run-profiles/logs/l2p1_SQW002.txt.

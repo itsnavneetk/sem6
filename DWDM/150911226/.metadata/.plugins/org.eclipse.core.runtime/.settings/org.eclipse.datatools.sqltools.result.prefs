@@ -1,0 +1,4 @@
+#Fri Jan 12 10:10:11 IST 2018
+eclipse.preferences.version=1
+org.eclipse.datatools.sqltools.result.preferences.parameterviewer.viewername=IBM DB2 Parameter Viewer
+org.eclipse.datatools.sqltools.result.preferences.resultsetviewer.viewername=IBM DB2 Result Set Viewer

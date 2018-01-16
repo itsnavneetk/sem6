@@ -1,0 +1,37 @@
+ Data-Flows  Jan 16, 2018 4:29:53 PM   SQW03415I: Flow execution started for SQW014 (/student/data-flows/l1q1)
+ Data-Flows  Jan 16, 2018 4:29:53 PM   SQW38501I: Execution log file:  E:/150911226/student/run-profiles/logs/l1q1_SQW014.txt
+ Data-Flows  Jan 16, 2018 4:29:53 PM   SQW38509I: Execution temporary work directory:  E:/150911226/student/run-profiles/tmp\l1q1_SQW014
+ Data-Flows  Jan 16, 2018 4:29:57 PM   SQW03275I: Execution of SQL statement "SET CURRENT SCHEMA "IWSCHEMAA025F8_40"" through JDBC connection finished successfully
+ Data-Flows  Jan 16, 2018 4:29:57 PM   SQW03275I: Execution of SQL statement "INSERT INTO NAV226.L1Q1 (SNAME)
+  SELECT Q487.SNAME AS SNAME
+    FROM NAV226.STUDENT Q487, NAV226.ENROLL Q493
+    WHERE (Q487.SNUM = Q493.SNUM)" through JDBC connection finished successfully
+ Data-Flows  Jan 16, 2018 4:29:57 PM   SQW03275I: Execution of SQL statement "SELECT Q441.SNUM AS SNUM, Q441.CNAME AS CNAME, Q441.GRADE AS GRADE,
+       Q441.DEPTID AS DEPTID, Q441.FID AS FID
+  FROM NAV226.ENROLL Q441
+  WHERE (Q441.GRADE <> 'A')" through JDBC connection finished successfully
+ Data-Flows  Jan 16, 2018 4:29:57 PM   SQW03368I: Dumping variable values : 
+     ${INT-RES/RUN-ID} = A025F8
+     ${RESERVED/APP_NAME} = l1q1
+     ${RESERVED/APP_PATH} = E:/150911226/student/run-profiles/rpa011d4/
+     ${RESERVED/CURRENT_TIMESTAMP} = 2018-01-16 16:29:56
+     ${RESERVED/DATE} = 2018-01-16
+     ${RESERVED/DAYNAME_SHORT} = Tue
+     ${RESERVED/DAYNAME} = Tuesday
+     ${RESERVED/DAY} = 16
+     ${RESERVED/INSTANCE_NAME} = SQW014
+     ${RESERVED/MISC_DIR} = E:/150911226\student\package-misc\
+     ${RESERVED/MONTHNAME_SHORT} = Jan
+     ${RESERVED/MONTHNAME} = January
+     ${RESERVED/MONTH} = 01
+     ${RESERVED/PROC_NAME} = l1q1
+     ${RESERVED/RUN_ID} = A025F8
+     ${RESERVED/START_TIMESTAMP} = 2018-01-16 16:29:56
+     ${RESERVED/TIME} = 16:29:56
+     ${RESERVED/TMP_DIR} = E:/150911226/student/run-profiles/tmp\l1q1_SQW014
+     ${RESERVED/USER_DIR} = C:\Program Files\IBM\ISWarehouse\ds
+     ${RESERVED/USER_HOME} = C:\Users\student
+     ${RESERVED/USER_NAME} = student
+     ${RESERVED/YEAR} = 2018
+ Data-Flows  Jan 16, 2018 4:29:57 PM   SQW03408I: Flow execution finished for SQW014 (/student/data-flows/l1q1)
+ Data-Flows  Jan 16, 2018 4:29:57 PM   SQW38508I: Closing log file E:/150911226/student/run-profiles/logs/l1q1_SQW014.txt.

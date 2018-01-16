@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><libraryInfos>
+<libraryInfo home="C:\Program Files\IBM\ISWarehouse\ds\jdk" version="1.6.0">
+<bootpath>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\vm.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\annotation.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\beans.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\java.util.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\jndi.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\logging.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\security.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\sql.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmorb.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmorbapi.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmcfw.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\rt.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\charsets.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\resources.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmpkcs.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmcertpathfw.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmjgssfw.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmjssefw.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmsaslfw.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmjcefw.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmjgssprovider.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmjsseprovider2.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmcertpathprovider.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmxmlcrypto.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\management-agent.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\xml.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\jlm.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\javascript.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre" version="1.6.0">
+<bootpath>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\vm.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\annotation.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\beans.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\java.util.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\jndi.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\logging.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\security.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\sql.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmorb.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmorbapi.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmcfw.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\rt.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\charsets.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\resources.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmpkcs.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmcertpathfw.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmjgssfw.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmjssefw.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmsaslfw.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmjcefw.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmjgssprovider.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmjsseprovider2.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmcertpathprovider.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ibmxmlcrypto.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\management-agent.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\xml.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\jlm.jar"/>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\javascript.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\IBM\ISWarehouse\ds\jdk\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

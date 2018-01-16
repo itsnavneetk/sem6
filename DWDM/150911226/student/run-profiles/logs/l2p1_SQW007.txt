@@ -1,0 +1,34 @@
+ Data-Flows  Jan 16, 2018 3:15:01 PM   SQW03415I: Flow execution started for SQW007 (/student/data-flows/l2p1)
+ Data-Flows  Jan 16, 2018 3:15:01 PM   SQW38501I: Execution log file:  E:/150911226/student/run-profiles/logs/l2p1_SQW007.txt
+ Data-Flows  Jan 16, 2018 3:15:01 PM   SQW38509I: Execution temporary work directory:  E:/150911226/student/run-profiles/tmp\l2p1_SQW007
+ Data-Flows  Jan 16, 2018 3:15:03 PM   SQW03275I: Execution of SQL statement "SET CURRENT SCHEMA "IWSCHEMA5B96D5_f"" through JDBC connection finished successfully
+ Data-Flows  Jan 16, 2018 3:15:04 PM   SQW03275I: Execution of SQL statement "INSERT INTO NAV226.L2P1 (STUDENTNAME)
+  SELECT Q87.SNAME AS SNAME
+    FROM (SELECT Q47.SNAME AS SNAME
+            FROM NAV226.STUDENT Q47) Q87
+    ORDER BY Q87.SNAME" through JDBC connection finished successfully
+ Data-Flows  Jan 16, 2018 3:15:04 PM   SQW03368I: Dumping variable values : 
+     ${INT-RES/RUN-ID} = 5B96D5
+     ${RESERVED/APP_NAME} = l2p1
+     ${RESERVED/APP_PATH} = E:/150911226/student/run-profiles/rp5b84f3/
+     ${RESERVED/CURRENT_TIMESTAMP} = 2018-01-16 15:15:03
+     ${RESERVED/DATE} = 2018-01-16
+     ${RESERVED/DAYNAME_SHORT} = Tue
+     ${RESERVED/DAYNAME} = Tuesday
+     ${RESERVED/DAY} = 16
+     ${RESERVED/INSTANCE_NAME} = SQW007
+     ${RESERVED/MISC_DIR} = E:/150911226\student\package-misc\
+     ${RESERVED/MONTHNAME_SHORT} = Jan
+     ${RESERVED/MONTHNAME} = January
+     ${RESERVED/MONTH} = 01
+     ${RESERVED/PROC_NAME} = l2p1
+     ${RESERVED/RUN_ID} = 5B96D5
+     ${RESERVED/START_TIMESTAMP} = 2018-01-16 15:15:03
+     ${RESERVED/TIME} = 15:15:03
+     ${RESERVED/TMP_DIR} = E:/150911226/student/run-profiles/tmp\l2p1_SQW007
+     ${RESERVED/USER_DIR} = C:\Program Files\IBM\ISWarehouse\ds
+     ${RESERVED/USER_HOME} = C:\Users\student
+     ${RESERVED/USER_NAME} = student
+     ${RESERVED/YEAR} = 2018
+ Data-Flows  Jan 16, 2018 3:15:04 PM   SQW03408I: Flow execution finished for SQW007 (/student/data-flows/l2p1)
+ Data-Flows  Jan 16, 2018 3:15:04 PM   SQW38508I: Closing log file E:/150911226/student/run-profiles/logs/l2p1_SQW007.txt.

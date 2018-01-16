@@ -1,0 +1,29 @@
+ Data-Flows  Jan 16, 2018 4:32:56 PM   SQW03415I: Flow execution started for SQW017 (/student/data-flows/l1q1)
+ Data-Flows  Jan 16, 2018 4:32:56 PM   SQW38501I: Execution log file:  E:/150911226/student/run-profiles/logs/l1q1_SQW017.txt
+ Data-Flows  Jan 16, 2018 4:32:56 PM   SQW38509I: Execution temporary work directory:  E:/150911226/student/run-profiles/tmp\l1q1_SQW017
+ Data-Flows  Jan 16, 2018 4:32:58 PM   SQW03275I: Execution of SQL statement "SET CURRENT SCHEMA "IWSCHEMAA2EAF4_50"" through JDBC connection finished successfully
+ Data-Flows  Jan 16, 2018 4:32:58 PM   SQW03368I: Dumping variable values : 
+     ${INT-RES/RUN-ID} = A2EAF4
+     ${RESERVED/APP_NAME} = l1q1
+     ${RESERVED/APP_PATH} = E:/150911226/student/run-profiles/rpa2d46f/
+     ${RESERVED/CURRENT_TIMESTAMP} = 2018-01-16 16:32:58
+     ${RESERVED/DATE} = 2018-01-16
+     ${RESERVED/DAYNAME_SHORT} = Tue
+     ${RESERVED/DAYNAME} = Tuesday
+     ${RESERVED/DAY} = 16
+     ${RESERVED/INSTANCE_NAME} = SQW017
+     ${RESERVED/MISC_DIR} = E:/150911226\student\package-misc\
+     ${RESERVED/MONTHNAME_SHORT} = Jan
+     ${RESERVED/MONTHNAME} = January
+     ${RESERVED/MONTH} = 01
+     ${RESERVED/PROC_NAME} = l1q1
+     ${RESERVED/RUN_ID} = A2EAF4
+     ${RESERVED/START_TIMESTAMP} = 2018-01-16 16:32:58
+     ${RESERVED/TIME} = 16:32:58
+     ${RESERVED/TMP_DIR} = E:/150911226/student/run-profiles/tmp\l1q1_SQW017
+     ${RESERVED/USER_DIR} = C:\Program Files\IBM\ISWarehouse\ds
+     ${RESERVED/USER_HOME} = C:\Users\student
+     ${RESERVED/USER_NAME} = student
+     ${RESERVED/YEAR} = 2018
+ Data-Flows  Jan 16, 2018 4:32:58 PM   SQW03408I: Flow execution finished for SQW017 (/student/data-flows/l1q1)
+ Data-Flows  Jan 16, 2018 4:32:58 PM   SQW38508I: Closing log file E:/150911226/student/run-profiles/logs/l1q1_SQW017.txt.

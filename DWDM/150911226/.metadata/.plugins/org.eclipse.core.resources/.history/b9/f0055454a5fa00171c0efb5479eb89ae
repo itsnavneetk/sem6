@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<srcmgt:SourceMgr xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:srcmgt="com.ibm.datatools.dwe.srcmgt.nsuri" saveLocation="student/generated-code/.inc.bld/mgr" genId="6">
+  <sourceMap key="/student/data-flows/l1q1.etlmetadataxmi">
+    <value href="mgr_se_1#/"/>
+  </sourceMap>
+  <sourceMap key="/student/data-flows/l2p1.etlmetadataxmi">
+    <value href="mgr_se_2#/"/>
+  </sourceMap>
+  <sourceMap key="/student/data-flows/l2p2.etlmetadataxmi">
+    <value href="mgr_se_3#/"/>
+  </sourceMap>
+  <sourceMap key="/student/data-flows/l2q3.etlmetadataxmi">
+    <value href="mgr_se_4#/"/>
+  </sourceMap>
+  <sourceMap key="/student/data-flows/l2p3.etlmetadataxmi">
+    <value href="mgr_se_5#/"/>
+  </sourceMap>
+  <sourceMap key="/student/data-flows/l2q2p1.etlmetadataxmi">
+    <value href="mgr_se_6#/"/>
+  </sourceMap>
+</srcmgt:SourceMgr>
