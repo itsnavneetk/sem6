@@ -1,4 +1,3 @@
-//udp search
 #include<string.h>
 #include<arpa/inet.h>
 #include<stdio.h>
@@ -42,28 +41,21 @@ int main()
 	}
 	actuallen=sizeof(clientaddr);
 
-	int arr[20], len, elem;
-		retval=recvfrom(sockfd,arr,sizeof(arr),0,(struct sockaddr *)&clientaddr,&actuallen);
+		retval=recvfrom(sockfd,temp,sizeof(temp),0,(struct sockaddr *)&clientaddr,&actuallen);
+		puts(temp);
 		if(retval==-1)
 		{
 			close(sockfd);
 			exit(0);
 		}
-		len = arr[0];
-		elem = arr[1];
-		
-		int i,j,temp1;
-		arr[0] = -9999;
-		for(i=2;i<=len+1;i++){
-			if(arr[i] == elem){
-				arr[0] = i-1;
-				break;
-			}
-
-		}
-		retval=sendto(sockfd,arr,sizeof(arr),0,(struct sockaddr *)&clientaddr,actuallen);
+		retval=sendto(sockfd,temp,sizeof(temp),0,(struct sockaddr *)&clientaddr,actuallen);
 		printf("\n");
+	
+	//actuallen=sizeof(clientaddr);
+	
 
+	gets(buff);
+	retval=sendto(sockfd,buff,sizeof(buff),0,(struct sockaddr *)&clientaddr,actuallen);
 	if(retval==-1)
 	{
 		close(sockfd);

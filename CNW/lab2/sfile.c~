@@ -1,4 +1,3 @@
-//udp search
 #include<string.h>
 #include<arpa/inet.h>
 #include<stdio.h>
@@ -42,34 +41,49 @@ int main()
 	}
 	actuallen=sizeof(clientaddr);
 
-	int arr[20], len, elem;
-		retval=recvfrom(sockfd,arr,sizeof(arr),0,(struct sockaddr *)&clientaddr,&actuallen);
+		retval=recvfrom(sockfd,temp,sizeof(temp),0,(struct sockaddr *)&clientaddr,&actuallen);
+		puts(temp);
 		if(retval==-1)
 		{
 			close(sockfd);
 			exit(0);
 		}
-		len = arr[0];
-		elem = arr[1];
-		
-		int i,j,temp1;
-		arr[0] = -9999;
-		for(i=2;i<=len+1;i++){
-			if(arr[i] == elem){
-				arr[0] = i-1;
-				break;
-			}
 
-		}
-		retval=sendto(sockfd,arr,sizeof(arr),0,(struct sockaddr *)&clientaddr,actuallen);
-		printf("\n");
+	FILE *fptr;
+	printf("Opening ");
+	puts(temp);
 
-	if(retval==-1)
-	{
-		close(sockfd);
+	 fptr = fopen(temp, "r");
+	    if (fptr == NULL)
+	    {
+		printf("Cannot open file \n");
 		exit(0);
-	}
+	    }
+	    // Read contents from file
+	    c = fgetc(fptr);
+	    while (c != EOF)
+	    {
+		printf ("%c", c);
+		c = fgetc(fptr);
+	    }
+	    fclose(fptr);
 
+	printf("\n writing to file \n");
+	
+	
+	fptr = fopen(temp, "w");
+	   if(fptr == NULL)
+	   {
+	      printf("Error!");
+	      exit(1);
+	   }
+	   char sentence[1000];	 
+	   printf("\n Enter string \n");  
+	   gets(sentence);
+
+	   fprintf(fptr,"%s", sentence);
+	   fclose(fptr);
+		
 	close(sockfd);
 }
 
