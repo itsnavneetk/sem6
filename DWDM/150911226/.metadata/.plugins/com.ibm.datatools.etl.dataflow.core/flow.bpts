@@ -27,4 +27,16 @@
   <table key="/student/data-flows/l1q3p1.etlmetadataxmi">
     <value xsi:type="com.ibm.datatools.etl.common:StringList"/>
   </table>
+  <table key="/student/data-flows/l1q1p2.etlmetadataxmi">
+    <value xsi:type="com.ibm.datatools.etl.common:StringList"/>
+  </table>
+  <table key="/student/data-flows/l1p2.etlmetadataxmi">
+    <value xsi:type="com.ibm.datatools.etl.common:StringList"/>
+  </table>
+  <table key="/student/data-flows/l1q2p3.etlmetadataxmi">
+    <value xsi:type="com.ibm.datatools.etl.common:StringList"/>
+  </table>
+  <table key="/student/data-flows/l1q3p4.etlmetadataxmi">
+    <value xsi:type="com.ibm.datatools.etl.common:StringList"/>
+  </table>
 </com.ibm.datatools.etl.common:ContainedObjLookup>

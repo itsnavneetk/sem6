@@ -16,10 +16,11 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="190" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="com.ibm.datatools.sqlxeditor.SQLXEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="DataFlowEditor" itemType="typeToolBarContribution" x="379" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="ERPhysicalDiagramEditor" itemType="typePlaceholder" x="841" y="22"/>
-<coolItem id="org.eclipse.datatools.sqltools.data.internal.ui.editor.tableDataEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.datatools.sqltools.data.internal.ui.editor.tableDataEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="com.ibm.cic.licensing.common.ui.controlContribution" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -38,24 +39,61 @@
 <part id="5"/>
 <part id="6"/>
 <part id="7"/>
+<part id="8"/>
+<part id="9"/>
+<part id="10"/>
+<part id="11"/>
+<part id="12"/>
+<part id="13"/>
+<part id="14"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="DataFlowEditor" name="l2q2p1.etlmetadataxmi" partName="l2q2p1" path="E:/150911226/student/data-flows/l2q2p1.etlmetadataxmi" title="l2q2p1" tooltip="student/data-flows/l2q2p1 (GSDBITD Online)" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/student/data-flows/l2q2p1.etlmetadataxmi"/>
+<editor id="com.ibm.datatools.project.ui.PhysicalModelEditor" name="Database Model1.dbm" partName="Database Model1.dbm" path="E:/150911226/student/Database Model1.dbm" title="Database Model1.dbm" tooltip="\student\Database Model1.dbm" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/student/Database Model1.dbm"/>
 </editor>
-<editor id="com.ibm.datatools.project.ui.PhysicalModelEditor" name="Database Model.dbm" partName="Database Model.dbm" path="E:/150911226/emp226/Database Model.dbm" title="Database Model.dbm" tooltip="\emp226\Database Model.dbm" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/emp226/Database Model.dbm"/>
+<editor id="com.ibm.datatools.project.ui.PhysicalModelEditor" name="Dynamic Data Model-GSDBITD.dbm" partName="Dynamic Data Model-GSDBITD.dbm" path="E:/150911226/student/databases/Dynamic Data Model-GSDBITD.dbm" title="Dynamic Data Model-GSDBITD.dbm" tooltip="\student\databases\Dynamic Data Model-GSDBITD.dbm" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/student/databases/Dynamic Data Model-GSDBITD.dbm"/>
+</editor>
+<editor id="DataFlowEditor" name="l1p2.etlmetadataxmi" partName="l1p2" path="E:/150911226/student/data-flows/l1p2.etlmetadataxmi" title="l1p2" tooltip="student/data-flows/l1p2 (GSDBITD Online)" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/student/data-flows/l1p2.etlmetadataxmi"/>
 </editor>
 <editor id="DataFlowEditor" name="l1q1.etlmetadataxmi" partName="l1q1" path="E:/150911226/student/data-flows/l1q1.etlmetadataxmi" title="l1q1" tooltip="student/data-flows/l1q1 (GSDBITD Online)" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/student/data-flows/l1q1.etlmetadataxmi"/>
 </editor>
-<editor id="com.ibm.datatools.project.ui.PhysicalModelEditor" name="Database Model1.dbm" partName="Database Model1.dbm" path="E:/150911226/student/Database Model1.dbm" title="Database Model1.dbm" tooltip="\student\Database Model1.dbm" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/student/Database Model1.dbm"/>
+<editor id="DataFlowEditor" name="l1q1p2.etlmetadataxmi" partName="l1q1p2" path="E:/150911226/student/data-flows/l1q1p2.etlmetadataxmi" title="l1q1p2" tooltip="student/data-flows/l1q1p2 (GSDBITD Online)" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/student/data-flows/l1q1p2.etlmetadataxmi"/>
 </editor>
-<editor activePart="true" focus="true" id="DataFlowEditor" name="l1q3p1.etlmetadataxmi" partName="l1q3p1" path="E:/150911226/student/data-flows/l1q3p1.etlmetadataxmi" title="l1q3p1" tooltip="student/data-flows/l1q3p1 (GSDBITD Online)" workbook="DefaultEditorWorkbook">
+<editor id="DataFlowEditor" name="l1q2p3.etlmetadataxmi" partName="l1q2p3" path="E:/150911226/student/data-flows/l1q2p3.etlmetadataxmi" title="l1q2p3" tooltip="student/data-flows/l1q2p3 (GSDBITD Online)" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/student/data-flows/l1q2p3.etlmetadataxmi"/>
+</editor>
+<editor id="DataFlowEditor" name="l1q3p1.etlmetadataxmi" partName="l1q3p1" path="E:/150911226/student/data-flows/l1q3p1.etlmetadataxmi" title="l1q3p1" tooltip="student/data-flows/l1q3p1 (GSDBITD Online)" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/student/data-flows/l1q3p1.etlmetadataxmi"/>
+</editor>
+<editor id="DataFlowEditor" name="l1q3p4.etlmetadataxmi" partName="l1q3p4" path="E:/150911226/student/data-flows/l1q3p4.etlmetadataxmi" title="l1q3p4" tooltip="student/data-flows/l1q3p4 (GSDBITD Online)" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/student/data-flows/l1q3p4.etlmetadataxmi"/>
+</editor>
+<editor id="DataFlowEditor" name="l2p1.etlmetadataxmi" partName="l2p1" path="E:/150911226/student/data-flows/l2p1.etlmetadataxmi" title="l2p1" tooltip="student/data-flows/l2p1 (GSDBITD Online)" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/student/data-flows/l2p1.etlmetadataxmi"/>
+</editor>
+<editor id="DataFlowEditor" name="l2p2.etlmetadataxmi" partName="l2p2" path="E:/150911226/student/data-flows/l2p2.etlmetadataxmi" title="l2p2" tooltip="student/data-flows/l2p2 (GSDBITD Online)" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/student/data-flows/l2p2.etlmetadataxmi"/>
+</editor>
+<editor id="DataFlowEditor" name="l2p3.etlmetadataxmi" partName="l2p3" path="E:/150911226/student/data-flows/l2p3.etlmetadataxmi" title="l2p3" tooltip="student/data-flows/l2p3 (GSDBITD Online)" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/student/data-flows/l2p3.etlmetadataxmi"/>
+</editor>
+<editor id="DataFlowEditor" name="l2q2p1.etlmetadataxmi" partName="l2q2p1" path="E:/150911226/student/data-flows/l2q2p1.etlmetadataxmi" title="l2q2p1" tooltip="student/data-flows/l2q2p1 (GSDBITD Online)" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/student/data-flows/l2q2p1.etlmetadataxmi"/>
+</editor>
+<editor id="DataFlowEditor" name="l2q2p2.etlmetadataxmi" partName="l2q2p2" path="E:/150911226/student/data-flows/l2q2p2.etlmetadataxmi" title="l2q2p2" tooltip="student/data-flows/l2q2p2 (GSDBITD Online)" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/student/data-flows/l2q2p2.etlmetadataxmi"/>
+</editor>
+<editor id="DataFlowEditor" name="l2q2p3.etlmetadataxmi" partName="l2q2p3" path="E:/150911226/student/data-flows/l2q2p3.etlmetadataxmi" title="l2q2p3" tooltip="student/data-flows/l2q2p3 (GSDBITD Online)" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/student/data-flows/l2q2p3.etlmetadataxmi"/>
+</editor>
+<editor focus="true" id="DataFlowEditor" name="l2q2p4.etlmetadataxmi" partName="l2q2p4" path="E:/150911226/student/data-flows/l2q2p4.etlmetadataxmi" title="l2q2p4" tooltip="student/data-flows/l2q2p4 (GSDBITD Online)" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/student/data-flows/l2q2p4.etlmetadataxmi"/>
 </editor>
 </editors>
 <views>
@@ -89,12 +127,12 @@
 <viewState CommonNavigator.LINKING_ENABLED="0"/>
 </view>
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer">
-<viewState CommonNavigator.LINKING_ENABLED="0" showCategories="true"/>
+<viewState CommonNavigator.LINKING_ENABLED="0" showCategories="false"/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors (4 items)"/>
+<category IMemento.internal.id="Warnings"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="64" org.eclipse.ui.ide.markerType="121" org.eclipse.ui.ide.pathField="124" org.eclipse.ui.ide.resourceField="94" org.eclipse.ui.ide.severityAndDescriptionField="430"/>
@@ -109,7 +147,7 @@
 <viewState/>
 </view>
 </views>
-<perspectives activePart="DataFlowEditor" activePerspective="com.ibm.datatools.dwe.BIPerspective">
+<perspectives activePart="com.ibm.datatools.project.ui.projectExplorer" activePerspective="com.ibm.datatools.dwe.BIPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.ibm.datatools.dwe.biperspective.BIPerspective" id="com.ibm.datatools.dwe.BIPerspective" label="Data Warehousing"/>
 <alwaysOnActionSet id="com.ibm.rational.welcome.core.webResourcesActionSet"/>
@@ -181,13 +219,13 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@452d452d" ratio="0.1904059" ratioLeft="258" ratioRight="1097" relationship="2" relative="topLeft">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@452d452d" ratio="0.31291512" ratioLeft="424" ratioRight="931" relationship="2" relative="topLeft">
 <folder appearance="2" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.5790349" ratioLeft="348" ratioRight="253" relationship="4" relative="org.eclipse.ui.internal.ViewStack@452d452d">
-<folder activePageID="org.eclipse.datatools.sqltools.result.resultView" appearance="2" expanded="2">
+<info folder="true" part="bottom" ratio="0.60399336" ratioLeft="363" ratioRight="238" relationship="4" relative="org.eclipse.ui.internal.ViewStack@452d452d">
+<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
 <page content="org.eclipse.datatools.sqltools.result.resultView" label="SQL Results"/>
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
@@ -234,57 +272,53 @@
 <workingSets/>
 <navigationHistory>
 <editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" path="/student/data-flows/l1p2.etlmetadataxmi"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" path="/student/data-flows/l1q2p3.etlmetadataxmi"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" path="/student/data-flows/l1q3p4.etlmetadataxmi"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" path="/student/data-flows/l1q1.etlmetadataxmi"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.datatools.project.ui.PhysicalModelEditor" path="/emp226/Database Model.dbm"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.datatools.project.ui.PhysicalModelEditor" path="/student/Database Model1.dbm"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.datatools.project.ui.PhysicalModelEditor" path="/student/databases/Dynamic Data Model-GSDBITD.dbm"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" path="/student/data-flows/l1q1p2.etlmetadataxmi"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" path="/student/data-flows/l1q2p3.etlmetadataxmi"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" path="/student/data-flows/l1q3p1.etlmetadataxmi"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" path="/student/data-flows/l1q3p4.etlmetadataxmi"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" path="/student/data-flows/l2p1.etlmetadataxmi"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" path="/student/data-flows/l2p2.etlmetadataxmi"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" path="/student/data-flows/l2p3.etlmetadataxmi"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" path="/student/data-flows/l2q2p1.etlmetadataxmi"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" path="/student/data-flows/l2q2p2.etlmetadataxmi"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" path="/student/data-flows/l2q2p3.etlmetadataxmi"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" path="/student/data-flows/l2q2p4.etlmetadataxmi"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.datatools.project.ui.PhysicalModelEditor" path="/student/Database Model.dbm"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.datatools.project.ui.PhysicalModelEditor" path="/student/Database Model1.dbm"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" path="/student/data-flows/l1q3p1.etlmetadataxmi"/>
 </editors>
-<item historyLabel="l2q2p2" index="2"/>
-<item historyLabel="Database Model.dbm" index="1"/>
-<item historyLabel="l2q2p2" index="2"/>
-<item historyLabel="l2q2p2" index="2"/>
-<item historyLabel="l2q2p3" index="3"/>
-<item historyLabel="Database Model.dbm" index="1"/>
-<item historyLabel="l2q2p4" index="4"/>
-<item historyLabel="Database Model.dbm" index="1"/>
-<item historyLabel="l2q2p4" index="4"/>
-<item historyLabel="Database Model.dbm" index="1"/>
-<item historyLabel="l1q1" index="0"/>
-<item historyLabel="Database Model.dbm" index="5"/>
-<item historyLabel="Database Model1.dbm" index="6"/>
-<item historyLabel="Database Model.dbm" index="5"/>
-<item historyLabel="l1q3p1" index="7"/>
-<item historyLabel="l1q1" index="0"/>
-<item historyLabel="l1q3p1" index="7"/>
-<item historyLabel="l1q1" index="0"/>
-<item historyLabel="l1q3p1" index="7"/>
-<item historyLabel="l1q1" index="0"/>
-<item historyLabel="l1q3p1" index="7"/>
-<item historyLabel="l1q3p1" index="7"/>
-<item historyLabel="l1q1" index="0"/>
-<item historyLabel="l1q1" index="0"/>
-<item historyLabel="l1q3p1" index="7"/>
-<item historyLabel="l1q1" index="0"/>
-<item historyLabel="l1q3p1" index="7"/>
-<item historyLabel="Database Model1.dbm" index="6"/>
-<item historyLabel="l1q1" index="0"/>
-<item historyLabel="l1q3p1" index="7"/>
-<item historyLabel="l1q1" index="0"/>
-<item historyLabel="l1q3p1" index="7"/>
-<item historyLabel="l1q1" index="0"/>
-<item historyLabel="l1q3p1" index="7"/>
-<item historyLabel="l1q1" index="0"/>
-<item historyLabel="l1q1" index="0"/>
-<item historyLabel="l1q3p1" index="7"/>
-<item historyLabel="l1q1" index="0"/>
-<item historyLabel="Database Model1.dbm" index="6"/>
-<item historyLabel="Database Model.dbm" index="1"/>
-<item historyLabel="l1q1" index="0"/>
-<item active="true" historyLabel="l1q3p1" index="7"/>
+<item historyLabel="l1q2p3" index="1"/>
+<item historyLabel="l1p2" index="0"/>
+<item historyLabel="l1q2p3" index="1"/>
+<item historyLabel="l1q2p3" index="1"/>
+<item historyLabel="l1q2p3" index="1"/>
+<item historyLabel="l1q3p4" index="2"/>
+<item historyLabel="l1q3p4" index="2"/>
+<item historyLabel="l1q3p4" index="2"/>
+<item historyLabel="l1q3p4" index="2"/>
+<item historyLabel="l1q1" index="3"/>
+<item historyLabel="l1q3p4" index="2"/>
+<item historyLabel="l1p2" index="0"/>
+<item historyLabel="l1q3p4" index="2"/>
+<item historyLabel="l1q3p4" index="2"/>
+<item historyLabel="Database Model1.dbm" index="4"/>
+<item historyLabel="Dynamic Data Model-GSDBITD.dbm" index="5"/>
+<item historyLabel="l1p2" index="0"/>
+<item historyLabel="l1q1" index="3"/>
+<item historyLabel="l1q1p2" index="6"/>
+<item historyLabel="l1q2p3" index="7"/>
+<item historyLabel="l1q3p1" index="8"/>
+<item historyLabel="l1q3p4" index="9"/>
+<item historyLabel="l2p1" index="10"/>
+<item historyLabel="l2p2" index="11"/>
+<item historyLabel="l2p3" index="12"/>
+<item historyLabel="l2q2p1" index="13"/>
+<item historyLabel="l2q2p2" index="14"/>
+<item historyLabel="l2q2p3" index="15"/>
+<item active="true" historyLabel="l2q2p4" index="16"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -302,29 +336,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" name="l1q3p1.dataflowxmi" tooltip="student/data-flows/l1q3p1.dataflowxmi">
-<persistable path="/student/data-flows/l1q3p1.dataflowxmi"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" name="l2q2p4.etlmetadataxmi" tooltip="student/data-flows/l2q2p4.etlmetadataxmi">
+<persistable path="/student/data-flows/l2q2p4.etlmetadataxmi"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.datatools.project.ui.PhysicalModelEditor" name="Database Model1.dbm" tooltip="student/Database Model1.dbm">
-<persistable path="/student/Database Model1.dbm"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" name="l2q2p3.etlmetadataxmi" tooltip="student/data-flows/l2q2p3.etlmetadataxmi">
+<persistable path="/student/data-flows/l2q2p3.etlmetadataxmi"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.datatools.project.ui.PhysicalModelEditor" name="Database Model.dbm" tooltip="student/Database Model.dbm">
-<persistable path="/student/Database Model.dbm"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" name="l2q2p2.etlmetadataxmi" tooltip="student/data-flows/l2q2p2.etlmetadataxmi">
+<persistable path="/student/data-flows/l2q2p2.etlmetadataxmi"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" name="l2q2p1.etlmetadataxmi" tooltip="student/data-flows/l2q2p1.etlmetadataxmi">
+<persistable path="/student/data-flows/l2q2p1.etlmetadataxmi"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" name="l2p3.etlmetadataxmi" tooltip="student/data-flows/l2p3.etlmetadataxmi">
+<persistable path="/student/data-flows/l2p3.etlmetadataxmi"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" name="l2p2.etlmetadataxmi" tooltip="student/data-flows/l2p2.etlmetadataxmi">
+<persistable path="/student/data-flows/l2p2.etlmetadataxmi"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" name="l2p1.etlmetadataxmi" tooltip="student/data-flows/l2p1.etlmetadataxmi">
+<persistable path="/student/data-flows/l2p1.etlmetadataxmi"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" name="l1q3p4.etlmetadataxmi" tooltip="student/data-flows/l1q3p4.etlmetadataxmi">
+<persistable path="/student/data-flows/l1q3p4.etlmetadataxmi"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" name="l1q3p1.etlmetadataxmi" tooltip="student/data-flows/l1q3p1.etlmetadataxmi">
+<persistable path="/student/data-flows/l1q3p1.etlmetadataxmi"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" name="l1q2p3.etlmetadataxmi" tooltip="student/data-flows/l1q2p3.etlmetadataxmi">
+<persistable path="/student/data-flows/l1q2p3.etlmetadataxmi"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" name="l1q1p2.etlmetadataxmi" tooltip="student/data-flows/l1q1p2.etlmetadataxmi">
+<persistable path="/student/data-flows/l1q1p2.etlmetadataxmi"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" name="l1q1.etlmetadataxmi" tooltip="student/data-flows/l1q1.etlmetadataxmi">
 <persistable path="/student/data-flows/l1q1.etlmetadataxmi"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" name="l2q2p4.dataflowxmi" tooltip="student/data-flows/l2q2p4.dataflowxmi">
-<persistable path="/student/data-flows/l2q2p4.dataflowxmi"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" name="l1p2.etlmetadataxmi" tooltip="student/data-flows/l1p2.etlmetadataxmi">
+<persistable path="/student/data-flows/l1p2.etlmetadataxmi"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" name="l2q2p3.dataflowxmi" tooltip="student/data-flows/l2q2p3.dataflowxmi">
-<persistable path="/student/data-flows/l2q2p3.dataflowxmi"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.datatools.project.ui.PhysicalModelEditor" name="Dynamic Data Model-GSDBITD.dbm" tooltip="student/databases/Dynamic Data Model-GSDBITD.dbm">
+<persistable path="/student/databases/Dynamic Data Model-GSDBITD.dbm"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.datatools.project.ui.PhysicalModelEditor" name="Database Model.dbm" tooltip="emp226/Database Model.dbm">
-<persistable path="/emp226/Database Model.dbm"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="DataFlowEditor" name="l2q2p2.dataflowxmi" tooltip="student/data-flows/l2q2p2.dataflowxmi">
-<persistable path="/student/data-flows/l2q2p2.dataflowxmi"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.ibm.datatools.project.ui.PhysicalModelEditor" name="Database Model1.dbm" tooltip="student/Database Model1.dbm">
+<persistable path="/student/Database Model1.dbm"/>
 </file>
 </mruList>
 </workbench>

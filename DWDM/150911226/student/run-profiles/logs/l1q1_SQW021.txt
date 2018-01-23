@@ -1,50 +1,37 @@
- Data-Flows  Jan 16, 2018 4:46:32 PM   SQW03415I: Flow execution started for SQW021 (/student/data-flows/l1q1)
- Data-Flows  Jan 16, 2018 4:46:32 PM   SQW38501I: Execution log file:  E:/150911226/student/run-profiles/logs/l1q1_SQW021.txt
- Data-Flows  Jan 16, 2018 4:46:32 PM   SQW38509I: Execution temporary work directory:  E:/150911226/student/run-profiles/tmp\l1q1_SQW021
- Data-Flows  Jan 16, 2018 4:46:35 PM   SQW03275I: Execution of SQL statement "SET CURRENT SCHEMA "IWSCHEMAAF619C_6f"" through JDBC connection finished successfully
- Data-Flows  Jan 16, 2018 4:46:35 PM   SQW03275I: Execution of SQL statement "DECLARE GLOBAL TEMPORARY TABLE "IWTEMPAF619C_6f0843"(
-  SNUM INTEGER, 
-  SNAME CHAR(15))
- ON COMMIT PRESERVE ROWS NOT LOGGED" through JDBC connection finished successfully
- Data-Flows  Jan 16, 2018 4:46:35 PM   SQW03275I: Execution of SQL statement "INSERT INTO SESSION."IWTEMPAF619C_6f0843" (SNUM, SNAME)
-  SELECT Q844.SNUM AS SNUM, Q844.SNAME AS SNAME
-    FROM (SELECT Q388.SNUM AS SNUM, Q388.SNAME AS SNAME
-            FROM (SELECT Q764.SNUM AS SNUM, Q764.SNAME AS SNAME
-                    FROM NAV226.STUDENT Q764, NAV226.ENROLL Q770
-                    WHERE (Q764.SNUM = Q770.SNUM)) Q388
-            GROUP BY Q388.SNUM, Q388.SNAME) Q844" through JDBC connection finished successfully
- Data-Flows  Jan 16, 2018 4:46:35 PM   SQW03275I: Execution of SQL statement "DELETE FROM NAV226.L1Q1" through JDBC connection finished successfully
- Data-Flows  Jan 16, 2018 4:46:35 PM   SQW03275I: Execution of SQL statement "INSERT INTO NAV226.L1Q1 (SNAME)
-  SELECT Q451.SNAME AS SNAME
-    FROM SESSION."IWTEMPAF619C_6f0843" Q451" through JDBC connection finished successfully
- Data-Flows  Jan 16, 2018 4:46:35 PM   SQW03275I: Execution of SQL statement "DELETE FROM NAV226.TEMP" through JDBC connection finished successfully
- Data-Flows  Jan 16, 2018 4:46:35 PM   SQW03275I: Execution of SQL statement "INSERT INTO NAV226.TEMP (SNUM)
-  SELECT Q817.SNUM AS SNUM
-    FROM SESSION."IWTEMPAF619C_6f0843" Q817, NAV226.ENROLL Q820
-    WHERE (Q817.SNUM NOT IN (Q820.SNUM)) AND (Q820.GRADE <> 'A')" through JDBC connection finished successfully
- Data-Flows  Jan 16, 2018 4:46:35 PM   SQW03275I: Execution of SQL statement "DROP TABLE SESSION."IWTEMPAF619C_6f0843"" through JDBC connection finished successfully
- Data-Flows  Jan 16, 2018 4:46:35 PM   SQW03368I: Dumping variable values : 
-     ${INT-RES/RUN-ID} = AF619C
+ Data-Flows  Jan 19, 2018 10:03:12 AM   SQW03415I: Flow execution started for SQW021 (/student/data-flows/l1q1)
+ Data-Flows  Jan 19, 2018 10:03:12 AM   SQW38501I: Execution log file:  E:/150911226/student/run-profiles/logs/l1q1_SQW021.txt
+ Data-Flows  Jan 19, 2018 10:03:12 AM   SQW38509I: Execution temporary work directory:  E:/150911226/student/run-profiles/tmp\l1q1_SQW021
+ Data-Flows  Jan 19, 2018 10:03:15 AM   SQW03275I: Execution of SQL statement "SET CURRENT SCHEMA "IWSCHEMAB13388_70"" through JDBC connection finished successfully
+ Data-Flows  Jan 19, 2018 10:03:15 AM   SQW03275I: Execution of SQL statement "DELETE FROM NAV226.TEMP" through JDBC connection finished successfully
+ Data-Flows  Jan 19, 2018 10:03:15 AM   SQW03275I: Execution of SQL statement "INSERT INTO NAV226.TEMP (SNUM)
+  SELECT Q561.SNUM AS SNUM
+    FROM (SELECT Q683.SNUM AS SNUM
+            FROM NAV226.STUDENT Q683, NAV226.ENROLL Q689, NAV226.ENROLL Q695
+            WHERE (Q683.SNUM <> Q695.SNUM) AND (Q683.SNUM = Q689.SNUM) AND (Q695.GRADE <> 'A')
+    AND (Q689.SNUM <> Q695.SNUM)) Q561
+    GROUP BY Q561.SNUM" through JDBC connection finished successfully
+ Data-Flows  Jan 19, 2018 10:03:15 AM   SQW03368I: Dumping variable values : 
+     ${INT-RES/RUN-ID} = B13388
      ${RESERVED/APP_NAME} = l1q1
-     ${RESERVED/APP_PATH} = E:/150911226/student/run-profiles/rpaf5325/
-     ${RESERVED/CURRENT_TIMESTAMP} = 2018-01-16 16:46:35
-     ${RESERVED/DATE} = 2018-01-16
-     ${RESERVED/DAYNAME_SHORT} = Tue
-     ${RESERVED/DAYNAME} = Tuesday
-     ${RESERVED/DAY} = 16
+     ${RESERVED/APP_PATH} = E:/150911226/student/run-profiles/rpb126b7/
+     ${RESERVED/CURRENT_TIMESTAMP} = 2018-01-19 10:03:15
+     ${RESERVED/DATE} = 2018-01-19
+     ${RESERVED/DAYNAME_SHORT} = Fri
+     ${RESERVED/DAYNAME} = Friday
+     ${RESERVED/DAY} = 19
      ${RESERVED/INSTANCE_NAME} = SQW021
      ${RESERVED/MISC_DIR} = E:/150911226\student\package-misc\
      ${RESERVED/MONTHNAME_SHORT} = Jan
      ${RESERVED/MONTHNAME} = January
      ${RESERVED/MONTH} = 01
      ${RESERVED/PROC_NAME} = l1q1
-     ${RESERVED/RUN_ID} = AF619C
-     ${RESERVED/START_TIMESTAMP} = 2018-01-16 16:46:34
-     ${RESERVED/TIME} = 16:46:34
+     ${RESERVED/RUN_ID} = B13388
+     ${RESERVED/START_TIMESTAMP} = 2018-01-19 10:03:15
+     ${RESERVED/TIME} = 10:03:15
      ${RESERVED/TMP_DIR} = E:/150911226/student/run-profiles/tmp\l1q1_SQW021
      ${RESERVED/USER_DIR} = C:\Program Files\IBM\ISWarehouse\ds
      ${RESERVED/USER_HOME} = C:\Users\student
      ${RESERVED/USER_NAME} = student
      ${RESERVED/YEAR} = 2018
- Data-Flows  Jan 16, 2018 4:46:35 PM   SQW03408I: Flow execution finished for SQW021 (/student/data-flows/l1q1)
- Data-Flows  Jan 16, 2018 4:46:35 PM   SQW38508I: Closing log file E:/150911226/student/run-profiles/logs/l1q1_SQW021.txt.
+ Data-Flows  Jan 19, 2018 10:03:15 AM   SQW03408I: Flow execution finished for SQW021 (/student/data-flows/l1q1)
+ Data-Flows  Jan 19, 2018 10:03:15 AM   SQW38508I: Closing log file E:/150911226/student/run-profiles/logs/l1q1_SQW021.txt.

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.datatools.etl.errmsgs:Message xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.datatools.etl.errmsgs="http:///com/ibm/datatools/etl/errmsgs.ecore" msgNum="12208" timestamp="1516335435200" msgTxt="Validation succeeded for the 'l1q1p2'." msgSeverity="LOG" component="dataflow.validation" msgDescTxt="Validation succeeded for l1q1p2." msgCause="" msgResponse="" entityType="DataFlow">
+  <expandedMsgs msgNum="12208" timestamp="1516335435200" msgTxt="Validation succeeded for the 'flowLabel'." msgSeverity="LOG" component="dataflow.validation" msgDescTxt="Validation succeeded for flowLabel." msgCause="" msgResponse="" entityType="DataFlow" operatorID="03"/>
+  <expandedMsgs msgNum="12208" timestamp="1516335435215" msgTxt="Validation succeeded for the 'flowLabel'." msgSeverity="LOG" component="dataflow.validation" msgDescTxt="Validation succeeded for flowLabel." msgCause="" msgResponse="" entityType="DataFlow" operatorID="047"/>
+  <expandedMsgs msgNum="12208" timestamp="1516335435215" msgTxt="Validation succeeded for the 'flowLabel'." msgSeverity="LOG" component="dataflow.validation" msgDescTxt="Validation succeeded for flowLabel." msgCause="" msgResponse="" entityType="DataFlow" operatorID="048"/>
+</com.ibm.datatools.etl.errmsgs:Message>

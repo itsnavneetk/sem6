@@ -22,29 +22,43 @@
     </outputs>
     <operator href="l1q3p1.etlmetadataxmi#//@operatorMap.0/@value"/>
   </elements>
-  <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLOperator" x="261" y="344" height="-1" width="-1" type="http:///com/ibm/datatools/etl/dataflow/core.oplib/Extract/DBSources/TableSelect">
-    <outputs type="OutputPort" outgoingConnections="//@elements.4">
+  <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLOperator" x="229" y="327" height="-1" width="-1" type="http:///com/ibm/datatools/etl/dataflow/core.oplib/Extract/DBSources/TableSelect">
+    <outputs type="OutputPort" outgoingConnections="//@elements.2">
       <fields name="EMPID">
         <input/>
-        <output type="OutputPort" outgoingConnections="//@elements.4/@elements.0"/>
+        <output type="OutputPort" outgoingConnections="//@elements.2/@elements.0"/>
       </fields>
       <fields name="NAME">
         <input/>
-        <output type="OutputPort" outgoingConnections="//@elements.4/@elements.1"/>
+        <output type="OutputPort" outgoingConnections="//@elements.2/@elements.1"/>
       </fields>
       <fields name="STREET">
         <input/>
-        <output type="OutputPort" outgoingConnections="//@elements.4/@elements.2"/>
+        <output type="OutputPort" outgoingConnections="//@elements.2/@elements.2"/>
       </fields>
       <fields name="CITY">
         <input/>
-        <output type="OutputPort" outgoingConnections="//@elements.4/@elements.3"/>
+        <output type="OutputPort" outgoingConnections="//@elements.2/@elements.3"/>
       </fields>
       <operatorPort href="l1q3p1.etlmetadataxmi#//@operatorMap.1/@value/@outputPortMap.0/@value"/>
     </outputs>
     <operator href="l1q3p1.etlmetadataxmi#//@operatorMap.1/@value"/>
   </elements>
-  <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLOperator" x="457" y="172" height="-1" width="-1" type="http:///com/ibm/datatools/etl/dataflow/base.ui.oplib/Transform/AdvancedJoin">
+  <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLOperatorConnection" source="//@elements.1/@outputs.0" target="//@elements.4/@inputs.1">
+    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.1/@outputs.0/@fields.0/@output" target="//@elements.4/@inputs.1/@fields.0/@input"/>
+    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.1/@outputs.0/@fields.1/@output" target="//@elements.4/@inputs.1/@fields.1/@input"/>
+    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.1/@outputs.0/@fields.2/@output" target="//@elements.4/@inputs.1/@fields.2/@input"/>
+    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.1/@outputs.0/@fields.3/@output" target="//@elements.4/@inputs.1/@fields.3/@input"/>
+    <operatorLink href="l1q3p1.etlmetadataxmi#//@linkList.0"/>
+  </elements>
+  <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLOperatorConnection" source="//@elements.0/@outputs.0" target="//@elements.4/@inputs.0">
+    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.0/@outputs.0/@fields.2/@output" target="//@elements.4/@inputs.0/@fields.2/@input"/>
+    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.0/@outputs.0/@fields.3/@output" target="//@elements.4/@inputs.0/@fields.3/@input"/>
+    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.0/@outputs.0/@fields.0/@output" target="//@elements.4/@inputs.0/@fields.0/@input"/>
+    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.0/@outputs.0/@fields.1/@output" target="//@elements.4/@inputs.0/@fields.1/@input"/>
+    <operatorLink href="l1q3p1.etlmetadataxmi#//@linkList.1"/>
+  </elements>
+  <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLOperator" x="467" y="178" height="-1" width="-1" type="http:///com/ibm/datatools/etl/dataflow/base.ui.oplib/Transform/AdvancedJoin">
     <inputs incomingConnection="//@elements.3">
       <fields name="EMPID">
         <input incomingConnection="//@elements.3/@elements.2"/>
@@ -64,57 +78,57 @@
       </fields>
       <operatorPort href="l1q3p1.etlmetadataxmi#//@operatorMap.2/@value/@inputPortMap.0/@value"/>
     </inputs>
-    <inputs incomingConnection="//@elements.4">
+    <inputs incomingConnection="//@elements.2">
       <fields name="EMPID">
-        <input incomingConnection="//@elements.4/@elements.0"/>
+        <input incomingConnection="//@elements.2/@elements.0"/>
         <output type="OutputPort"/>
       </fields>
       <fields name="NAME">
-        <input incomingConnection="//@elements.4/@elements.1"/>
+        <input incomingConnection="//@elements.2/@elements.1"/>
         <output type="OutputPort"/>
       </fields>
       <fields name="STREET">
-        <input incomingConnection="//@elements.4/@elements.2"/>
+        <input incomingConnection="//@elements.2/@elements.2"/>
         <output type="OutputPort"/>
       </fields>
       <fields name="CITY">
-        <input incomingConnection="//@elements.4/@elements.3"/>
+        <input incomingConnection="//@elements.2/@elements.3"/>
         <output type="OutputPort"/>
       </fields>
       <operatorPort href="l1q3p1.etlmetadataxmi#//@operatorMap.2/@value/@inputPortMap.0/@value/@subPortList.0"/>
     </inputs>
-    <outputs type="OutputPort">
+    <outputs type="OutputPort" outgoingConnections="//@elements.5">
       <fields name="EMPID">
         <input/>
-        <output type="OutputPort"/>
+        <output type="OutputPort" outgoingConnections="//@elements.5/@elements.3"/>
       </fields>
       <fields name="COMPID">
         <input/>
-        <output type="OutputPort"/>
+        <output type="OutputPort" outgoingConnections="//@elements.5/@elements.6"/>
       </fields>
       <fields name="COMPANYNAME">
         <input/>
-        <output type="OutputPort"/>
+        <output type="OutputPort" outgoingConnections="//@elements.5/@elements.5"/>
       </fields>
       <fields name="SALARY">
         <input/>
-        <output type="OutputPort"/>
+        <output type="OutputPort" outgoingConnections="//@elements.5/@elements.7"/>
       </fields>
       <fields name="EMPID_1">
         <input/>
-        <output type="OutputPort"/>
+        <output type="OutputPort" outgoingConnections="//@elements.5/@elements.4"/>
       </fields>
       <fields name="NAME">
         <input/>
-        <output type="OutputPort"/>
+        <output type="OutputPort" outgoingConnections="//@elements.5/@elements.0"/>
       </fields>
       <fields name="STREET">
         <input/>
-        <output type="OutputPort"/>
+        <output type="OutputPort" outgoingConnections="//@elements.5/@elements.1"/>
       </fields>
       <fields name="CITY">
         <input/>
-        <output type="OutputPort"/>
+        <output type="OutputPort" outgoingConnections="//@elements.5/@elements.2"/>
       </fields>
       <operatorPort href="l1q3p1.etlmetadataxmi#//@operatorMap.2/@value/@outputPortMap.0/@value"/>
     </outputs>
@@ -225,19 +239,61 @@
     </outputs>
     <operator href="l1q3p1.etlmetadataxmi#//@operatorMap.2/@value"/>
   </elements>
-  <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLOperatorConnection" source="//@elements.0/@outputs.0" target="//@elements.2/@inputs.0">
-    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.0/@outputs.0/@fields.2/@output" target="//@elements.2/@inputs.0/@fields.2/@input"/>
-    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.0/@outputs.0/@fields.3/@output" target="//@elements.2/@inputs.0/@fields.3/@input"/>
-    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.0/@outputs.0/@fields.0/@output" target="//@elements.2/@inputs.0/@fields.0/@input"/>
-    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.0/@outputs.0/@fields.1/@output" target="//@elements.2/@inputs.0/@fields.1/@input"/>
-    <operatorLink href="l1q3p1.etlmetadataxmi#//@linkList.0"/>
+  <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLOperatorConnection" source="//@elements.4/@outputs.0" target="//@elements.6/@inputs.0">
+    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.4/@outputs.0/@fields.5/@output" target="//@elements.6/@inputs.0/@fields.5/@input"/>
+    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.4/@outputs.0/@fields.6/@output" target="//@elements.6/@inputs.0/@fields.6/@input"/>
+    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.4/@outputs.0/@fields.7/@output" target="//@elements.6/@inputs.0/@fields.7/@input"/>
+    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.4/@outputs.0/@fields.0/@output" target="//@elements.6/@inputs.0/@fields.0/@input"/>
+    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.4/@outputs.0/@fields.4/@output" target="//@elements.6/@inputs.0/@fields.4/@input"/>
+    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.4/@outputs.0/@fields.2/@output" target="//@elements.6/@inputs.0/@fields.2/@input"/>
+    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.4/@outputs.0/@fields.1/@output" target="//@elements.6/@inputs.0/@fields.1/@input"/>
+    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.4/@outputs.0/@fields.3/@output" target="//@elements.6/@inputs.0/@fields.3/@input"/>
+    <operatorLink href="l1q3p1.etlmetadataxmi#//@linkList.2"/>
   </elements>
-  <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLOperatorConnection" source="//@elements.1/@outputs.0" target="//@elements.2/@inputs.1">
-    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.1/@outputs.0/@fields.0/@output" target="//@elements.2/@inputs.1/@fields.0/@input"/>
-    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.1/@outputs.0/@fields.1/@output" target="//@elements.2/@inputs.1/@fields.1/@input"/>
-    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.1/@outputs.0/@fields.2/@output" target="//@elements.2/@inputs.1/@fields.2/@input"/>
-    <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLConnection" source="//@elements.1/@outputs.0/@fields.3/@output" target="//@elements.2/@inputs.1/@fields.3/@input"/>
-    <operatorLink href="l1q3p1.etlmetadataxmi#//@linkList.1"/>
+  <elements xsi:type="com.ibm.datatools.etl.dataflow.view:ETLOperator" x="725" y="241" height="-1" width="-1" type="http:///com/ibm/datatools/etl/dataflow/base.ui.oplib/Target/DBTargets/SQLInsert">
+    <inputs incomingConnection="//@elements.5">
+      <fields name="EMPID">
+        <input incomingConnection="//@elements.5/@elements.3"/>
+        <output type="OutputPort"/>
+      </fields>
+      <fields name="COMPID">
+        <input incomingConnection="//@elements.5/@elements.6"/>
+        <output type="OutputPort"/>
+      </fields>
+      <fields name="COMPANYNAME">
+        <input incomingConnection="//@elements.5/@elements.5"/>
+        <output type="OutputPort"/>
+      </fields>
+      <fields name="SALARY">
+        <input incomingConnection="//@elements.5/@elements.7"/>
+        <output type="OutputPort"/>
+      </fields>
+      <fields name="EMPID_1">
+        <input incomingConnection="//@elements.5/@elements.4"/>
+        <output type="OutputPort"/>
+      </fields>
+      <fields name="NAME">
+        <input incomingConnection="//@elements.5/@elements.0"/>
+        <output type="OutputPort"/>
+      </fields>
+      <fields name="STREET">
+        <input incomingConnection="//@elements.5/@elements.1"/>
+        <output type="OutputPort"/>
+      </fields>
+      <fields name="CITY">
+        <input incomingConnection="//@elements.5/@elements.2"/>
+        <output type="OutputPort"/>
+      </fields>
+      <operatorPort href="l1q3p1.etlmetadataxmi#//@operatorMap.3/@value/@inputPortMap.0/@value"/>
+    </inputs>
+    <outputs type="OutputPort">
+      <fields name="NAME">
+        <input/>
+        <output type="OutputPort"/>
+      </fields>
+      <operatorPort href="l1q3p1.etlmetadataxmi#//@operatorMap.3/@value/@outputPortMap.0/@value"/>
+    </outputs>
+    <operator href="l1q3p1.etlmetadataxmi#//@operatorMap.3/@value"/>
   </elements>
   <dataflow href="l1q3p1.etlmetadataxmi#/"/>
 </com.ibm.datatools.etl.dataflow.view:ETLFlow>

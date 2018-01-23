@@ -3,7 +3,7 @@
 	<section name="BasicNewProjectResourceWizard">
 	</section>
 	<section name="ResourceNavigator">
-		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
 		<item value="" key="ResourceWorkingSetFilter.STORE_WORKING_SET"/>
+		<item value="1" key="ResourceViewer.STORE_SORT_TYPE"/>
 	</section>
 </section>

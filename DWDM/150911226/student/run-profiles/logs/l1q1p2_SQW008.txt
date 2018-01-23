@@ -1,0 +1,35 @@
+ Data-Flows  Jan 19, 2018 9:29:06 AM   SQW03415I: Flow execution started for SQW008 (/student/data-flows/l1q1p2)
+ Data-Flows  Jan 19, 2018 9:29:06 AM   SQW38501I: Execution log file:  E:/150911226/student/run-profiles/logs/l1q1p2_SQW008.txt
+ Data-Flows  Jan 19, 2018 9:29:06 AM   SQW38509I: Execution temporary work directory:  E:/150911226/student/run-profiles/tmp\l1q1p2_SQW008
+ Data-Flows  Jan 19, 2018 9:29:09 AM   SQW03275I: Execution of SQL statement "SET CURRENT SCHEMA "IWSCHEMA91FB83_25"" through JDBC connection finished successfully
+ Data-Flows  Jan 19, 2018 9:29:09 AM   SQW03275I: Execution of SQL statement "DELETE FROM NAV226.L1Q1P2" through JDBC connection finished successfully
+ Data-Flows  Jan 19, 2018 9:29:09 AM   SQW03276E: Execution of SQL statement "INSERT INTO NAV226.L1Q1P2 (FNAME)
+  SELECT Q643.FNAME AS FNAME
+    FROM NAV226.FACT Q643, NAV226."fact" Q647, NAV226."class" Q651
+    WHERE (Q643.FID = Q647."fid") AND (Q647."fid" = Q651."fid") AND (Q651."room" = '313')
+    AND (Q643.FID = Q651."fid")" through JDBC connection failed. Exception: SQL Exception. SQL state = 42704; error code = -204; error Message = "NAV226.fact" is an undefined name.. SQLCODE=-204, SQLSTATE=42704, DRIVER=4.7.89SQL Exception. SQL state = 56098; error code = -727; error Message = An error occurred during implicit system action type "2". Information returned for the error includes SQLCODE "-204", SQLSTATE "42704" and message tokens "NAV226.fact".. SQLCODE=-727, SQLSTATE=56098, DRIVER=4.7.89SQL Exception. SQL state = 56098; error code = -727; error Message = An error occurred during implicit system action type "2". Information returned for the error includes SQLCODE "-204", SQLSTATE "42704" and message tokens "NAV226.fact".. SQLCODE=-727, SQLSTATE=56098, DRIVER=4.7.89
+ Data-Flows  Jan 19, 2018 9:29:09 AM   SQW03368I: Dumping variable values : 
+     ${INT-RES/RUN-ID} = 91FB83
+     ${RESERVED/APP_NAME} = l1q1p2
+     ${RESERVED/APP_PATH} = E:/150911226/student/run-profiles/rp91ee74/
+     ${RESERVED/CURRENT_TIMESTAMP} = 2018-01-19 09:29:09
+     ${RESERVED/DATE} = 2018-01-19
+     ${RESERVED/DAYNAME_SHORT} = Fri
+     ${RESERVED/DAYNAME} = Friday
+     ${RESERVED/DAY} = 19
+     ${RESERVED/INSTANCE_NAME} = SQW008
+     ${RESERVED/MISC_DIR} = E:/150911226\student\package-misc\
+     ${RESERVED/MONTHNAME_SHORT} = Jan
+     ${RESERVED/MONTHNAME} = January
+     ${RESERVED/MONTH} = 01
+     ${RESERVED/PROC_NAME} = l1q1p2
+     ${RESERVED/RUN_ID} = 91FB83
+     ${RESERVED/START_TIMESTAMP} = 2018-01-19 09:29:09
+     ${RESERVED/TIME} = 09:29:09
+     ${RESERVED/TMP_DIR} = E:/150911226/student/run-profiles/tmp\l1q1p2_SQW008
+     ${RESERVED/USER_DIR} = C:\Program Files\IBM\ISWarehouse\ds
+     ${RESERVED/USER_HOME} = C:\Users\student
+     ${RESERVED/USER_NAME} = student
+     ${RESERVED/YEAR} = 2018
+ Data-Flows  Jan 19, 2018 9:29:09 AM   SQW03408I: Flow execution finished for SQW008 (/student/data-flows/l1q1p2)
+ Data-Flows  Jan 19, 2018 9:29:09 AM   SQW38508I: Closing log file E:/150911226/student/run-profiles/logs/l1q1p2_SQW008.txt.
