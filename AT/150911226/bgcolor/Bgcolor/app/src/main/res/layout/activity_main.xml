@@ -20,7 +20,7 @@
         android:id="@+id/rg">
 
         <RadioButton
-            android:text="orange"
+            android:text="yellow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/ornage"
