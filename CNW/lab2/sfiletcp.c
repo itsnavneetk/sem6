@@ -5,17 +5,20 @@
 #include<sys/socket.h>
 #include<sys/types.h>
 #include<netinet/in.h>
-#define MAXSIZE 90
+#define max 100
 
 main()
 {
-int sockfd,newsockfd,retval;
-socklen_t actuallen;
-int recedbytes,sentbytes;
-struct sockaddr_in serveraddr,clientaddr;
+	int sockfd,newsockfd,k;
+	socklen_t actuallen;
+	int retval;
+	size_t leng;
+	char c;
+	int recedbytes,sentbytes;
+	struct sockaddr_in serveraddr,clientaddr;
+	char buff[max],temp[max];
+	int a=0;
 
-char buff[MAXSIZE];
-int a=0;
 sockfd=socket(AF_INET,SOCK_STREAM,0);
 
 if(sockfd==-1)
@@ -47,7 +50,7 @@ if(newsockfd==-1)
 {
 close(sockfd);
 }
-recedbytes=recv(newsockfd,buff,sizeof(buff),0);
+recedbytes=recv(newsockfd,temp,sizeof(temp),0);
 if(recedbytes==-1)
 {
 close(sockfd);
