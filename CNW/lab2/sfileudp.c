@@ -8,7 +8,7 @@
 #include<fcntl.h>
 #include<stdlib.h>
 #include<sys/stat.h>
-#define max 100
+#define max 50
 int main()
 {
 	int sockfd,newsockfd,k;
@@ -40,7 +40,8 @@ int main()
 	 	exit(0);
 	}
 	actuallen=sizeof(clientaddr);
-	retval=recvfrom(sockfd,temp,sizeof(temp),0,(struct sockaddr *)&clientaddr,&actuallen);
+
+		retval=recvfrom(sockfd,temp,sizeof(temp),0,(struct sockaddr *)&clientaddr,&actuallen);
 		puts(temp);
 		if(retval==-1)
 		{
@@ -49,9 +50,9 @@ int main()
 		}
 
 	FILE *fptr;
-	printf("Opening file :");
+	printf("Opening ");
 	puts(temp);
-	
+
 	 fptr = fopen(temp, "r");
 	    if (fptr == NULL)
 	    {
@@ -59,57 +60,30 @@ int main()
 		exit(0);
 	    }
 	    // Read contents from file
-	char content[100];
-        int ptr	= 0;	
 	    c = fgetc(fptr);
 	    while (c != EOF)
 	    {
 		printf ("%c", c);
-		content[ptr++] = c;
 		c = fgetc(fptr);
 	    }
-		content[ptr]='\0';
 	    fclose(fptr);
-	//sending file content to client
 
-	actuallen=sizeof(clientaddr);
-	retval=sendto(sockfd,content,sizeof(content),0,(struct sockaddr *)&clientaddr,actuallen);
-	/* if(retval==-1)
-	{
-		close(sockfd);
-		exit(0);
-	} */
-	//fetching operation choice
-	char tttt[100];
-	actuallen=sizeof(clientaddr);
-	retval=recvfrom(sockfd,tttt,sizeof(tttt),0,(struct sockaddr *)&clientaddr,&actuallen);
-		/*if(retval==-1)
-		{
-			close(sockfd);
-			exit(0);
-		}*/
-puts(tttt);
-	printf("\n %c", tttt[0]);
-printf("heyy");
-	switch(temp[0])
-	{
-	    case '1': 
-		printf("Search!");
-		break;
-	    case '2': 
-		printf("Replace!");
-		break;
-	    case '3': 
-		printf("Reorder!");
-		break;
-	    case '4': 
-		printf("Exit!");
-		close(sockfd);
-		exit(0);		
-		break;
-	    default: printf("Invalid");
-	}
+	printf("\n writing to file \n");
+	
+	
+	fptr = fopen(temp, "w");
+	   if(fptr == NULL)
+	   {
+	      printf("Error!");
+	      exit(1);
+	   }
+	   char sentence[1000];	 
+	   printf("\n Enter string \n");  
+	   gets(sentence);
 
+	   fprintf(fptr,"%s", sentence);
+	   fclose(fptr);
+		
 	close(sockfd);
 }
 

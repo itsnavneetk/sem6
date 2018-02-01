@@ -8,17 +8,19 @@
 #include<fcntl.h>
 #include<stdlib.h>
 #include<sys/stat.h>
-#define max 100
+#define max 50
 int main()
 {
 	int sockfd,retval,newsockfd,k=0;
 	socklen_t actuallen;
 	char c;
+	char temp[3];
 	size_t leng;
 	FILE *fp;
 	int recedbytes,sentbytes;
 	struct sockaddr_in serveraddr,clientaddr;
 	char buff[max];
+	char temp1[max];
 	sockfd=socket(AF_INET,SOCK_DGRAM,0);
 	if(sockfd==-1)
 	{
@@ -40,38 +42,43 @@ int main()
 	}
 	printf("Files in current directory :\n");
 	system("ls");
-	printf("\nEnter file name ");		
+	printf("\n Enter file name ");		
 	gets(buff);
 	actuallen=sizeof(serveraddr);
+	
 		retval=sendto(sockfd,buff,sizeof(buff),0,(struct sockaddr *)&serveraddr,actuallen);
 		if(retval==-1)
 		{
 			close(sockfd);
 			exit(0);
 		}
-		//receiving file content
-	actuallen=sizeof(serveraddr);
+		actuallen=sizeof(serveraddr);
 		retval=recvfrom(sockfd,buff,sizeof(buff),0,(struct sockaddr *)&serveraddr,&actuallen);
+	
 		puts(buff);
-
+		//printf("%c ",c);
 		if(retval==-1)
 		{
 			close(sockfd);
 			exit(0);
 		}
+	
 
-	printf("*******File Operations******\n");
-	printf("1. Search 2. Replace 3. Reorder 4. exit\n");
-	char operation[100];
-	scanf("%c", &operation[0]);
-	actuallen=sizeof(serveraddr);
-	retval=sendto(sockfd,operation,sizeof(operation),0,(struct sockaddr *)&clientaddr,actuallen);
-	if(retval==-1)
+
+	
+	
+	/*if(strcmp(buff,temp)!=0)
 	{
-		close(sockfd);
-		exit(0);
+		fp=fopen(buff,"r");
+		while((c = fgetc(fp))!=EOF)
+			buff[k++]=c;
+		puts(buff);
+		fclose(fp);
+		
 	}
-	printf("End of program");
+	else
+		puts("not found");*/
+
 	close(sockfd);
 }
 
