@@ -1,0 +1,34 @@
+ Control-Flows  Feb 2, 2018 10:15:46 AM   SQW03415I: Flow execution started for SQW013 (/student/control-flows/l3q2e)
+ Control-Flows  Feb 2, 2018 10:15:46 AM   SQW38501I: Execution log file:  E:/150911226/student/run-profiles/logs/l3q2e_SQW013.txt
+ Control-Flows  Feb 2, 2018 10:15:46 AM   SQW38509I: Execution temporary work directory:  E:/150911226/student/run-profiles/tmp\l3q2e_SQW013
+ Control-Flows  Feb 2, 2018 10:15:49 AM   SQW03202I: Start of task: Parallel_Container_02
+ Control-Flows  Feb 2, 2018 10:15:49 AM   SQW030813I: Starting execution for parallel activity Parallel_Container_02.
+ Control-Flows  Feb 2, 2018 10:15:50 AM   SQW03275I: Execution of SQL statement "SET CURRENT SCHEMA "IWSCHEMAD5BE49_72"" through JDBC connection finished successfully
+ Control-Flows  Feb 2, 2018 10:15:50 AM   SQW03276E: Execution of SQL statement "DELETE FROM EMP226."l3pe"" through JDBC connection failed. Exception: SQL Exception. SQL state = 42704; error code = -204; error Message = "EMP226.l3pe" is an undefined name.. SQLCODE=-204, SQLSTATE=42704, DRIVER=4.7.89SQL Exception. SQL state = 56098; error code = -727; error Message = An error occurred during implicit system action type "2". Information returned for the error includes SQLCODE "-204", SQLSTATE "42704" and message tokens "EMP226.l3pe".. SQLCODE=-727, SQLSTATE=56098, DRIVER=4.7.89SQL Exception. SQL state = 56098; error code = -727; error Message = An error occurred during implicit system action type "2". Information returned for the error includes SQLCODE "-204", SQLSTATE "42704" and message tokens "EMP226.l3pe".. SQLCODE=-727, SQLSTATE=56098, DRIVER=4.7.89
+ Control-Flows  Feb 2, 2018 10:15:50 AM   SQW03203E: EPGBlockPseudoTask <Data_Flow_02_0> task failed
+ Control-Flows  Feb 2, 2018 10:15:50 AM   SQW030814I: Parallel activity Parallel_Container_02 execution status - FAILURE.
+ Control-Flows  Feb 2, 2018 10:15:50 AM   SQW03368I: Dumping variable values : 
+     ${INT-RES/RUN-ID} = D5BE49
+     ${RESERVED/APP_NAME} = l3q2e
+     ${RESERVED/APP_PATH} = E:/150911226/student/run-profiles/rpd5b09d/
+     ${RESERVED/CURRENT_TIMESTAMP} = 2018-02-02 10:15:49
+     ${RESERVED/DATE} = 2018-02-02
+     ${RESERVED/DAYNAME_SHORT} = Fri
+     ${RESERVED/DAYNAME} = Friday
+     ${RESERVED/DAY} = 02
+     ${RESERVED/INSTANCE_NAME} = SQW013
+     ${RESERVED/MISC_DIR} = E:/150911226\student\package-misc\
+     ${RESERVED/MONTHNAME_SHORT} = Feb
+     ${RESERVED/MONTHNAME} = February
+     ${RESERVED/MONTH} = 02
+     ${RESERVED/PROC_NAME} = l3q2e
+     ${RESERVED/RUN_ID} = D5BE49
+     ${RESERVED/START_TIMESTAMP} = 2018-02-02 10:15:49
+     ${RESERVED/TIME} = 10:15:49
+     ${RESERVED/TMP_DIR} = E:/150911226/student/run-profiles/tmp\l3q2e_SQW013
+     ${RESERVED/USER_DIR} = C:\Program Files\IBM\ISWarehouse\ds
+     ${RESERVED/USER_HOME} = C:\Users\student
+     ${RESERVED/USER_NAME} = student
+     ${RESERVED/YEAR} = 2018
+ Control-Flows  Feb 2, 2018 10:15:50 AM   SQW03408I: Flow execution finished for SQW013 (/student/control-flows/l3q2e)
+ Control-Flows  Feb 2, 2018 10:15:50 AM   SQW38508I: Closing log file E:/150911226/student/run-profiles/logs/l3q2e_SQW013.txt.

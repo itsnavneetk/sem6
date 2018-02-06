@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<srcmgt:SourceMgr xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:srcmgt="com.ibm.datatools.dwe.srcmgt.nsuri" saveLocation="student/generated-code/.inc.bld/mgr" genId="15">
+<srcmgt:SourceMgr xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:srcmgt="com.ibm.datatools.dwe.srcmgt.nsuri" saveLocation="student/generated-code/.inc.bld/mgr" genId="26">
   <sourceMap key="/student/data-flows/l1q1.etlmetadataxmi">
     <value href="mgr_se_1#/"/>
   </sourceMap>
@@ -44,5 +44,38 @@
   </sourceMap>
   <sourceMap key="/student/data-flows/l1q3p4.etlmetadataxmi">
     <value href="mgr_se_15#/"/>
+  </sourceMap>
+  <sourceMap key="/student/control-flows/l3example.cflowxmi">
+    <value href="mgr_se_16#/"/>
+  </sourceMap>
+  <sourceMap key="/student/control-flows/l3q1a.cflowxmi">
+    <value href="mgr_se_17#/"/>
+  </sourceMap>
+  <sourceMap key="/student/control-flows/l3q1b.cflowxmi">
+    <value href="mgr_se_18#/"/>
+  </sourceMap>
+  <sourceMap key="/student/data-flows/l3q2d.etlmetadataxmi">
+    <value href="mgr_se_19#/"/>
+  </sourceMap>
+  <sourceMap key="/student/data-flows/l3q2e.etlmetadataxmi">
+    <value href="mgr_se_20#/"/>
+  </sourceMap>
+  <sourceMap key="/student/control-flows/l3q2e.cflowxmi">
+    <value href="mgr_se_21#/"/>
+  </sourceMap>
+  <sourceMap key="/student/data-flows/l3q2f.etlmetadataxmi">
+    <value href="mgr_se_22#/"/>
+  </sourceMap>
+  <sourceMap key="/student/control-flows/l3q2f.cflowxmi">
+    <value href="mgr_se_23#/"/>
+  </sourceMap>
+  <sourceMap key="/student/data-flows/l3q2g.etlmetadataxmi">
+    <value href="mgr_se_24#/"/>
+  </sourceMap>
+  <sourceMap key="/student/data-flows/evalp1.etlmetadataxmi">
+    <value href="mgr_se_25#/"/>
+  </sourceMap>
+  <sourceMap key="/student/data-flows/evalp2.etlmetadataxmi">
+    <value href="mgr_se_26#/"/>
   </sourceMap>
 </srcmgt:SourceMgr>

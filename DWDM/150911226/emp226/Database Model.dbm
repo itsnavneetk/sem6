@@ -2,7 +2,7 @@
 <!--xtools2_universal_type_manager-->
 <xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/7.5.2.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DB2Model="http:///com/ibm/db/models/db2/db2.ecore" xmlns:LUW="http:///com/ibm/db/models/db2/luw.ecore" xmlns:SQLConstraints="http:///org/eclipse/datatools/modelbase/sql/constraints.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore" xmlns:datanotation="http:///datanotation.ecore">
   <LUW:LUWDatabase xmi:id="_h5RFsPddEeeQx_Cn4GgJTA" name="Database" vendor="DB2 UDB" version="V9.7" schemas="_h7WwYPddEeeQx_Cn4GgJTA"/>
-  <DB2Model:DB2Schema xmi:id="_h7WwYPddEeeQx_Cn4GgJTA" name="emp226" tables="_rdSZoPddEeeQx_Cn4GgJTA _tbNe4PddEeeQx_Cn4GgJTA _u3J4cPddEeeQx_Cn4GgJTA _vxRXUPddEeeQx_Cn4GgJTA _uFcpcPqkEeevH-0jVAWGpA _PSW6QPqlEeevH-0jVAWGpA _J0rUIPqmEeevH-0jVAWGpA _SdNQMPqmEeevH-0jVAWGpA _xhmjEPqrEeevH-0jVAWGpA _ykNPkPqrEeevH-0jVAWGpA" database="_h5RFsPddEeeQx_Cn4GgJTA">
+  <DB2Model:DB2Schema xmi:id="_h7WwYPddEeeQx_Cn4GgJTA" name="emp226" tables="_rdSZoPddEeeQx_Cn4GgJTA _tbNe4PddEeeQx_Cn4GgJTA _u3J4cPddEeeQx_Cn4GgJTA _vxRXUPddEeeQx_Cn4GgJTA _uFcpcPqkEeevH-0jVAWGpA _PSW6QPqlEeevH-0jVAWGpA _J0rUIPqmEeevH-0jVAWGpA _SdNQMPqmEeevH-0jVAWGpA _xhmjEPqrEeevH-0jVAWGpA _ykNPkPqrEeevH-0jVAWGpA __-j7AAfUEei9h95Ks27A9w _CRpX8AfVEei9h95Ks27A9w _DTgdkAfVEei9h95Ks27A9w" database="_h5RFsPddEeeQx_Cn4GgJTA">
     <eAnnotations xmi:id="_h7WwYfddEeeQx_Cn4GgJTA" source="diagram">
       <contents xsi:type="datanotation:DataDiagram" xmi:id="_h7WwYvddEeeQx_Cn4GgJTA" type="IE_CrowFoot" name="Diagram1" viewKind="ProjectExplorer" notation="IE_CrowFoot" kind="Physical">
         <styles xsi:type="datanotation:DataAttributeStyle" xmi:id="_h7WwY_ddEeeQx_Cn4GgJTA"/>
@@ -121,4 +121,19 @@
   </LUW:LUWTable>
   <LUW:LUWTable xmi:id="_xhmjEPqrEeevH-0jVAWGpA" name="l1p1" schema="_h7WwYPddEeeQx_Cn4GgJTA"/>
   <LUW:LUWTable xmi:id="_ykNPkPqrEeevH-0jVAWGpA" name="l1p2" schema="_h7WwYPddEeeQx_Cn4GgJTA"/>
+  <LUW:LUWTable xmi:id="__-j7AAfUEei9h95Ks27A9w" name="l3q2e" schema="_h7WwYPddEeeQx_Cn4GgJTA">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_B2hiMAfVEei9h95Ks27A9w" name="empID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_B2hiMQfVEei9h95Ks27A9w" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_CRpX8AfVEei9h95Ks27A9w" name="l3q2f" schema="_h7WwYPddEeeQx_Cn4GgJTA">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_Ee6gwAfVEei9h95Ks27A9w" name="empID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_Ee6gwQfVEei9h95Ks27A9w" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_DTgdkAfVEei9h95Ks27A9w" name="l3q2g" schema="_h7WwYPddEeeQx_Cn4GgJTA">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_ErSI0AfVEei9h95Ks27A9w" name="empID" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_ErSI0QfVEei9h95Ks27A9w" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+  </LUW:LUWTable>
 </xmi:XMI>

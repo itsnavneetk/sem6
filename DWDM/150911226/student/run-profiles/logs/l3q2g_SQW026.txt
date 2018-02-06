@@ -1,0 +1,41 @@
+ Data-Flows  Feb 2, 2018 10:40:55 AM   SQW03415I: Flow execution started for SQW026 (/student/data-flows/l3q2g)
+ Data-Flows  Feb 2, 2018 10:40:55 AM   SQW38501I: Execution log file:  E:/150911226/student/run-profiles/logs/l3q2g_SQW026.txt
+ Data-Flows  Feb 2, 2018 10:40:55 AM   SQW38509I: Execution temporary work directory:  E:/150911226/student/run-profiles/tmp\l3q2g_SQW026
+ Data-Flows  Feb 2, 2018 10:40:57 AM   SQW03275I: Execution of SQL statement "SET CURRENT SCHEMA "IWSCHEMAECC0E2_d2"" through JDBC connection finished successfully
+ Data-Flows  Feb 2, 2018 10:40:57 AM   SQW03275I: Execution of SQL statement "CREATE VIEW INPUT_02_0(
+  EMPID, 
+  COMPID, 
+  COMPANYNAME, 
+  SALARY
+) AS 
+SELECT Q148.EMPID AS EMPID, Q148.COMPID AS COMPID, Q148.COMPANYNAME AS COMPANYNAME,
+       Q148.SALARY AS SALARY
+  FROM EMP226.WORKS Q148" through JDBC connection finished successfully
+ Data-Flows  Feb 2, 2018 10:40:57 AM   SQW03275I: Execution of SQL statement "DELETE FROM EMP226.L3Q2G" through JDBC connection finished successfully
+ Data-Flows  Feb 2, 2018 10:40:57 AM   SQW03276E: Execution of SQL statement "INSERT INTO EMP226.L3Q2G(EMPID) SELECT Q244.EMPID AS EMPID FROM  ( SELECT "INPUT_02_0"."EMPID"  AS "EMPID", "INPUT_02_0"."COMPANYNAME"  AS "COMPANYNAME", "INPUT_02_0"."SALARY"  AS "SALARY", "INPUT_02_0"."COMPID"  AS "COMPID"  FROM  "INPUT_02_0"  GROUP BY "INPUT_02_0"."COMPANYNAME")  Q244" through JDBC connection failed. Exception: SQL Exception. SQL state = 42803; error code = -119; error Message = An expression starting with "COMPID" specified in a SELECT clause, HAVING clause, or ORDER BY clause is not specified in the GROUP BY clause or it is in a SELECT clause, HAVING clause, or ORDER BY clause with a column function and no GROUP BY clause is specified.. SQLCODE=-119, SQLSTATE=42803, DRIVER=4.7.89SQL Exception. SQL state = 56098; error code = -727; error Message = An error occurred during implicit system action type "2". Information returned for the error includes SQLCODE "-119", SQLSTATE "42803" and message tokens "COMPID".. SQLCODE=-727, SQLSTATE=56098, DRIVER=4.7.89SQL Exception. SQL state = 56098; error code = -727; error Message = An error occurred during implicit system action type "2". Information returned for the error includes SQLCODE "-119", SQLSTATE "42803" and message tokens "COMPID".. SQLCODE=-727, SQLSTATE=56098, DRIVER=4.7.89
+ Data-Flows  Feb 2, 2018 10:40:57 AM   SQW03275I: Execution of SQL statement "DROP VIEW INPUT_02_0" through JDBC connection finished successfully
+ Data-Flows  Feb 2, 2018 10:40:58 AM   SQW03368I: Dumping variable values : 
+     ${INT-RES/RUN-ID} = ECC0E2
+     ${RESERVED/APP_NAME} = l3q2g
+     ${RESERVED/APP_PATH} = E:/150911226/student/run-profiles/rpecb420/
+     ${RESERVED/CURRENT_TIMESTAMP} = 2018-02-02 10:40:57
+     ${RESERVED/DATE} = 2018-02-02
+     ${RESERVED/DAYNAME_SHORT} = Fri
+     ${RESERVED/DAYNAME} = Friday
+     ${RESERVED/DAY} = 02
+     ${RESERVED/INSTANCE_NAME} = SQW026
+     ${RESERVED/MISC_DIR} = E:/150911226\student\package-misc\
+     ${RESERVED/MONTHNAME_SHORT} = Feb
+     ${RESERVED/MONTHNAME} = February
+     ${RESERVED/MONTH} = 02
+     ${RESERVED/PROC_NAME} = l3q2g
+     ${RESERVED/RUN_ID} = ECC0E2
+     ${RESERVED/START_TIMESTAMP} = 2018-02-02 10:40:57
+     ${RESERVED/TIME} = 10:40:57
+     ${RESERVED/TMP_DIR} = E:/150911226/student/run-profiles/tmp\l3q2g_SQW026
+     ${RESERVED/USER_DIR} = C:\Program Files\IBM\ISWarehouse\ds
+     ${RESERVED/USER_HOME} = C:\Users\student
+     ${RESERVED/USER_NAME} = student
+     ${RESERVED/YEAR} = 2018
+ Data-Flows  Feb 2, 2018 10:40:58 AM   SQW03408I: Flow execution finished for SQW026 (/student/data-flows/l3q2g)
+ Data-Flows  Feb 2, 2018 10:40:58 AM   SQW38508I: Closing log file E:/150911226/student/run-profiles/logs/l3q2g_SQW026.txt.

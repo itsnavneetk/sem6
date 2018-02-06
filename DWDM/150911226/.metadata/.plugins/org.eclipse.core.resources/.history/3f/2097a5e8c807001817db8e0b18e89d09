@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<srcmgt:SourceElement xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:srcmgt="com.ibm.datatools.dwe.srcmgt.nsuri" saveLocation="student/generated-code/.inc.bld/mgr_se_16" genId="16" location="/student/control-flows/l3example.cflowxmi" syncTimeStamp="1517541414056">
+  <actionMap key="val">
+    <value actionType="val" syncTimeStamp="1517541414056" lastStatus="SUCCESS">
+      <sourceActionInfo>
+        <resultEObjectsMap key="valMsg">
+          <value saveLocation="student/generated-code/.inc.bld/mgr_se_16_sa_val_valMsg"/>
+        </resultEObjectsMap>
+      </sourceActionInfo>
+    </value>
+  </actionMap>
+</srcmgt:SourceElement>

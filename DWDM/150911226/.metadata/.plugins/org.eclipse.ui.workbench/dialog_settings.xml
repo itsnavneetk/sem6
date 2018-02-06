@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="NewWizardAction">
+		<item value="com.ibm.datatools.etl.dataflow.wizard.new.dataflow" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.wst.rdb"/>
+			<item value="com.ibm.datatools.dwh.project.ui.dwh_category"/>
+			<item value="com.ibm.datatools.dwh.project.ui.dwh_category/examples"/>
+			<item value="org.eclipse.ui.Examples"/>
+			<item value="org.eclipse.ui.Examples/dwh_samples"/>
+		</list>
 	</section>
 	<section name="ImportExportAction">
 	</section>

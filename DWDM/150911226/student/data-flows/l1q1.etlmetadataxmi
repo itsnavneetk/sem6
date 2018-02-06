@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dynOpr:DefaultDataFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:LUW="http:///com/ibm/db/models/db2/luw.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore" xmlns:com.ibm.datatools.etl.coretypes="http:///com/ibm/datatools/etl/coretypes.ecore" xmlns:dynOpr="dyn:///com/ibm/datatools/etl/core.oplib" xsi:schemaLocation="http:///com/ibm/db/models/db2/luw.ecore http:///com/ibm/db/models/db2/db2.ecore#//luw dyn:///com/ibm/datatools/etl/core.oplib file:/E:/150911226/.metadata/.plugins/com.ibm.datatools.etl.dataflow.core/reg_cache.oplibpkg" iD="0" definitionID="DefaultDataFlow" itemName="l1q1" itemTag="" version="2.2.1" lastAssignedID="83" externalReferences="//@operatorMap.0/@value/@rdbTable //@operatorMap.1/@value/@rdbTable //@operatorMap.2/@value/@rdbTable //@operatorMap.6/@value/@rdbTable">
+<dynOpr:DefaultDataFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:LUW="http:///com/ibm/db/models/db2/luw.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore" xmlns:com.ibm.datatools.etl.coretypes="http:///com/ibm/datatools/etl/coretypes.ecore" xmlns:dynOpr="dyn:///com/ibm/datatools/etl/core.oplib" xsi:schemaLocation="http:///com/ibm/db/models/db2/luw.ecore http:///com/ibm/db/models/db2/db2.ecore#//luw dyn:///com/ibm/datatools/etl/core.oplib file:/E:/150911226/.metadata/.plugins/com.ibm.datatools.etl.dataflow.core/reg_cache.oplibpkg" iD="0" definitionID="DefaultDataFlow" itemName="l1q1" itemTag="" version="2.2.1" lastAssignedID="85" externalReferences="//@operatorMap.0/@value/@rdbTable //@operatorMap.1/@value/@rdbTable //@operatorMap.2/@value/@rdbTable //@operatorMap.6/@value/@rdbTable">
   <operatorMap key="08">
     <value xsi:type="dynOpr:http:///com/ibm/datatools/etl/dataflow/core.oplib/Extract/DBSources/TableExtract" iD="08" definitionID="http:///com/ibm/datatools/etl/dataflow/core.oplib/Extract/DBSources/TableSelect" itemName="TableExtract" itemTag="/op:08" itemLabel="ENROLL" version="2.2.1" compositeDefID="http:///com/ibm/datatools/etl/dataflow/core.oplib/Extract/DBSources/TableExtract" sourceVirtualTable="//@operatorMap.0/@value/@rdbTable/@result">
       <outputPortMap key="output">
@@ -1483,14 +1483,14 @@
       <validationRigor iD="39" itemName="validationRigor" itemTag="/op:079/prop:validationRigor" hidden="true"/>
     </value>
   </operatorMap>
-  <operatorMap key="082">
-    <value xsi:type="dynOpr:http:///com/ibm/datatools/etl/dataflow/base.ui.oplib/Target/DBTargets/TableTarget" iD="082" definitionID="http:///com/ibm/datatools/etl/dataflow/base.ui.oplib/Target/DBTargets/SQLInsert" itemName="TableTarget" itemTag="/op:082" itemLabel="Insert : TEMP" version="2.2.1" compositeDefID="http:///com/ibm/datatools/etl/dataflow/base.ui.oplib/Target/DBTargets/TableTarget">
+  <operatorMap key="084">
+    <value xsi:type="dynOpr:http:///com/ibm/datatools/etl/dataflow/base.ui.oplib/Target/DBTargets/TableTarget" iD="084" definitionID="http:///com/ibm/datatools/etl/dataflow/base.ui.oplib/Target/DBTargets/SQLInsert" itemName="TableTarget" itemTag="/op:084" itemLabel="Insert : TEMP" version="2.2.1" compositeDefID="http:///com/ibm/datatools/etl/dataflow/base.ui.oplib/Target/DBTargets/TableTarget">
       <inputPortMap key="input">
-        <value xsi:type="dynOpr:http:///com/ibm/datatools/etl/dataflow/base.ui.oplib/Target/DBTargets/TableTarget::input::input" iD="0" definitionID="http:///com/ibm/datatools/etl/dataflow/base.ui.oplib/Target/DBTargets/SQLInsert::input::input" itemName="input" itemTag="/op:082/input:input:0" itemLabel="input" version="2.2.1" lastAsssignedID="0" delPortEnabled="false" schema="//@operatorMap.6/@value/@inputPortMap.0/@value/@ownedSchema" fromLink="//@linkList.5">
+        <value xsi:type="dynOpr:http:///com/ibm/datatools/etl/dataflow/base.ui.oplib/Target/DBTargets/TableTarget::input::input" iD="0" definitionID="http:///com/ibm/datatools/etl/dataflow/base.ui.oplib/Target/DBTargets/SQLInsert::input::input" itemName="input" itemTag="/op:084/input:input:0" itemLabel="input" version="2.2.1" lastAsssignedID="0" delPortEnabled="false" schema="//@operatorMap.6/@value/@inputPortMap.0/@value/@ownedSchema" fromLink="//@linkList.5">
           <changeParamTable key="/op:079/output:result:0,LINK">
             <value xsi:type="com.ibm.datatools.etl.coretypes:VTParamEntry" paramID="/op:079/output:result:0" paramName="result" paramType="output" paramUsage="LINK" subParamID="0" sortIdx="-1" paramValue="//@operatorMap.5/@value/@outputPortMap.0/@value" paramParent="//@operatorMap.5/@value" paramVirtualTable="//@operatorMap.5/@value/@outputPortMap.0/@value/@ownedSchema"/>
           </changeParamTable>
-          <ownedSchema iD="INPUT_082_0" itemTag="/op:082/input:input:0" name="INPUT_082_0">
+          <ownedSchema iD="INPUT_084_0" itemTag="/op:084/input:input:0" name="INPUT_084_0">
             <columns xsi:type="com.ibm.datatools.etl.coretypes:VirtualColumn" itemLabel="SNUM" name="SNUM" virtualType="INTEGER">
               <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
               <sourceRef kind="COLUMN" srcRef="//@operatorMap.5/@value/@outputPortMap.0/@value/@ownedSchema/@columns.0"/>
@@ -1557,12 +1557,12 @@
         </value>
       </inputPortMap>
       <outputPortMap key="target">
-        <value xsi:type="dynOpr:http:///com/ibm/datatools/etl/dataflow/base.ui.oplib/Target/DBTargets/TableTarget::output::target" iD="0" definitionID="http:///com/ibm/datatools/etl/dataflow/base.ui.oplib/Target/DBTargets/SQLInsert::output::target" itemName="target" itemTag="/op:082/output:target:0" itemLabel="TEMP" editable="false" version="2.2.1" lastAsssignedID="0" delPortEnabled="false" mappable="false" schema="//@operatorMap.6/@value/@columnExpressions/@result">
+        <value xsi:type="dynOpr:http:///com/ibm/datatools/etl/dataflow/base.ui.oplib/Target/DBTargets/TableTarget::output::target" iD="0" definitionID="http:///com/ibm/datatools/etl/dataflow/base.ui.oplib/Target/DBTargets/SQLInsert::output::target" itemName="target" itemTag="/op:084/output:target:0" itemLabel="TEMP" editable="false" version="2.2.1" lastAsssignedID="0" delPortEnabled="false" mappable="false" schema="//@operatorMap.6/@value/@columnExpressions/@result">
           <changeParamTable key="/prop:columnExpressions">
             <value xsi:type="com.ibm.datatools.etl.coretypes:VTParamEntry" paramID="/prop:columnExpressions" paramName="columnExpressions" paramType="property" subParamID="49" sortIdx="-1" paramValue="//@operatorMap.6/@value/@columnExpressions" paramParent="//@operatorMap.6/@value" paramVirtualTable="//@operatorMap.6/@value/@columnExpressions/@result"/>
           </changeParamTable>
           <stagingInfoList type="NONE"/>
-          <targetOutPutLabel iD="35" itemName="targetOutPutLabel" itemTag="/op:082/output:target:0/prop:targetOutPutLabel" hidden="true" itemType="ConcatString" stringVal="TEMP" defaultVal="">
+          <targetOutPutLabel iD="35" itemName="targetOutPutLabel" itemTag="/op:084/output:target:0/prop:targetOutPutLabel" hidden="true" itemType="ConcatString" stringVal="TEMP" defaultVal="">
             <changeParamTable key="/prop:rdbTable,concat">
               <value xsi:type="com.ibm.datatools.etl.coretypes:VTParamEntry" paramID="/prop:rdbTable" paramName="rdbTable" paramType="property" paramUsage="concat" subParamID="47" sortIdx="-1" paramValue="//@operatorMap.6/@value/@rdbTable" paramParent="//@operatorMap.6/@value" paramVirtualTable="//@operatorMap.6/@value/@rdbTable/@result"/>
             </changeParamTable>
@@ -1570,11 +1570,11 @@
           </targetOutPutLabel>
         </value>
       </outputPortMap>
-      <tableOperation iD="25" itemName="tableOperation" itemTag="/op:082/prop:tableOperation" hidden="true" itemType="TargetTableOperationType"/>
-      <NOT_LOG_INITIALLY iD="26" itemName="NOT_LOG_INITIALLY" itemTag="/op:082/prop:NOT_LOG_INITIALLY" hidden="true" itemType="boolean"/>
-      <preExecTableClean iD="27" itemName="preExecTableClean" itemTag="/op:082/prop:preExecTableClean" hidden="true" itemType="tableCleaningOptionsWithDrop" containedEnum="DELETE"/>
-      <commitInterval iD="28" itemName="commitInterval" itemTag="/op:082/prop:commitInterval" hidden="true" itemType="DynamicInteger"/>
-      <insertMap iD="29" itemName="insertMap" itemTag="/op:082/prop:insertMap" hidden="true" itemType="MapExpression">
+      <tableOperation iD="25" itemName="tableOperation" itemTag="/op:084/prop:tableOperation" hidden="true" itemType="TargetTableOperationType"/>
+      <NOT_LOG_INITIALLY iD="26" itemName="NOT_LOG_INITIALLY" itemTag="/op:084/prop:NOT_LOG_INITIALLY" hidden="true" itemType="boolean"/>
+      <preExecTableClean iD="27" itemName="preExecTableClean" itemTag="/op:084/prop:preExecTableClean" hidden="true" itemType="tableCleaningOptionsWithDrop" containedEnum="DELETE"/>
+      <commitInterval iD="28" itemName="commitInterval" itemTag="/op:084/prop:commitInterval" hidden="true" itemType="DynamicInteger"/>
+      <insertMap iD="29" itemName="insertMap" itemTag="/op:084/prop:insertMap" hidden="true" itemType="MapExpression">
         <changeParamTable key="/input:input:0,mapFrom">
           <value xsi:type="com.ibm.datatools.etl.coretypes:VTParamEntry" paramID="/input:input:0" paramName="input" paramType="input" paramUsage="mapFrom" subParamID="0" sortIdx="-1" paramValue="//@operatorMap.6/@value/@inputPortMap.0/@value" paramParent="//@operatorMap.6/@value" paramVirtualTable="//@operatorMap.6/@value/@inputPortMap.0/@value/@ownedSchema"/>
         </changeParamTable>
@@ -1588,17 +1588,21 @@
         <optionsMap key="mapFromExclusiveAssignment" value="false"/>
         <optionsMap key="allowMapToExpressions" value="true"/>
         <optionsMap key="allowReOrderMapToColumns" value="false"/>
-        <result iD="INSERTMAP_082" itemTag="/op:082/prop:insertMap" name="INSERTMAP_082">
+        <result iD="INSERTMAP_084" itemTag="/op:084/prop:insertMap" name="INSERTMAP_084">
           <columns xsi:type="com.ibm.datatools.etl.coretypes:VirtualColumn" itemLabel="SNUM" name="SNUM" nullable="false" virtualType="INTEGER">
             <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
             <sourceRef kind="COLUMN" srcRef="//@operatorMap.6/@value/@inputPortMap.0/@value/@ownedSchema/@columns.0"/>
           </columns>
+          <columns xsi:type="com.ibm.datatools.etl.coretypes:VirtualColumn" itemLabel="SNAME" name="SNAME" virtualType="CHAR">
+            <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="CHAR" length="15"/>
+            <sourceRef kind="COLUMN" srcRef="//@operatorMap.6/@value/@inputPortMap.0/@value/@ownedSchema/@columns.1"/>
+          </columns>
         </result>
-        <mapFromTableList iD="INPUT_082_0" itemTag="/input:input:0" itemLabel="input" name="INPUT_082_0">
+        <mapFromTableList iD="INPUT_084_0" itemTag="/input:input:0" itemLabel="input" name="INPUT_084_0">
           <columns xsi:type="com.ibm.datatools.etl.coretypes:Expression" itemLabel="SNUM" name="SNUM" virtualType="INTEGER" mappedToColList="//@operatorMap.6/@value/@insertMap/@mapToTableList.0/@columns.0">
             <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
           </columns>
-          <columns xsi:type="com.ibm.datatools.etl.coretypes:Expression" itemLabel="SNAME" name="SNAME" virtualType="CHAR">
+          <columns xsi:type="com.ibm.datatools.etl.coretypes:Expression" itemLabel="SNAME" name="SNAME" virtualType="CHAR" mappedToColList="//@operatorMap.6/@value/@insertMap/@mapToTableList.0/@columns.1">
             <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="CHAR" length="15"/>
           </columns>
           <columns xsi:type="com.ibm.datatools.etl.coretypes:Expression" itemLabel="DEPTID" name="DEPTID" virtualType="INTEGER">
@@ -1643,9 +1647,13 @@
           <partitionInfo type=""/>
         </mapFromTableList>
         <mapToTableList iD="TEMP" itemTag="/prop:rdbTable" itemLabel="Modified Table" name="TEMP">
-          <columns xsi:type="com.ibm.datatools.etl.coretypes:Expression" itemLabel="SNUM" name="SNUM" nullable="false" virtualType="INTEGER" value="&quot;INPUT_082_0&quot;.&quot;SNUM&quot;">
+          <columns xsi:type="com.ibm.datatools.etl.coretypes:Expression" itemLabel="SNUM" name="SNUM" nullable="false" virtualType="INTEGER" value="&quot;INPUT_084_0&quot;.&quot;SNUM&quot;">
             <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
             <sourceRef kind="EXPRESSION" srcRef="//@operatorMap.6/@value/@insertMap/@mapFromTableList.0/@columns.0"/>
+          </columns>
+          <columns xsi:type="com.ibm.datatools.etl.coretypes:Expression" itemLabel="SNAME" name="SNAME" virtualType="CHAR" value="&quot;INPUT_084_0&quot;.&quot;SNAME&quot;">
+            <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="CHAR" length="15"/>
+            <sourceRef kind="EXPRESSION" srcRef="//@operatorMap.6/@value/@insertMap/@mapFromTableList.0/@columns.1"/>
           </columns>
           <dbSchema xsi:type="dynOpr:EString" itemName="schemaName" itemLabel="Schema name:" itemType="SchemaName" EString="NAV226">
             <instanceParams key="itemDescription">
@@ -1655,21 +1663,21 @@
           <partitionInfo type=""/>
         </mapToTableList>
       </insertMap>
-      <createTableCodeOptions iD="30" itemName="createTableCodeOptions" itemTag="/op:082/prop:createTableCodeOptions" enabled="false" hidden="true" itemType="CodeOptions"/>
-      <createTableSysCode iD="31" itemName="createTableSysCode" itemTag="/op:082/prop:createTableSysCode" enabled="false" hidden="true"/>
-      <createTableUserCode iD="32" itemName="createTableUserCode" itemTag="/op:082/prop:createTableUserCode" enabled="false" hidden="true"/>
-      <createTableResetButton iD="33" itemName="createTableResetButton" itemTag="/op:082/prop:createTableResetButton" enabled="false" hidden="true" itemType="ButtonString"/>
-      <runReorg iD="34" itemName="runReorg" itemTag="/op:082/prop:runReorg" hidden="true" itemType="DynamicBoolean"/>
-      <reorgCodeOptions iD="35" itemName="reorgCodeOptions" itemTag="/op:082/prop:reorgCodeOptions" enabled="false" hidden="true" itemType="CodeOptions"/>
-      <reorgSysCode iD="36" itemName="reorgSysCode" itemTag="/op:082/prop:reorgSysCode" enabled="false" hidden="true"/>
-      <reorgUserCode iD="37" itemName="reorgUserCode" itemTag="/op:082/prop:reorgUserCode" enabled="false" hidden="true"/>
-      <reorgResetButton iD="38" itemName="reorgResetButton" itemTag="/op:082/prop:reorgResetButton" enabled="false" hidden="true" itemType="ButtonString"/>
-      <runRunstats iD="39" itemName="runRunstats" itemTag="/op:082/prop:runRunstats" hidden="true" itemType="DynamicBoolean" EBoolean="true"/>
-      <runstatsCodeOptions iD="40" itemName="runstatsCodeOptions" itemTag="/op:082/prop:runstatsCodeOptions" hidden="true" itemType="CodeOptions"/>
-      <runstatsSysCode iD="41" itemName="runstatsSysCode" itemTag="/op:082/prop:runstatsSysCode" hidden="true" EString="RUNSTATS ON TABLE &quot;NAV226&quot;.&quot;TEMP&quot;"/>
-      <runstatsUserCode iD="42" itemName="runstatsUserCode" itemTag="/op:082/prop:runstatsUserCode" enabled="false" hidden="true"/>
-      <runstatsResetButton iD="43" itemName="runstatsResetButton" itemTag="/op:082/prop:runstatsResetButton" enabled="false" hidden="true" itemType="ButtonString"/>
-      <targetOPLabel iD="44" itemName="targetOPLabel" itemTag="/op:082/prop:targetOPLabel" hidden="true" itemType="ConcatString" stringVal="Insert : TEMP" defaultVal="">
+      <createTableCodeOptions iD="30" itemName="createTableCodeOptions" itemTag="/op:084/prop:createTableCodeOptions" enabled="false" hidden="true" itemType="CodeOptions"/>
+      <createTableSysCode iD="31" itemName="createTableSysCode" itemTag="/op:084/prop:createTableSysCode" enabled="false" hidden="true"/>
+      <createTableUserCode iD="32" itemName="createTableUserCode" itemTag="/op:084/prop:createTableUserCode" enabled="false" hidden="true"/>
+      <createTableResetButton iD="33" itemName="createTableResetButton" itemTag="/op:084/prop:createTableResetButton" enabled="false" hidden="true" itemType="ButtonString"/>
+      <runReorg iD="34" itemName="runReorg" itemTag="/op:084/prop:runReorg" hidden="true" itemType="DynamicBoolean"/>
+      <reorgCodeOptions iD="35" itemName="reorgCodeOptions" itemTag="/op:084/prop:reorgCodeOptions" enabled="false" hidden="true" itemType="CodeOptions"/>
+      <reorgSysCode iD="36" itemName="reorgSysCode" itemTag="/op:084/prop:reorgSysCode" enabled="false" hidden="true"/>
+      <reorgUserCode iD="37" itemName="reorgUserCode" itemTag="/op:084/prop:reorgUserCode" enabled="false" hidden="true"/>
+      <reorgResetButton iD="38" itemName="reorgResetButton" itemTag="/op:084/prop:reorgResetButton" enabled="false" hidden="true" itemType="ButtonString"/>
+      <runRunstats iD="39" itemName="runRunstats" itemTag="/op:084/prop:runRunstats" hidden="true" itemType="DynamicBoolean" EBoolean="true"/>
+      <runstatsCodeOptions iD="40" itemName="runstatsCodeOptions" itemTag="/op:084/prop:runstatsCodeOptions" hidden="true" itemType="CodeOptions"/>
+      <runstatsSysCode iD="41" itemName="runstatsSysCode" itemTag="/op:084/prop:runstatsSysCode" hidden="true" EString="RUNSTATS ON TABLE &quot;NAV226&quot;.&quot;TEMP&quot;"/>
+      <runstatsUserCode iD="42" itemName="runstatsUserCode" itemTag="/op:084/prop:runstatsUserCode" enabled="false" hidden="true"/>
+      <runstatsResetButton iD="43" itemName="runstatsResetButton" itemTag="/op:084/prop:runstatsResetButton" enabled="false" hidden="true" itemType="ButtonString"/>
+      <targetOPLabel iD="44" itemName="targetOPLabel" itemTag="/op:084/prop:targetOPLabel" hidden="true" itemType="ConcatString" stringVal="Insert : TEMP" defaultVal="">
         <changeParamTable key="/prop:tableOperation,concat">
           <value paramID="/prop:tableOperation" paramName="tableOperation" paramType="property" paramUsage="concat" subParamID="25" sortIdx="-1" paramValue="//@operatorMap.6/@value/@tableOperation"/>
         </changeParamTable>
@@ -1679,9 +1687,9 @@
         <optionsMap key="updateContainerLabel" value="true"/>
         <optionsMap key="separator" value=" : "/>
       </targetOPLabel>
-      <jdbcBatchSize iD="45" itemName="jdbcBatchSize" itemTag="/op:082/prop:jdbcBatchSize" enabled="false" hidden="true" itemType="Integer" EInt="1000"/>
-      <accessMethod iD="46" itemName="accessMethod" itemTag="/op:082/prop:accessMethod" hidden="true" itemType="AccessMethod"/>
-      <rdbTable iD="47" itemName="rdbTable" itemTag="/op:082/prop:rdbTable" hidden="true" itemType="DBTable" dbmFile="platform:/resource/student/databases/Dynamic Data Model-GSDBITD.dbm" dbmFileDbName="GSDBITD" dbmFileSchemaName="NAV226" dbmFileTableName="TEMP">
+      <jdbcBatchSize iD="45" itemName="jdbcBatchSize" itemTag="/op:084/prop:jdbcBatchSize" enabled="false" hidden="true" itemType="Integer" EInt="1000"/>
+      <accessMethod iD="46" itemName="accessMethod" itemTag="/op:084/prop:accessMethod" hidden="true" itemType="AccessMethod"/>
+      <rdbTable iD="47" itemName="rdbTable" itemTag="/op:084/prop:rdbTable" hidden="true" itemType="DBTable" dbmFile="platform:/resource/student/databases/Dynamic Data Model-GSDBITD.dbm" dbmFileDbName="GSDBITD" dbmFileSchemaName="NAV226" dbmFileTableName="TEMP">
         <instanceParams key="dbVendor">
           <value xsi:type="dynOpr:EString" EString="DB2 UDB"/>
         </instanceParams>
@@ -1695,14 +1703,14 @@
             <value xsi:type="dynOpr:EString" EString="This field accepts either a fixed database schema name or a variable. To use a variable, click the variable icon, select Use Variable, click the ellipsis button (...), and create or select the variable in the Variable Selection window."/>
           </instanceParams>
         </dbSchema>
-        <sqlObjRef xsi:type="LUW:LUWTable" href="../databases/Dynamic Data Model-GSDBITD.dbm#_Ips0uvzREeef7-TwDpl2Rw"/>
+        <sqlObjRef xsi:type="LUW:LUWTable" href="../databases/Dynamic Data Model-GSDBITD.dbm#_j7IVVgfKEei9h95Ks27A9w"/>
         <dbTable xsi:type="dynOpr:EString" itemName="tableName" itemLabel="Table name:" itemType="TableName" EString="TEMP">
           <instanceParams key="itemDescription">
             <value xsi:type="dynOpr:EString" EString="This field accepts either a fixed table name or a variable. To use a variable, click the variable icon, select Use Variable, click the ellipsis button (...), and create or select the variable in the Variable Selection window. "/>
           </instanceParams>
         </dbTable>
         <dbConnection xsi:type="dynOpr:DBServer" itemName="connection" itemLabel="db.Connection" itemType="DBServer"/>
-        <result iD="TEMP" itemTag="/op:082/prop:rdbTable" name="TEMP">
+        <result iD="TEMP" itemTag="/op:084/prop:rdbTable" name="TEMP">
           <instanceParams key="dbVendor">
             <value xsi:type="dynOpr:EString" EString="DB2 UDB"/>
           </instanceParams>
@@ -1713,6 +1721,10 @@
             <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
             <sourceRef kind="RDBCOLUMN" srcRef="//@operatorMap.6/@value/@rdbTable/@result/@columns.0"/>
           </columns>
+          <columns xsi:type="com.ibm.datatools.etl.coretypes:VirtualColumn" name="SNAME" virtualType="CHAR">
+            <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="CHAR" length="15"/>
+            <sourceRef kind="RDBCOLUMN" srcRef="//@operatorMap.6/@value/@rdbTable/@result/@columns.1"/>
+          </columns>
           <dbSchema xsi:type="dynOpr:EString" itemName="schemaName" itemLabel="Schema name:" itemType="SchemaName" EString="NAV226">
             <instanceParams key="itemDescription">
               <value xsi:type="dynOpr:EString" EString="This field accepts either a fixed database schema name or a variable. To use a variable, click the variable icon, select Use Variable, click the ellipsis button (...), and create or select the variable in the Variable Selection window."/>
@@ -1721,24 +1733,31 @@
           <partitionInfo type=""/>
         </result>
       </rdbTable>
-      <executionOrderHint iD="48" itemName="executionOrderHint" itemTag="/op:082/prop:executionOrderHint" hidden="true" itemType="int"/>
-      <columnExpressions iD="49" itemName="columnExpressions" itemTag="/op:082/prop:columnExpressions" hidden="true" itemType="ProjectExpression" value="&quot;NAV226&quot;.&quot;TEMP&quot;.&quot;SNUM&quot;">
+      <executionOrderHint iD="48" itemName="executionOrderHint" itemTag="/op:084/prop:executionOrderHint" hidden="true" itemType="int"/>
+      <columnExpressions iD="49" itemName="columnExpressions" itemTag="/op:084/prop:columnExpressions" hidden="true" itemType="ProjectExpression" value="&quot;NAV226&quot;.&quot;TEMP&quot;.&quot;SNUM&quot;,&quot;NAV226&quot;.&quot;TEMP&quot;.&quot;SNAME&quot;">
         <changeParamTable key="/prop:rdbTable">
           <value xsi:type="com.ibm.datatools.etl.coretypes:VTParamEntry" paramID="/prop:rdbTable" paramName="rdbTable" paramType="property" subParamID="47" sortIdx="-1" paramValue="//@operatorMap.6/@value/@rdbTable" paramParent="//@operatorMap.6/@value" paramVirtualTable="//@operatorMap.6/@value/@rdbTable/@result"/>
         </changeParamTable>
-        <result iD="COLUMNEXPRESSIONS_082" itemTag="/op:082/output:target:0" name="TARGET_082_0">
+        <result iD="COLUMNEXPRESSIONS_084" itemTag="/op:084/output:target:0" name="TARGET_084_0">
           <columns xsi:type="com.ibm.datatools.etl.coretypes:VirtualColumn" itemLabel="SNUM" name="SNUM" virtualType="INTEGER">
             <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
             <sourceRef kind="EXPRESSION" srcRef="//@operatorMap.6/@value/@columnExpressions/@expressionList.0"/>
+          </columns>
+          <columns xsi:type="com.ibm.datatools.etl.coretypes:VirtualColumn" itemLabel="SNAME" name="SNAME" virtualType="CHAR">
+            <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="CHAR" length="15"/>
+            <sourceRef kind="EXPRESSION" srcRef="//@operatorMap.6/@value/@columnExpressions/@expressionList.1"/>
           </columns>
           <partitionInfo type=""/>
         </result>
         <expressionList name="SNUM" virtualType="INTEGER" value="&quot;NAV226&quot;.&quot;TEMP&quot;.&quot;SNUM&quot;" alias="SNUM">
           <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
         </expressionList>
+        <expressionList name="SNAME" virtualType="CHAR" value="&quot;NAV226&quot;.&quot;TEMP&quot;.&quot;SNAME&quot;" alias="SNAME">
+          <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="CHAR" length="15"/>
+        </expressionList>
       </columnExpressions>
-      <reportErrorWhenNoRowsProcessed iD="50" itemName="reportErrorWhenNoRowsProcessed" itemTag="/op:082/prop:reportErrorWhenNoRowsProcessed" hidden="true" itemType="boolean"/>
-      <inputMatch iD="51" itemName="inputMatch" itemTag="/op:082/prop:inputMatch" hidden="true" itemType="Condition">
+      <reportErrorWhenNoRowsProcessed iD="50" itemName="reportErrorWhenNoRowsProcessed" itemTag="/op:084/prop:reportErrorWhenNoRowsProcessed" hidden="true" itemType="boolean"/>
+      <inputMatch iD="51" itemName="inputMatch" itemTag="/op:084/prop:inputMatch" hidden="true" itemType="Condition">
         <changeParamTable key="/prop:rdbTable">
           <value xsi:type="com.ibm.datatools.etl.coretypes:VTParamEntry" paramID="/prop:rdbTable" paramName="rdbTable" paramType="property" subParamID="47" sortIdx="-1" paramValue="//@operatorMap.6/@value/@rdbTable" paramParent="//@operatorMap.6/@value" paramVirtualTable="//@operatorMap.6/@value/@rdbTable/@result"/>
         </changeParamTable>
@@ -1746,12 +1765,12 @@
           <value xsi:type="com.ibm.datatools.etl.coretypes:VTParamEntry" paramID="/input:input:0" paramName="input" paramType="input" subParamID="0" paramValue="//@operatorMap.6/@value/@inputPortMap.0/@value" paramParent="//@operatorMap.6/@value" paramVirtualTable="//@operatorMap.6/@value/@inputPortMap.0/@value/@ownedSchema"/>
         </changeParamTable>
       </inputMatch>
-      <targetPredicate iD="52" itemName="targetPredicate" itemTag="/op:082/prop:targetPredicate" hidden="true" itemType="Condition">
+      <targetPredicate iD="52" itemName="targetPredicate" itemTag="/op:084/prop:targetPredicate" hidden="true" itemType="Condition">
         <changeParamTable key="/prop:rdbTable">
           <value xsi:type="com.ibm.datatools.etl.coretypes:VTParamEntry" paramID="/prop:rdbTable" paramName="rdbTable" paramType="property" subParamID="47" sortIdx="-1" paramValue="//@operatorMap.6/@value/@rdbTable" paramParent="//@operatorMap.6/@value" paramVirtualTable="//@operatorMap.6/@value/@rdbTable/@result"/>
         </changeParamTable>
       </targetPredicate>
-      <map iD="53" itemName="map" itemTag="/op:082/prop:map" hidden="true" itemType="MapExpression">
+      <map iD="53" itemName="map" itemTag="/op:084/prop:map" hidden="true" itemType="MapExpression">
         <changeParamTable key="/input:input:0,mapFrom">
           <value xsi:type="com.ibm.datatools.etl.coretypes:VTParamEntry" paramID="/input:input:0" paramName="input" paramType="input" paramUsage="mapFrom" subParamID="0" sortIdx="-1" paramValue="//@operatorMap.6/@value/@inputPortMap.0/@value" paramParent="//@operatorMap.6/@value" paramVirtualTable="//@operatorMap.6/@value/@inputPortMap.0/@value/@ownedSchema"/>
         </changeParamTable>
@@ -1767,12 +1786,15 @@
         <optionsMap key="mapFromExclusiveAssignment" value="false"/>
         <optionsMap key="allowMapToExpressions" value="true"/>
         <optionsMap key="allowReOrderMapToColumns" value="false"/>
-        <result iD="MAP_082" itemTag="/op:082/prop:map" name="MAP_082">
+        <result iD="MAP_084" itemTag="/op:084/prop:map" name="MAP_084">
           <columns xsi:type="com.ibm.datatools.etl.coretypes:VirtualColumn" itemLabel="SNUM" name="SNUM" nullable="false" virtualType="INTEGER">
             <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
           </columns>
+          <columns xsi:type="com.ibm.datatools.etl.coretypes:VirtualColumn" itemLabel="SNAME" name="SNAME" virtualType="CHAR">
+            <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="CHAR" length="15"/>
+          </columns>
         </result>
-        <mapFromTableList iD="INPUT_082_0" itemTag="/input:input:0" itemLabel="Updates" name="INPUT_082_0">
+        <mapFromTableList iD="INPUT_084_0" itemTag="/input:input:0" itemLabel="Updates" name="INPUT_084_0">
           <columns xsi:type="com.ibm.datatools.etl.coretypes:Expression" itemLabel="SNUM" name="SNUM" virtualType="INTEGER">
             <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
           </columns>
@@ -1824,6 +1846,9 @@
           <columns xsi:type="com.ibm.datatools.etl.coretypes:Expression" itemLabel="SNUM" name="SNUM" nullable="false" virtualType="INTEGER">
             <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
           </columns>
+          <columns xsi:type="com.ibm.datatools.etl.coretypes:Expression" itemLabel="SNAME" name="SNAME" virtualType="CHAR">
+            <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="CHAR" length="15"/>
+          </columns>
           <dbSchema xsi:type="dynOpr:EString" itemName="schemaName" itemLabel="Schema name:" itemType="SchemaName" EString="NAV226">
             <instanceParams key="itemDescription">
               <value xsi:type="dynOpr:EString" EString="This field accepts either a fixed database schema name or a variable. To use a variable, click the variable icon, select Use Variable, click the ellipsis button (...), and create or select the variable in the Variable Selection window."/>
@@ -1834,6 +1859,9 @@
           <columns xsi:type="com.ibm.datatools.etl.coretypes:Expression" itemLabel="SNUM" name="SNUM" nullable="false" virtualType="INTEGER">
             <containedType xsi:type="SQLDataTypes:IntegerDataType" name="INTEGER" primitiveType="INTEGER"/>
           </columns>
+          <columns xsi:type="com.ibm.datatools.etl.coretypes:Expression" itemLabel="SNAME" name="SNAME" virtualType="CHAR">
+            <containedType xsi:type="SQLDataTypes:CharacterStringDataType" name="CHAR" length="15"/>
+          </columns>
           <dbSchema xsi:type="dynOpr:EString" itemName="schemaName" itemLabel="Schema name:" itemType="SchemaName" EString="NAV226">
             <instanceParams key="itemDescription">
               <value xsi:type="dynOpr:EString" EString="This field accepts either a fixed database schema name or a variable. To use a variable, click the variable icon, select Use Variable, click the ellipsis button (...), and create or select the variable in the Variable Selection window."/>
@@ -1841,7 +1869,7 @@
           </dbSchema>
         </mapToTableList>
       </map>
-      <predicate iD="54" itemName="predicate" itemTag="/op:082/prop:predicate" hidden="true" itemType="Condition">
+      <predicate iD="54" itemName="predicate" itemTag="/op:084/prop:predicate" hidden="true" itemType="Condition">
         <changeParamTable key="/prop:rdbTable">
           <value xsi:type="com.ibm.datatools.etl.coretypes:VTParamEntry" paramID="/prop:rdbTable" paramName="rdbTable" paramType="property" subParamID="47" sortIdx="-1" paramValue="//@operatorMap.6/@value/@rdbTable" paramParent="//@operatorMap.6/@value" paramVirtualTable="//@operatorMap.6/@value/@rdbTable/@result"/>
         </changeParamTable>
@@ -2015,7 +2043,7 @@
       <value fromCol="//@operatorMap.4/@value/@project/@result/@columns.14" toCol="//@operatorMap.5/@value/@inputPortMap.0/@value/@ownedSchema/@columns.14"/>
     </columnLinkTable>
   </linkList>
-  <linkList xsi:type="dynOpr:Link" iD="083" definitionID="Link" itemTag="/link:083" toPort="//@operatorMap.6/@value/@inputPortMap.0/@value" fromPort="//@operatorMap.5/@value/@outputPortMap.0/@value">
+  <linkList xsi:type="dynOpr:Link" iD="085" definitionID="Link" itemTag="/link:085" toPort="//@operatorMap.6/@value/@inputPortMap.0/@value" fromPort="//@operatorMap.5/@value/@outputPortMap.0/@value">
     <columnLinkTable key="//@operatorMap.6/@value/@inputPortMap.0/@value/@ownedSchema/@columns.0">
       <value fromCol="//@operatorMap.5/@value/@outputPortMap.0/@value/@ownedSchema/@columns.0" toCol="//@operatorMap.6/@value/@inputPortMap.0/@value/@ownedSchema/@columns.0"/>
     </columnLinkTable>

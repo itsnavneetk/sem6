@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commontypes:SGraph xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commontypes="com.ibm.datatools.dwe.emf.commontypes.nsuri" root="//@nodesMap.0/@value">
+  <nodesMap key="0">
+    <value xsi:type="commontypes:SGraphNode" nodeID="0" outEdgeList="//@edgesMap.0/@value //@edgesMap.1/@value //@edgesMap.2/@value //@edgesMap.3/@value //@edgesMap.4/@value //@edgesMap.5/@value //@edgesMap.6/@value //@edgesMap.7/@value //@edgesMap.8/@value //@edgesMap.9/@value //@edgesMap.10/@value //@edgesMap.11/@value //@edgesMap.12/@value //@edgesMap.13/@value //@edgesMap.14/@value //@edgesMap.15/@value //@edgesMap.16/@value //@edgesMap.17/@value //@edgesMap.19/@value //@edgesMap.20/@value //@edgesMap.21/@value //@edgesMap.23/@value //@edgesMap.24/@value //@edgesMap.26/@value //@edgesMap.27/@value" graph="/">
+      <childNodesMap key="/student/data-flows/l2q3.etlmetadataxmi" value="//@nodesMap.4/@value"/>
+      <childNodesMap key="/student/data-flows/l1q1b.etlmetadataxmi" value="//@nodesMap.11/@value"/>
+      <childNodesMap key="/student/data-flows/l2p1.etlmetadataxmi" value="//@nodesMap.2/@value"/>
+      <childNodesMap key="/student/data-flows/l2p3.etlmetadataxmi" value="//@nodesMap.5/@value"/>
+      <childNodesMap key="/student/data-flows/l2q2p1.etlmetadataxmi" value="//@nodesMap.6/@value"/>
+      <childNodesMap key="/student/data-flows/l2q2p2.etlmetadataxmi" value="//@nodesMap.7/@value"/>
+      <childNodesMap key="/student/data-flows/l2p2.etlmetadataxmi" value="//@nodesMap.3/@value"/>
+      <childNodesMap key="/student/data-flows/l1q1p2.etlmetadataxmi" value="//@nodesMap.12/@value"/>
+      <childNodesMap key="/student/data-flows/l1q3p1.etlmetadataxmi" value="//@nodesMap.10/@value"/>
+      <childNodesMap key="/student/data-flows/l1p2.etlmetadataxmi" value="//@nodesMap.13/@value"/>
+      <childNodesMap key="/student/data-flows/l1q2p3.etlmetadataxmi" value="//@nodesMap.14/@value"/>
+      <childNodesMap key="/student/data-flows/l1q3p4.etlmetadataxmi" value="//@nodesMap.15/@value"/>
+      <childNodesMap key="/student/data-flows/l2q2p3.etlmetadataxmi" value="//@nodesMap.8/@value"/>
+      <childNodesMap key="/student/data-flows/l2q2p4.etlmetadataxmi" value="//@nodesMap.9/@value"/>
+      <childNodesMap key="/student/control-flows/l3example.cflowxmi" value="//@nodesMap.16/@value"/>
+      <childNodesMap key="/student/data-flows/l1q1.etlmetadataxmi" value="//@nodesMap.1/@value"/>
+      <childNodesMap key="/student/control-flows/l3q1a.cflowxmi" value="//@nodesMap.17/@value"/>
+      <childNodesMap key="/student/data-flows/l3q2d.etlmetadataxmi" value="//@nodesMap.19/@value"/>
+      <childNodesMap key="/student/data-flows/l3q2e.etlmetadataxmi" value="//@nodesMap.20/@value"/>
+      <childNodesMap key="/student/data-flows/l3q2f.etlmetadataxmi" value="//@nodesMap.22/@value"/>
+      <childNodesMap key="/student/data-flows/l3q2g.etlmetadataxmi" value="//@nodesMap.24/@value"/>
+      <childNodesMap key="/student/data-flows/evalp1.etlmetadataxmi" value="//@nodesMap.25/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/data-flows/l1q1.etlmetadataxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/data-flows/l1q1.etlmetadataxmi" inEdgeList="//@edgesMap.16/@value" graph="/">
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/data-flows/l2p1.etlmetadataxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/data-flows/l2p1.etlmetadataxmi" inEdgeList="//@edgesMap.2/@value" graph="/">
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/data-flows/l2p2.etlmetadataxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/data-flows/l2p2.etlmetadataxmi" inEdgeList="//@edgesMap.6/@value" graph="/">
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/data-flows/l2q3.etlmetadataxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/data-flows/l2q3.etlmetadataxmi" inEdgeList="//@edgesMap.0/@value" graph="/">
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/data-flows/l2p3.etlmetadataxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/data-flows/l2p3.etlmetadataxmi" inEdgeList="//@edgesMap.3/@value" graph="/">
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/data-flows/l2q2p1.etlmetadataxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/data-flows/l2q2p1.etlmetadataxmi" inEdgeList="//@edgesMap.4/@value" graph="/">
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/data-flows/l2q2p2.etlmetadataxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/data-flows/l2q2p2.etlmetadataxmi" inEdgeList="//@edgesMap.5/@value" graph="/">
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/data-flows/l2q2p3.etlmetadataxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/data-flows/l2q2p3.etlmetadataxmi" inEdgeList="//@edgesMap.12/@value" graph="/">
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/data-flows/l2q2p4.etlmetadataxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/data-flows/l2q2p4.etlmetadataxmi" inEdgeList="//@edgesMap.13/@value" graph="/">
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/data-flows/l1q3p1.etlmetadataxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/data-flows/l1q3p1.etlmetadataxmi" inEdgeList="//@edgesMap.8/@value" graph="/">
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/data-flows/l1q1b.etlmetadataxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/data-flows/l1q1b.etlmetadataxmi" inEdgeList="//@edgesMap.1/@value" graph="/">
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/data-flows/l1q1p2.etlmetadataxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/data-flows/l1q1p2.etlmetadataxmi" outEdgeList="//@edgesMap.18/@value" inEdgeList="//@edgesMap.7/@value" graph="/">
+      <childNodesMap key="/student/control-flows/l3q1b.cflowxmi" value="//@nodesMap.18/@value"/>
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/data-flows/l1p2.etlmetadataxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/data-flows/l1p2.etlmetadataxmi" inEdgeList="//@edgesMap.9/@value" graph="/">
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/data-flows/l1q2p3.etlmetadataxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/data-flows/l1q2p3.etlmetadataxmi" inEdgeList="//@edgesMap.10/@value" graph="/">
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/data-flows/l1q3p4.etlmetadataxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/data-flows/l1q3p4.etlmetadataxmi" inEdgeList="//@edgesMap.11/@value" graph="/">
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/control-flows/l3example.cflowxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/control-flows/l3example.cflowxmi" inEdgeList="//@edgesMap.14/@value" graph="/">
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/control-flows/l3q1a.cflowxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/control-flows/l3q1a.cflowxmi" inEdgeList="//@edgesMap.15/@value" graph="/">
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/control-flows/l3q1b.cflowxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/control-flows/l3q1b.cflowxmi" inEdgeList="//@edgesMap.17/@value //@edgesMap.18/@value" graph="/">
+      <parentNodesMap key="/student/data-flows/l1q1p2.etlmetadataxmi" value="//@nodesMap.12/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/data-flows/l3q2d.etlmetadataxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/data-flows/l3q2d.etlmetadataxmi" inEdgeList="//@edgesMap.19/@value" graph="/">
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/data-flows/l3q2e.etlmetadataxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/data-flows/l3q2e.etlmetadataxmi" outEdgeList="//@edgesMap.22/@value" inEdgeList="//@edgesMap.20/@value" graph="/">
+      <childNodesMap key="/student/control-flows/l3q2e.cflowxmi" value="//@nodesMap.21/@value"/>
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/control-flows/l3q2e.cflowxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/control-flows/l3q2e.cflowxmi" inEdgeList="//@edgesMap.21/@value //@edgesMap.22/@value" graph="/">
+      <parentNodesMap key="/student/data-flows/l3q2e.etlmetadataxmi" value="//@nodesMap.20/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/data-flows/l3q2f.etlmetadataxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/data-flows/l3q2f.etlmetadataxmi" outEdgeList="//@edgesMap.25/@value" inEdgeList="//@edgesMap.24/@value" graph="/">
+      <childNodesMap key="/student/control-flows/l3q2f.cflowxmi" value="//@nodesMap.23/@value"/>
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/control-flows/l3q2f.cflowxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/control-flows/l3q2f.cflowxmi" inEdgeList="//@edgesMap.23/@value //@edgesMap.25/@value" graph="/">
+      <parentNodesMap key="/student/data-flows/l3q2f.etlmetadataxmi" value="//@nodesMap.22/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/data-flows/l3q2g.etlmetadataxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/data-flows/l3q2g.etlmetadataxmi" inEdgeList="//@edgesMap.26/@value" graph="/">
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <nodesMap key="/student/data-flows/evalp1.etlmetadataxmi">
+    <value xsi:type="commontypes:SGraphNode" nodeID="/student/data-flows/evalp1.etlmetadataxmi" inEdgeList="//@edgesMap.27/@value" graph="/">
+      <parentNodesMap key="0" value="//@nodesMap.0/@value"/>
+    </value>
+  </nodesMap>
+  <edgesMap key="0,/student/data-flows/l2q3.etlmetadataxmi">
+    <value edgeID="0,/student/data-flows/l2q3.etlmetadataxmi" to="//@nodesMap.4/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/data-flows/l1q1b.etlmetadataxmi">
+    <value edgeID="0,/student/data-flows/l1q1b.etlmetadataxmi" to="//@nodesMap.11/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/data-flows/l2p1.etlmetadataxmi">
+    <value edgeID="0,/student/data-flows/l2p1.etlmetadataxmi" to="//@nodesMap.2/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/data-flows/l2p3.etlmetadataxmi">
+    <value edgeID="0,/student/data-flows/l2p3.etlmetadataxmi" to="//@nodesMap.5/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/data-flows/l2q2p1.etlmetadataxmi">
+    <value edgeID="0,/student/data-flows/l2q2p1.etlmetadataxmi" to="//@nodesMap.6/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/data-flows/l2q2p2.etlmetadataxmi">
+    <value edgeID="0,/student/data-flows/l2q2p2.etlmetadataxmi" to="//@nodesMap.7/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/data-flows/l2p2.etlmetadataxmi">
+    <value edgeID="0,/student/data-flows/l2p2.etlmetadataxmi" to="//@nodesMap.3/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/data-flows/l1q1p2.etlmetadataxmi">
+    <value edgeID="0,/student/data-flows/l1q1p2.etlmetadataxmi" to="//@nodesMap.12/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/data-flows/l1q3p1.etlmetadataxmi">
+    <value edgeID="0,/student/data-flows/l1q3p1.etlmetadataxmi" to="//@nodesMap.10/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/data-flows/l1p2.etlmetadataxmi">
+    <value edgeID="0,/student/data-flows/l1p2.etlmetadataxmi" to="//@nodesMap.13/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/data-flows/l1q2p3.etlmetadataxmi">
+    <value edgeID="0,/student/data-flows/l1q2p3.etlmetadataxmi" to="//@nodesMap.14/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/data-flows/l1q3p4.etlmetadataxmi">
+    <value edgeID="0,/student/data-flows/l1q3p4.etlmetadataxmi" to="//@nodesMap.15/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/data-flows/l2q2p3.etlmetadataxmi">
+    <value edgeID="0,/student/data-flows/l2q2p3.etlmetadataxmi" to="//@nodesMap.8/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/data-flows/l2q2p4.etlmetadataxmi">
+    <value edgeID="0,/student/data-flows/l2q2p4.etlmetadataxmi" to="//@nodesMap.9/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/control-flows/l3example.cflowxmi">
+    <value edgeID="0,/student/control-flows/l3example.cflowxmi" to="//@nodesMap.16/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/control-flows/l3q1a.cflowxmi">
+    <value edgeID="0,/student/control-flows/l3q1a.cflowxmi" to="//@nodesMap.17/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/data-flows/l1q1.etlmetadataxmi">
+    <value edgeID="0,/student/data-flows/l1q1.etlmetadataxmi" to="//@nodesMap.1/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/control-flows/l3q1b.cflowxmi">
+    <value edgeID="0,/student/control-flows/l3q1b.cflowxmi" to="//@nodesMap.18/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="/student/data-flows/l1q1p2.etlmetadataxmi,/student/control-flows/l3q1b.cflowxmi">
+    <value edgeID="/student/data-flows/l1q1p2.etlmetadataxmi,/student/control-flows/l3q1b.cflowxmi" to="//@nodesMap.18/@value" from="//@nodesMap.12/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/data-flows/l3q2d.etlmetadataxmi">
+    <value edgeID="0,/student/data-flows/l3q2d.etlmetadataxmi" to="//@nodesMap.19/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/data-flows/l3q2e.etlmetadataxmi">
+    <value edgeID="0,/student/data-flows/l3q2e.etlmetadataxmi" to="//@nodesMap.20/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/control-flows/l3q2e.cflowxmi">
+    <value edgeID="0,/student/control-flows/l3q2e.cflowxmi" to="//@nodesMap.21/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="/student/data-flows/l3q2e.etlmetadataxmi,/student/control-flows/l3q2e.cflowxmi">
+    <value edgeID="/student/data-flows/l3q2e.etlmetadataxmi,/student/control-flows/l3q2e.cflowxmi" to="//@nodesMap.21/@value" from="//@nodesMap.20/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/control-flows/l3q2f.cflowxmi">
+    <value edgeID="0,/student/control-flows/l3q2f.cflowxmi" to="//@nodesMap.23/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/data-flows/l3q2f.etlmetadataxmi">
+    <value edgeID="0,/student/data-flows/l3q2f.etlmetadataxmi" to="//@nodesMap.22/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="/student/data-flows/l3q2f.etlmetadataxmi,/student/control-flows/l3q2f.cflowxmi">
+    <value edgeID="/student/data-flows/l3q2f.etlmetadataxmi,/student/control-flows/l3q2f.cflowxmi" to="//@nodesMap.23/@value" from="//@nodesMap.22/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/data-flows/l3q2g.etlmetadataxmi">
+    <value edgeID="0,/student/data-flows/l3q2g.etlmetadataxmi" to="//@nodesMap.24/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+  <edgesMap key="0,/student/data-flows/evalp1.etlmetadataxmi">
+    <value edgeID="0,/student/data-flows/evalp1.etlmetadataxmi" to="//@nodesMap.25/@value" from="//@nodesMap.0/@value"/>
+  </edgesMap>
+</commontypes:SGraph>

@@ -39,4 +39,37 @@
   <table key="/student/data-flows/l1q3p4.etlmetadataxmi">
     <value xsi:type="com.ibm.datatools.etl.common:StringList"/>
   </table>
+  <table key="/student/control-flows/l3example.cflowxmi">
+    <value xsi:type="com.ibm.datatools.etl.common:StringList"/>
+  </table>
+  <table key="/student/control-flows/l3q1a.cflowxmi">
+    <value xsi:type="com.ibm.datatools.etl.common:StringList"/>
+  </table>
+  <table key="/student/control-flows/l3q1b.cflowxmi">
+    <value xsi:type="com.ibm.datatools.etl.common:StringList"/>
+  </table>
+  <table key="/student/data-flows/l3q2d.etlmetadataxmi">
+    <value xsi:type="com.ibm.datatools.etl.common:StringList"/>
+  </table>
+  <table key="/student/data-flows/l3q2e.etlmetadataxmi">
+    <value xsi:type="com.ibm.datatools.etl.common:StringList"/>
+  </table>
+  <table key="/student/control-flows/l3q2e.cflowxmi">
+    <value xsi:type="com.ibm.datatools.etl.common:StringList"/>
+  </table>
+  <table key="/student/data-flows/l3q2f.etlmetadataxmi">
+    <value xsi:type="com.ibm.datatools.etl.common:StringList"/>
+  </table>
+  <table key="/student/control-flows/l3q2f.cflowxmi">
+    <value xsi:type="com.ibm.datatools.etl.common:StringList"/>
+  </table>
+  <table key="/student/data-flows/l3q2g.etlmetadataxmi">
+    <value xsi:type="com.ibm.datatools.etl.common:StringList"/>
+  </table>
+  <table key="/student/data-flows/evalp1.etlmetadataxmi">
+    <value xsi:type="com.ibm.datatools.etl.common:StringList"/>
+  </table>
+  <table key="/student/data-flows/evalp2.etlmetadataxmi">
+    <value xsi:type="com.ibm.datatools.etl.common:StringList"/>
+  </table>
 </com.ibm.datatools.etl.common:ContainedObjLookup>

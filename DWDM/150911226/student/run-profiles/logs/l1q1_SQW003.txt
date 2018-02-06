@@ -1,34 +1,37 @@
- Data-Flows  Jan 12, 2018 11:38:17 AM   SQW03415I: Flow execution started for SQW003 (/student/data-flows/l1q1)
- Data-Flows  Jan 12, 2018 11:38:17 AM   SQW38501I: Execution log file:  E:/150911226/student/run-profiles/logs/l1q1_SQW003.txt
- Data-Flows  Jan 12, 2018 11:38:17 AM   SQW38509I: Execution temporary work directory:  E:/150911226/student/run-profiles/tmp\l1q1_SQW003
- Data-Flows  Jan 12, 2018 11:38:19 AM   SQW03275I: Execution of SQL statement "SET CURRENT SCHEMA "IWSCHEMAFBB6F5_9"" through JDBC connection finished successfully
- Data-Flows  Jan 12, 2018 11:38:19 AM   SQW03275I: Execution of SQL statement "DECLARE GLOBAL TEMPORARY TABLE "IWTEMPFBB6F5_90159"(
-  SNUM INTEGER)
- ON COMMIT PRESERVE ROWS NOT LOGGED" through JDBC connection finished successfully
- Data-Flows  Jan 12, 2018 11:38:19 AM   SQW030821E: Error while attempting to make connection to . SQW03430E: Cannot open connection: No database has been selected
- Data-Flows  Jan 12, 2018 11:38:19 AM   SQW03275I: Execution of SQL statement "DROP TABLE SESSION."IWTEMPFBB6F5_90159"" through JDBC connection finished successfully
- Data-Flows  Jan 12, 2018 11:38:19 AM   SQW03368I: Dumping variable values : 
-     ${INT-RES/RUN-ID} = FBB6F5
+ Data-Flows  Feb 2, 2018 8:59:36 AM   SQW03415I: Flow execution started for SQW003 (/student/data-flows/l1q1)
+ Data-Flows  Feb 2, 2018 8:59:36 AM   SQW38501I: Execution log file:  E:/150911226/student/run-profiles/logs/l1q1_SQW003.txt
+ Data-Flows  Feb 2, 2018 8:59:36 AM   SQW38509I: Execution temporary work directory:  E:/150911226/student/run-profiles/tmp\l1q1_SQW003
+ Data-Flows  Feb 2, 2018 8:59:39 AM   SQW03275I: Execution of SQL statement "SET CURRENT SCHEMA "IWSCHEMA8FFEFD_24"" through JDBC connection finished successfully
+ Data-Flows  Feb 2, 2018 8:59:39 AM   SQW03275I: Execution of SQL statement "DELETE FROM NAV226.TEMP" through JDBC connection finished successfully
+ Data-Flows  Feb 2, 2018 8:59:39 AM   SQW03275I: Execution of SQL statement "INSERT INTO NAV226.TEMP (SNUM)
+  SELECT Q1593.SNUM AS SNUM
+    FROM (SELECT Q1543.SNUM AS SNUM, ROWNUMBER() OVER ( PARTITION BY Q1543.SNUM) AS ROWNUM0
+            FROM NAV226.STUDENT Q1543, NAV226.ENROLL Q1549, NAV226.ENROLL Q1555
+            WHERE (Q1543.SNUM <> Q1555.SNUM) AND (Q1543.SNUM = Q1549.SNUM) AND (Q1549.GRADE = 'A')
+    AND (Q1555.GRADE <> 'A') AND (Q1549.SNUM <> Q1555.SNUM)) Q1593
+    WHERE (Q1593.ROWNUM0 = 1)" through JDBC connection finished successfully
+ Data-Flows  Feb 2, 2018 8:59:39 AM   SQW03368I: Dumping variable values : 
+     ${INT-RES/RUN-ID} = 8FFEFD
      ${RESERVED/APP_NAME} = l1q1
-     ${RESERVED/APP_PATH} = E:/150911226/student/run-profiles/rpfb965d/
-     ${RESERVED/CURRENT_TIMESTAMP} = 2018-01-12 11:38:19
-     ${RESERVED/DATE} = 2018-01-12
+     ${RESERVED/APP_PATH} = E:/150911226/student/run-profiles/rp8ff086/
+     ${RESERVED/CURRENT_TIMESTAMP} = 2018-02-02 08:59:38
+     ${RESERVED/DATE} = 2018-02-02
      ${RESERVED/DAYNAME_SHORT} = Fri
      ${RESERVED/DAYNAME} = Friday
-     ${RESERVED/DAY} = 12
+     ${RESERVED/DAY} = 02
      ${RESERVED/INSTANCE_NAME} = SQW003
      ${RESERVED/MISC_DIR} = E:/150911226\student\package-misc\
-     ${RESERVED/MONTHNAME_SHORT} = Jan
-     ${RESERVED/MONTHNAME} = January
-     ${RESERVED/MONTH} = 01
+     ${RESERVED/MONTHNAME_SHORT} = Feb
+     ${RESERVED/MONTHNAME} = February
+     ${RESERVED/MONTH} = 02
      ${RESERVED/PROC_NAME} = l1q1
-     ${RESERVED/RUN_ID} = FBB6F5
-     ${RESERVED/START_TIMESTAMP} = 2018-01-12 11:38:18
-     ${RESERVED/TIME} = 11:38:18
+     ${RESERVED/RUN_ID} = 8FFEFD
+     ${RESERVED/START_TIMESTAMP} = 2018-02-02 08:59:38
+     ${RESERVED/TIME} = 08:59:38
      ${RESERVED/TMP_DIR} = E:/150911226/student/run-profiles/tmp\l1q1_SQW003
      ${RESERVED/USER_DIR} = C:\Program Files\IBM\ISWarehouse\ds
      ${RESERVED/USER_HOME} = C:\Users\student
      ${RESERVED/USER_NAME} = student
      ${RESERVED/YEAR} = 2018
- Data-Flows  Jan 12, 2018 11:38:19 AM   SQW03408I: Flow execution finished for SQW003 (/student/data-flows/l1q1)
- Data-Flows  Jan 12, 2018 11:38:19 AM   SQW38508I: Closing log file E:/150911226/student/run-profiles/logs/l1q1_SQW003.txt.
+ Data-Flows  Feb 2, 2018 8:59:39 AM   SQW03408I: Flow execution finished for SQW003 (/student/data-flows/l1q1)
+ Data-Flows  Feb 2, 2018 8:59:39 AM   SQW38508I: Closing log file E:/150911226/student/run-profiles/logs/l1q1_SQW003.txt.

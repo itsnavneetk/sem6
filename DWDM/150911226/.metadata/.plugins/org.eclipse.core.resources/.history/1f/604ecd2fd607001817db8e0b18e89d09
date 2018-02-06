@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<srcmgt:SourceElement xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:srcmgt="com.ibm.datatools.dwe.srcmgt.nsuri" saveLocation="student/generated-code/.inc.bld/mgr_se_23" genId="23" location="/student/control-flows/l3q2f.cflowxmi" syncTimeStamp="1517547683303">
+  <actionMap key="val">
+    <value actionType="val" syncTimeStamp="1517547683303" lastStatus="SUCCESS">
+      <sourceActionInfo>
+        <resultEObjectsMap key="valMsg">
+          <value saveLocation="student/generated-code/.inc.bld/mgr_se_23_sa_val_valMsg"/>
+        </resultEObjectsMap>
+      </sourceActionInfo>
+    </value>
+  </actionMap>
+  <actionMap key="cgen">
+    <value actionType="cgen" syncTimeStamp="1517547683303" lastStatus="SUCCESS">
+      <sourceActionInfo>
+        <resultEObjectsMap key="cgenMsg">
+          <value saveLocation="student/generated-code/.inc.bld/mgr_se_23_sa_cgen_cgenMsg"/>
+        </resultEObjectsMap>
+        <resultEObjectsMap key="cgenEpgs">
+          <value saveLocation="student/generated-code/.inc.bld/mgr_se_23_sa_cgen_cgenEpgs"/>
+        </resultEObjectsMap>
+        <resultStringsMap key="CURRENT_RESOURCE_GEN_CODE_DIR" value="student/generated-code/.inc.bld/control-flows.l3q2f/out"/>
+        <resultStringsMap key="EXECUTE_HOME_DIR" value="student/generated-code/.inc.bld/control-flows.l3q2f"/>
+      </sourceActionInfo>
+    </value>
+  </actionMap>
+  <dependenciesList>/student/data-flows/l3q2f.etlmetadataxmi</dependenciesList>
+</srcmgt:SourceElement>

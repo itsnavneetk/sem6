@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<xmi:XMI xmlns:datamodelversion="http://www.ibm.com/com.ibm.datatools.core/model/7.5.2.0" xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:DB2Model="http:///com/ibm/db/models/db2/db2.ecore" xmlns:LUW="http:///com/ibm/db/models/db2/luw.ecore" xmlns:SQLConstraints="http:///org/eclipse/datatools/modelbase/sql/constraints.ecore" xmlns:SQLDataTypes="http:///org/eclipse/datatools/modelbase/sql/datatypes.ecore" xmlns:datanotation="http:///datanotation.ecore">
+  <LUW:LUWDatabase xmi:id="_0NlDcAfYEei9h95Ks27A9w" name="Database" vendor="DB2 UDB" version="V9.7" schemas="_0P9pEAfYEei9h95Ks27A9w"/>
+  <DB2Model:DB2Schema xmi:id="_0P9pEAfYEei9h95Ks27A9w" name="eval226" tables="_-zLJIAfYEei9h95Ks27A9w _JfVJ0AfZEei9h95Ks27A9w _U0KUEAfZEei9h95Ks27A9w _QM5_oAfaEei9h95Ks27A9w _0F2jcAfbEei9h95Ks27A9w _cTRpoAfcEei9h95Ks27A9w" database="_0NlDcAfYEei9h95Ks27A9w">
+    <eAnnotations xmi:id="_0RTs4AfYEei9h95Ks27A9w" source="diagram">
+      <contents xsi:type="datanotation:DataDiagram" xmi:id="_0RTs4QfYEei9h95Ks27A9w" type="IE_CrowFoot" name="Diagram1" viewKind="ProjectExplorer" notation="IE_CrowFoot" kind="Physical">
+        <styles xsi:type="datanotation:DataAttributeStyle" xmi:id="_0RTs4gfYEei9h95Ks27A9w"/>
+        <styles xsi:type="datanotation:DataCompartmentStyle" xmi:id="_0RTs4wfYEei9h95Ks27A9w"/>
+        <styles xsi:type="datanotation:DataDisplayStyle" xmi:id="_0RTs5AfYEei9h95Ks27A9w"/>
+        <styles xsi:type="datanotation:DataDiagramRelationshipStyle" xmi:id="_0RTs5QfYEei9h95Ks27A9w"/>
+        <styles xsi:type="datanotation:DataShapeNameStyle" xmi:id="_0RTs5gfYEei9h95Ks27A9w"/>
+        <styles xsi:type="datanotation:DataDiagramFormattingStyle" xmi:id="_0RTs5wfYEei9h95Ks27A9w"/>
+        <element xsi:nil="true"/>
+      </contents>
+    </eAnnotations>
+  </DB2Model:DB2Schema>
+  <LUW:LUWTable xmi:id="_-zLJIAfYEei9h95Ks27A9w" name="customer" schema="_0P9pEAfYEei9h95Ks27A9w" referencingForeignKeys="_h74YQAfZEei9h95Ks27A9w">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_BFqwMAfZEei9h95Ks27A9w" name="custid" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_CREMUAfZEei9h95Ks27A9w" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_Dgyu0AfZEei9h95Ks27A9w" name="name">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_Dgyu0QfZEei9h95Ks27A9w" name="CHAR" length="15"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_Etr_wAfZEei9h95Ks27A9w" name="country">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_Etr_wQfZEei9h95Ks27A9w" name="CHAR" length="15"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_H9RhMAfZEei9h95Ks27A9w" name="age">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_IpFeUAfZEei9h95Ks27A9w" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_CkSqUAfZEei9h95Ks27A9w" name="customer_PK" members="_BFqwMAfZEei9h95Ks27A9w" ForeignKey="_h74YQAfZEei9h95Ks27A9w"/>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_JfVJ0AfZEei9h95Ks27A9w" name="orders" schema="_0P9pEAfYEei9h95Ks27A9w">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_K9XOEAfZEei9h95Ks27A9w" name="orderid" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_Lwn3AAfZEei9h95Ks27A9w" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_Mhy1QAfZEei9h95Ks27A9w" name="custid">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_NbUeQAfZEei9h95Ks27A9w" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_OKaY4AfZEei9h95Ks27A9w" name="orderdate">
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_RXKowAfZEei9h95Ks27A9w" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_R41ycAfZEei9h95Ks27A9w" name="shipdate">
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_TzCOQAfZEei9h95Ks27A9w" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_gUKzkAfZEei9h95Ks27A9w" name="shipid" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_gUKzkQfZEei9h95Ks27A9w" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_MARckAfZEei9h95Ks27A9w" name="orders_PK" members="_gUKzkAfZEei9h95Ks27A9w _K9XOEAfZEei9h95Ks27A9w"/>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_eat-oAfZEei9h95Ks27A9w" name="orders_shipment_FK" members="_gUKzkAfZEei9h95Ks27A9w" onDelete="CASCADE" uniqueConstraint="_bImGkAfZEei9h95Ks27A9w" referencedTable="_U0KUEAfZEei9h95Ks27A9w">
+      <eAnnotations xmi:id="_eat-oQfZEei9h95Ks27A9w" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_eat-ogfZEei9h95Ks27A9w" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_eat-owfZEei9h95Ks27A9w" key="FK_CHILD_MULTIPLICITY" value="1"/>
+        <details xmi:id="_eat-pAfZEei9h95Ks27A9w" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+        <details xmi:id="_eat-pQfZEei9h95Ks27A9w" key="FK_PARENT_MULTIPLICITY" value=""/>
+        <details xmi:id="_eat-pgfZEei9h95Ks27A9w" key="FK_PARENT_ROLE_NAME" value=""/>
+      </eAnnotations>
+    </constraints>
+    <constraints xsi:type="SQLConstraints:ForeignKey" xmi:id="_h74YQAfZEei9h95Ks27A9w" name="orders_customer_FK" members="_Mhy1QAfZEei9h95Ks27A9w" onDelete="CASCADE" uniqueConstraint="_CkSqUAfZEei9h95Ks27A9w" referencedTable="_-zLJIAfYEei9h95Ks27A9w">
+      <eAnnotations xmi:id="_h74YQQfZEei9h95Ks27A9w" source="FK_MODELING_RELATIONSHIP">
+        <details xmi:id="_h74YQgfZEei9h95Ks27A9w" key="FK_IS_IDENTIFYING_RELATIONSHIP" value="true"/>
+        <details xmi:id="_h74YQwfZEei9h95Ks27A9w" key="FK_CHILD_MULTIPLICITY" value="1"/>
+        <details xmi:id="_h74YRAfZEei9h95Ks27A9w" key="FK_CHILD_ROLE_NAME" value="Verb1"/>
+        <details xmi:id="_h74YRQfZEei9h95Ks27A9w" key="FK_PARENT_MULTIPLICITY" value=""/>
+        <details xmi:id="_h74YRgfZEei9h95Ks27A9w" key="FK_PARENT_ROLE_NAME" value=""/>
+      </eAnnotations>
+    </constraints>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_U0KUEAfZEei9h95Ks27A9w" name="shipment" schema="_0P9pEAfYEei9h95Ks27A9w" referencingForeignKeys="_eat-oAfZEei9h95Ks27A9w">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_ZrAuQAfZEei9h95Ks27A9w" name="shipid" nullable="false">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_a1rKkAfZEei9h95Ks27A9w" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_biE9kAfZEei9h95Ks27A9w" name="shipdate">
+      <containedType xsi:type="SQLDataTypes:DateDataType" xmi:id="_dCC7gAfZEei9h95Ks27A9w" name="DATE" primitiveType="DATE"/>
+    </columns>
+    <constraints xsi:type="SQLConstraints:PrimaryKey" xmi:id="_bImGkAfZEei9h95Ks27A9w" name="shipment_PK" members="_ZrAuQAfZEei9h95Ks27A9w" ForeignKey="_eat-oAfZEei9h95Ks27A9w"/>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_QM5_oAfaEei9h95Ks27A9w" name="df1" schema="_0P9pEAfYEei9h95Ks27A9w">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_R1g8MAfaEei9h95Ks27A9w" name="country">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_R1g8MQfaEei9h95Ks27A9w" name="CHAR" length="15"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_S0aNYAfaEei9h95Ks27A9w" name="count">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_D42XkAfbEei9h95Ks27A9w" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_0F2jcAfbEei9h95Ks27A9w" name="ans1" schema="_0P9pEAfYEei9h95Ks27A9w">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_190KoAfbEei9h95Ks27A9w" name="country">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_190KoQfbEei9h95Ks27A9w" name="CHAR" length="15"/>
+    </columns>
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_190KogfbEei9h95Ks27A9w" name="count">
+      <containedType xsi:type="SQLDataTypes:IntegerDataType" xmi:id="_190KowfbEei9h95Ks27A9w" name="INTEGER" primitiveType="INTEGER"/>
+    </columns>
+  </LUW:LUWTable>
+  <LUW:LUWTable xmi:id="_cTRpoAfcEei9h95Ks27A9w" name="ans2" schema="_0P9pEAfYEei9h95Ks27A9w">
+    <columns xsi:type="LUW:LUWColumn" xmi:id="_dYtnsAfcEei9h95Ks27A9w" name="country">
+      <containedType xsi:type="SQLDataTypes:CharacterStringDataType" xmi:id="_dYtnsQfcEei9h95Ks27A9w" name="CHAR" length="15"/>
+    </columns>
+  </LUW:LUWTable>
+</xmi:XMI>

@@ -1,0 +1,38 @@
+ Control-Flows  Feb 2, 2018 10:28:24 AM   SQW03415I: Flow execution started for SQW020 (/student/control-flows/l3q2e)
+ Control-Flows  Feb 2, 2018 10:28:24 AM   SQW38501I: Execution log file:  E:/150911226/student/run-profiles/logs/l3q2e_SQW020.txt
+ Control-Flows  Feb 2, 2018 10:28:24 AM   SQW38509I: Execution temporary work directory:  E:/150911226/student/run-profiles/tmp\l3q2e_SQW020
+ Control-Flows  Feb 2, 2018 10:28:26 AM   SQW03202I: Start of task: Parallel_Container_02
+ Control-Flows  Feb 2, 2018 10:28:26 AM   SQW030813I: Starting execution for parallel activity Parallel_Container_02.
+ Control-Flows  Feb 2, 2018 10:28:27 AM   SQW03275I: Execution of SQL statement "SET CURRENT SCHEMA "IWSCHEMAE14B70_a1"" through JDBC connection finished successfully
+ Control-Flows  Feb 2, 2018 10:28:27 AM   SQW03275I: Execution of SQL statement "DELETE FROM EMP226.L3Q2E" through JDBC connection finished successfully
+ Control-Flows  Feb 2, 2018 10:28:27 AM   SQW03275I: Execution of SQL statement "INSERT INTO EMP226.L3Q2E (EMPID)
+  SELECT Q153.EMPID AS EMPID
+    FROM EMP226.WORKS Q153
+    WHERE (Q153.COMPANYNAME <> 'FBC')" through JDBC connection finished successfully
+ Control-Flows  Feb 2, 2018 10:28:27 AM   SQW03201I: EPGBlockPseudoTask <Data_Flow_02_0> task completed successfully
+ Control-Flows  Feb 2, 2018 10:28:27 AM   SQW030814I: Parallel activity Parallel_Container_02 execution status - SUCCESS.
+ Control-Flows  Feb 2, 2018 10:28:27 AM   SQW03368I: Dumping variable values : 
+     ${INT-RES/RUN-ID} = E14B70
+     ${RESERVED/APP_NAME} = l3q2e
+     ${RESERVED/APP_PATH} = E:/150911226/student/run-profiles/rpe13e6f/
+     ${RESERVED/CURRENT_TIMESTAMP} = 2018-02-02 10:28:26
+     ${RESERVED/DATE} = 2018-02-02
+     ${RESERVED/DAYNAME_SHORT} = Fri
+     ${RESERVED/DAYNAME} = Friday
+     ${RESERVED/DAY} = 02
+     ${RESERVED/INSTANCE_NAME} = SQW020
+     ${RESERVED/MISC_DIR} = E:/150911226\student\package-misc\
+     ${RESERVED/MONTHNAME_SHORT} = Feb
+     ${RESERVED/MONTHNAME} = February
+     ${RESERVED/MONTH} = 02
+     ${RESERVED/PROC_NAME} = l3q2e
+     ${RESERVED/RUN_ID} = E14B70
+     ${RESERVED/START_TIMESTAMP} = 2018-02-02 10:28:26
+     ${RESERVED/TIME} = 10:28:26
+     ${RESERVED/TMP_DIR} = E:/150911226/student/run-profiles/tmp\l3q2e_SQW020
+     ${RESERVED/USER_DIR} = C:\Program Files\IBM\ISWarehouse\ds
+     ${RESERVED/USER_HOME} = C:\Users\student
+     ${RESERVED/USER_NAME} = student
+     ${RESERVED/YEAR} = 2018
+ Control-Flows  Feb 2, 2018 10:28:27 AM   SQW03408I: Flow execution finished for SQW020 (/student/control-flows/l3q2e)
+ Control-Flows  Feb 2, 2018 10:28:27 AM   SQW38508I: Closing log file E:/150911226/student/run-profiles/logs/l3q2e_SQW020.txt.

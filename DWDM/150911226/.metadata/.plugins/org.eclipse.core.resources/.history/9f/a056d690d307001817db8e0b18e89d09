@@ -1,0 +1,16 @@
+#Fri Feb 02 09:18:55 IST 2018
+//connection-info-name(data-flows/l2q2p2.etlmetadataxmi)=GSDBITD
+//connection-info-name(data-flows/l2q2p1.etlmetadataxmi)=GSDBITD
+//connection-info-name(data-flows/l1q1p2.etlmetadataxmi)=GSDBITD
+//connection-info-name(data-flows/l2q2p4.etlmetadataxmi)=GSDBITD
+//connection-info-name(data-flows/l2q2p3.etlmetadataxmi)=GSDBITD
+//connection-info-name(data-flows/l1q3p1.etlmetadataxmi)=GSDBITD
+//connection-info-name(data-flows/l1q1.etlmetadataxmi)=GSDBITD
+//connection-info-name(data-flows/l1q2p3.etlmetadataxmi)=GSDBITD
+//connection-info-name(data-flows/l3q2d.etlmetadataxmi)=GSDBITD
+//connection-info-name(data-flows/l1q3p4.etlmetadataxmi)=GSDBITD
+//connection-info-name(data-flows/l1p2.etlmetadataxmi)=GSDBITD
+//connection-info-name(data-flows/l2p2.etlmetadataxmi)=GSDBITD
+eclipse.preferences.version=1
+//connection-info-name(data-flows/l2q3.etlmetadataxmi)=GSDBITD
+//connection-info-name(data-flows/l2p3.etlmetadataxmi)=GSDBITD

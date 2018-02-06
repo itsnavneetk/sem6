@@ -1,0 +1,36 @@
+ Data-Flows  Feb 2, 2018 10:30:32 AM   SQW03415I: Flow execution started for SQW021 (/student/data-flows/l3q2f)
+ Data-Flows  Feb 2, 2018 10:30:32 AM   SQW38501I: Execution log file:  E:/150911226/student/run-profiles/logs/l3q2f_SQW021.txt
+ Data-Flows  Feb 2, 2018 10:30:32 AM   SQW38509I: Execution temporary work directory:  E:/150911226/student/run-profiles/tmp\l3q2f_SQW021
+ Data-Flows  Feb 2, 2018 10:30:35 AM   SQW03275I: Execution of SQL statement "SET CURRENT SCHEMA "IWSCHEMAE3416B_aa"" through JDBC connection finished successfully
+ Data-Flows  Feb 2, 2018 10:30:35 AM   SQW03275I: Execution of SQL statement "INSERT INTO EMP226.L3Q2F (EMPID)
+  SELECT Q155.EMPID AS EMPID
+    FROM (SELECT Q39.EMPID AS EMPID, Q39.SALARY AS SALARY
+            FROM EMP226.WORKS Q39
+            WHERE (Q39.COMPANYNAME = 'FBC')) Q155
+    ORDER BY Q155.SALARY DESC
+    FETCH FIRST ROW ONLY" through JDBC connection finished successfully
+ Data-Flows  Feb 2, 2018 10:30:35 AM   SQW03368I: Dumping variable values : 
+     ${INT-RES/RUN-ID} = E3416B
+     ${RESERVED/APP_NAME} = l3q2f
+     ${RESERVED/APP_PATH} = E:/150911226/student/run-profiles/rpe334a9/
+     ${RESERVED/CURRENT_TIMESTAMP} = 2018-02-02 10:30:35
+     ${RESERVED/DATE} = 2018-02-02
+     ${RESERVED/DAYNAME_SHORT} = Fri
+     ${RESERVED/DAYNAME} = Friday
+     ${RESERVED/DAY} = 02
+     ${RESERVED/INSTANCE_NAME} = SQW021
+     ${RESERVED/MISC_DIR} = E:/150911226\student\package-misc\
+     ${RESERVED/MONTHNAME_SHORT} = Feb
+     ${RESERVED/MONTHNAME} = February
+     ${RESERVED/MONTH} = 02
+     ${RESERVED/PROC_NAME} = l3q2f
+     ${RESERVED/RUN_ID} = E3416B
+     ${RESERVED/START_TIMESTAMP} = 2018-02-02 10:30:35
+     ${RESERVED/TIME} = 10:30:35
+     ${RESERVED/TMP_DIR} = E:/150911226/student/run-profiles/tmp\l3q2f_SQW021
+     ${RESERVED/USER_DIR} = C:\Program Files\IBM\ISWarehouse\ds
+     ${RESERVED/USER_HOME} = C:\Users\student
+     ${RESERVED/USER_NAME} = student
+     ${RESERVED/YEAR} = 2018
+ Data-Flows  Feb 2, 2018 10:30:35 AM   SQW03408I: Flow execution finished for SQW021 (/student/data-flows/l3q2f)
+ Data-Flows  Feb 2, 2018 10:30:35 AM   SQW38508I: Closing log file E:/150911226/student/run-profiles/logs/l3q2f_SQW021.txt.

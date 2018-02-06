@@ -1,0 +1,17 @@
+--<ScriptOptions statementTerminator="!"/>
+
+CREATE TABLE emp226.l3q2e (
+		empID INTEGER NOT NULL
+	)
+	DATA CAPTURE NONE!
+
+CREATE TABLE emp226.l3q2f (
+		empID INTEGER NOT NULL
+	)
+	DATA CAPTURE NONE!
+
+CREATE TABLE emp226.l3q2g (
+		empID INTEGER NOT NULL
+	)
+	DATA CAPTURE NONE!
+

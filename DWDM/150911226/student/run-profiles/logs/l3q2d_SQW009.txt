@@ -1,0 +1,35 @@
+ Data-Flows  Feb 2, 2018 9:51:23 AM   SQW03415I: Flow execution started for SQW009 (/student/data-flows/l3q2d)
+ Data-Flows  Feb 2, 2018 9:51:23 AM   SQW38501I: Execution log file:  E:/150911226/student/run-profiles/logs/l3q2d_SQW009.txt
+ Data-Flows  Feb 2, 2018 9:51:23 AM   SQW38509I: Execution temporary work directory:  E:/150911226/student/run-profiles/tmp\l3q2d_SQW009
+ Data-Flows  Feb 2, 2018 9:51:26 AM   SQW03275I: Execution of SQL statement "SET CURRENT SCHEMA "IWSCHEMABF6908_54"" through JDBC connection finished successfully
+ Data-Flows  Feb 2, 2018 9:51:26 AM   SQW03275I: Execution of SQL statement "DELETE FROM EMP226.L3PD" through JDBC connection finished successfully
+ Data-Flows  Feb 2, 2018 9:51:26 AM   SQW03275I: Execution of SQL statement "INSERT INTO EMP226.L3PD (EMPID)
+  SELECT Q758.EMPID AS EMPID
+    FROM EMP226.EMPLOYEE Q758, EMP226.EMPLOYEE Q763, EMP226.MANAGES Q768
+    WHERE (Q758.CITY = Q763.CITY) AND (Q758.STREET = Q763.STREET)
+    AND (Q768.MANAGERID = Q763.EMPID)" through JDBC connection finished successfully
+ Data-Flows  Feb 2, 2018 9:51:26 AM   SQW03368I: Dumping variable values : 
+     ${INT-RES/RUN-ID} = BF6908
+     ${RESERVED/APP_NAME} = l3q2d
+     ${RESERVED/APP_PATH} = E:/150911226/student/run-profiles/rpbf5c85/
+     ${RESERVED/CURRENT_TIMESTAMP} = 2018-02-02 09:51:26
+     ${RESERVED/DATE} = 2018-02-02
+     ${RESERVED/DAYNAME_SHORT} = Fri
+     ${RESERVED/DAYNAME} = Friday
+     ${RESERVED/DAY} = 02
+     ${RESERVED/INSTANCE_NAME} = SQW009
+     ${RESERVED/MISC_DIR} = E:/150911226\student\package-misc\
+     ${RESERVED/MONTHNAME_SHORT} = Feb
+     ${RESERVED/MONTHNAME} = February
+     ${RESERVED/MONTH} = 02
+     ${RESERVED/PROC_NAME} = l3q2d
+     ${RESERVED/RUN_ID} = BF6908
+     ${RESERVED/START_TIMESTAMP} = 2018-02-02 09:51:25
+     ${RESERVED/TIME} = 09:51:25
+     ${RESERVED/TMP_DIR} = E:/150911226/student/run-profiles/tmp\l3q2d_SQW009
+     ${RESERVED/USER_DIR} = C:\Program Files\IBM\ISWarehouse\ds
+     ${RESERVED/USER_HOME} = C:\Users\student
+     ${RESERVED/USER_NAME} = student
+     ${RESERVED/YEAR} = 2018
+ Data-Flows  Feb 2, 2018 9:51:26 AM   SQW03408I: Flow execution finished for SQW009 (/student/data-flows/l3q2d)
+ Data-Flows  Feb 2, 2018 9:51:26 AM   SQW38508I: Closing log file E:/150911226/student/run-profiles/logs/l3q2d_SQW009.txt.

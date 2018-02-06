@@ -1,6 +1,36 @@
- Data-Flows  Jan 19, 2018 8:50:04 AM   SQW03415I: Flow execution started for SQW004 (/student/data-flows/l1q1)
- Data-Flows  Jan 19, 2018 8:50:04 AM   SQW38501I: Execution log file:  E:/150911226/student/run-profiles/logs/l1q1_SQW004.txt
- Data-Flows  Jan 19, 2018 8:50:04 AM   SQW38509I: Execution temporary work directory:  E:/150911226/student/run-profiles/tmp\l1q1_SQW004
- Data-Flows  Jan 19, 2018 8:50:05 AM   SQW38505E: Code validation warning encountered.
- Data-Flows  Jan 19, 2018 8:50:05 AM   SQW03407E: Execution failed for instance SQW004 (/student/data-flows/l1q1)
- Data-Flows  Jan 19, 2018 8:50:05 AM   SQW38508I: Closing log file E:/150911226/student/run-profiles/logs/l1q1_SQW004.txt.
+ Data-Flows  Feb 2, 2018 9:12:23 AM   SQW03415I: Flow execution started for SQW004 (/student/data-flows/l1q1)
+ Data-Flows  Feb 2, 2018 9:12:23 AM   SQW38501I: Execution log file:  E:/150911226/student/run-profiles/logs/l1q1_SQW004.txt
+ Data-Flows  Feb 2, 2018 9:12:23 AM   SQW38509I: Execution temporary work directory:  E:/150911226/student/run-profiles/tmp\l1q1_SQW004
+ Data-Flows  Feb 2, 2018 9:12:27 AM   SQW03275I: Execution of SQL statement "SET CURRENT SCHEMA "IWSCHEMA9BB775_2c"" through JDBC connection finished successfully
+ Data-Flows  Feb 2, 2018 9:12:27 AM   SQW03275I: Execution of SQL statement "INSERT INTO NAV226.TEMP (SNUM, SNAME)
+  SELECT Q1751.SNUM AS SNUM, Q1751.SNAME AS SNAME
+    FROM (SELECT Q1701.SNUM AS SNUM, Q1701.SNAME AS SNAME, ROWNUMBER() OVER ( PARTITION BY Q1701.SNUM) AS ROWNUM0
+            FROM NAV226.STUDENT Q1701, NAV226.ENROLL Q1707, NAV226.ENROLL Q1713
+            WHERE (Q1701.SNUM <> Q1713.SNUM) AND (Q1701.SNUM = Q1707.SNUM) AND (Q1707.GRADE = 'A')
+    AND (Q1713.GRADE <> 'A') AND (Q1707.SNUM <> Q1713.SNUM)) Q1751
+    WHERE (Q1751.ROWNUM0 = 1)" through JDBC connection finished successfully
+ Data-Flows  Feb 2, 2018 9:12:27 AM   SQW03368I: Dumping variable values : 
+     ${INT-RES/RUN-ID} = 9BB775
+     ${RESERVED/APP_NAME} = l1q1
+     ${RESERVED/APP_PATH} = E:/150911226/student/run-profiles/rp9ba881/
+     ${RESERVED/CURRENT_TIMESTAMP} = 2018-02-02 09:12:26
+     ${RESERVED/DATE} = 2018-02-02
+     ${RESERVED/DAYNAME_SHORT} = Fri
+     ${RESERVED/DAYNAME} = Friday
+     ${RESERVED/DAY} = 02
+     ${RESERVED/INSTANCE_NAME} = SQW004
+     ${RESERVED/MISC_DIR} = E:/150911226\student\package-misc\
+     ${RESERVED/MONTHNAME_SHORT} = Feb
+     ${RESERVED/MONTHNAME} = February
+     ${RESERVED/MONTH} = 02
+     ${RESERVED/PROC_NAME} = l1q1
+     ${RESERVED/RUN_ID} = 9BB775
+     ${RESERVED/START_TIMESTAMP} = 2018-02-02 09:12:26
+     ${RESERVED/TIME} = 09:12:26
+     ${RESERVED/TMP_DIR} = E:/150911226/student/run-profiles/tmp\l1q1_SQW004
+     ${RESERVED/USER_DIR} = C:\Program Files\IBM\ISWarehouse\ds
+     ${RESERVED/USER_HOME} = C:\Users\student
+     ${RESERVED/USER_NAME} = student
+     ${RESERVED/YEAR} = 2018
+ Data-Flows  Feb 2, 2018 9:12:27 AM   SQW03408I: Flow execution finished for SQW004 (/student/data-flows/l1q1)
+ Data-Flows  Feb 2, 2018 9:12:27 AM   SQW38508I: Closing log file E:/150911226/student/run-profiles/logs/l1q1_SQW004.txt.
