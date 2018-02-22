@@ -1,3 +1,6 @@
+#Python 3
+#Incomplete code!
+#outputs only the sets of the third iteration
 from itertools import zip_longest
 
 import itertools

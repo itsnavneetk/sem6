@@ -131,11 +131,11 @@ if __name__ == "__main__":
     optparser.add_option('-f', '--inputFile',
                          dest='input',
                          help='filename containing csv',
-                         default=None)
+                         default="mushrooms.csv")
     optparser.add_option('-s', '--minSupport',
                          dest='minS',
                          help='minimum support value',
-                         default=0.15,
+                         default=0.3,
                          type='float')
     optparser.add_option('-c', '--minConfidence',
                          dest='minC',
@@ -154,12 +154,12 @@ if __name__ == "__main__":
             print 'No dataset filename specified, system with exit\n'
             sys.exit('System will exit')
 
-    # minSupport = options.minS
-    # minConfidence = options.minC
+    minSupport = options.minS
+    minConfidence = options.minC
 
-    # items, rules = runApriori(inFile, minSupport, minConfidence)
+    items, rules = runApriori(inFile, minSupport, minConfidence)
 
-    # printResults(items, rules)
+    printResults(items, rules)
 
 
 
