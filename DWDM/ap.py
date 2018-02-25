@@ -24,7 +24,7 @@ def itemset_from_data(data):
 def itemset_support(transaction_list, itemset, min_support=0):
     len_transaction_list = len(transaction_list)
     l = [
-        (item, float(sum(1 for row in transaction_list if item.issubset(row)))/len_transaction_list) 
+        (item, float(sum(1 for row in transaction_list if item.issubset(row)))/len_transaction_list)
         for item in itemset
     ]
     return dict([(item, support) for item, support in l if support >= min_support])
@@ -105,7 +105,7 @@ def parse_options():
         '-c', '--min_confidence',
         dest='min_confidence',
         help='minimum confidence',
-        default=0.6,
+        default=0.8,
         type=float
     )
     return optparser.parse_args()
