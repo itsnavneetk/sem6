@@ -1,0 +1,4 @@
+#Tue Feb 27 21:37:13 IST 2018
+base.0=E\:\\sem6\\AT\\150911226\\AlarmApp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\6
+path.0=classes.dex
+renamed.0=classes.dex

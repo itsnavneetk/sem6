@@ -6,15 +6,20 @@
 #include<sys/stat.h>
 #include<fcntl.h>
 #include<string.h>
-#define MAXSIZE 50
+#define max 50
 
 main()
 {
+int sockfd,newsockfd,k;
+	socklen_t actuallen;
+	int retval;
+	size_t leng;
+	char c;
+	int recedbytes,sentbytes;
+	struct sockaddr_in serveraddr,clientaddr;
+	char buff[max],temp[max];
+	int a=0;
 FILE *fp;
-int sockfd,retval;
-int recedbytes,sentbytes;
-struct sockaddr_in serveraddr;
-char buff[MAXSIZE];
 sockfd=socket(AF_INET,SOCK_STREAM,0);
 if(sockfd==-1)
 {
