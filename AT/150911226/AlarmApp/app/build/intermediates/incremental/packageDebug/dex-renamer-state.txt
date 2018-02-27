@@ -1,0 +1,7 @@
+#Mon Jan 29 10:37:37 IST 2018
+base.0=D\:\\150911184\\Lab4\\AlarmApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b45926d4dbf1f3541de22984fa9aeac4e0ca3566
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=D\:\\150911184\\Lab4\\AlarmApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_732feba281c9f14d4797ba4b569583d9a2004999\\classes.dex
+base.1=D\:\\150911184\\Lab4\\AlarmApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_732feba281c9f14d4797ba4b569583d9a2004999
+file.0=D\:\\150911184\\Lab4\\AlarmApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_b45926d4dbf1f3541de22984fa9aeac4e0ca3566\\classes.dex

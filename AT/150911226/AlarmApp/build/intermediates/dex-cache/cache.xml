@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\150911184\Lab4\AlarmApp\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="D:\150911184\Lab4\AlarmApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.3.1_cd12f6c7ff26422d499079b12dca3530ac96c6b2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\student\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="D:\150911184\Lab4\AlarmApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_53bbdefd660fa1a55612cf6e688185ba6b986f03\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\150911184\Lab4\AlarmApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="D:\150911184\Lab4\AlarmApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.3.1_55c9f47a2e109aadf1477f024343cc4b47e9a5de\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\150911184\Lab4\AlarmApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="934964174edc1a3cae0caa4f3259ebf5ab58659c">
+        <dex dex="D:\150911184\Lab4\AlarmApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_732feba281c9f14d4797ba4b569583d9a2004999\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\150911184\Lab4\AlarmApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="84ab29a8fc9de085a63f075b83e2853116e44982">
+        <dex dex="D:\150911184\Lab4\AlarmApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_b45926d4dbf1f3541de22984fa9aeac4e0ca3566\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\150911184\Lab4\AlarmApp\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="D:\150911184\Lab4\AlarmApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.3.1_1ea044a4c2716aa7eec3cc1bdb346155e8a48ff6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\150911184\Lab4\AlarmApp\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="D:\150911184\Lab4\AlarmApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.3.1_e1ba4d22951703f7be66413e1c63488d176d0c10\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\150911184\Lab4\AlarmApp\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="D:\150911184\Lab4\AlarmApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.3.1_9b971336913ae98d549a6e7d21eba088fe4403e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\150911184\Lab4\AlarmApp\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="D:\150911184\Lab4\AlarmApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.3.1_9736088751e48f2a7900bd44658ac0e614c7cba4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\150911184\Lab4\AlarmApp\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="D:\150911184\Lab4\AlarmApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.3.1_29fde11f7b6f4dcee52d8c390df4f2dd7f96930e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\150911184\Lab4\AlarmApp\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="D:\150911184\Lab4\AlarmApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.3.1_87b58bbac88e1dc710e6dc7b88d979646b311784\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\150911184\Lab4\AlarmApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\150911184\Lab4\AlarmApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.3.1_1b9f1c75d04ef54adad7523f5c9b85a4a604831e\classes.dex" />
+    </item>
+
+</items>

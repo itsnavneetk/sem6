@@ -25,7 +25,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView2"
-        android:layout_alignStart="@+id/textView2" >
+        android:layout_alignStart="@+id/textView2"
+        android:id="@+id/rg">
 
         <RadioButton
             android:text="50"
@@ -42,10 +43,10 @@
             android:layout_weight="1" />
 
         <RadioButton
-            android:text="10"
+            android:text="20"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton2"
+            android:id="@+id/ans1"
             android:layout_weight="1" />
 
         <RadioButton
@@ -102,7 +103,7 @@
             android:text="30"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/radioButton14"
+            android:id="@+id/ans2"
             android:layout_weight="1" />
 
         <RadioButton
