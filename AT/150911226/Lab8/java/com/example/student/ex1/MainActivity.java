@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         database=new DBHelper(MainActivity.this);
 
         try{
-            database.insertProd("00231","Lifebuoy HandWash", 79);
+            
             database.insertProd("0982","SanDisk CruzerBlade", 399);
             database.insertProd("12782","HP Computer Mouse", 359);
             database.insertProd("009982","Casio Classic Digital Watch", 789);
