@@ -135,12 +135,12 @@ if __name__ == "__main__":
     optparser.add_option('-s', '--minSupport',
                          dest='minS',
                          help='minimum support value',
-                         default=0.3,
+                         default=0.9,
                          type='float')
     optparser.add_option('-c', '--minConfidence',
                          dest='minC',
                          help='minimum confidence value',
-                         default=0.6,
+                         default=0.9,
                          type='float')
 
     (options, args) = optparser.parse_args()
