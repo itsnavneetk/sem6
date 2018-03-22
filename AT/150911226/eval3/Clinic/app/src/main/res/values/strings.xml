@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Clinic</string>
+    <string name="one">1</string>
+    <string name="val">1, 2, 5, 8</string>
+</resources>

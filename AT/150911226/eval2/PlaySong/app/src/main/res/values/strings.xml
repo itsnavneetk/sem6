@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PlaySong</string>
+    <string name="Play"><![CDATA[>]]></string>
+    <string name="pause">||</string>
+</resources>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light">
+
+
+
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    android:background="@android:color/darker_gray">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product ID: "
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                android:fontFamily="serif"/>
+
+            <EditText
+                android:id="@+id/editId"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Enter product ID"
+                android:fontFamily="serif"/>
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/prodNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Name: "
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:fontFamily="serif"/>
+
+        <TextView
+            android:id="@+id/prodPriceText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Product Price: "
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:fontFamily="serif"/>
+
+
+        <Button
+            android:id="@+id/goButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Add"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:fontFamily="serif"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/cheapButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="View Cheapest Product"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:fontFamily="serif"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/costlyButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="View Costliest Product"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:fontFamily="serif"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Billed Products:"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"
+                android:fontFamily="serif"/>
+
+            <TextView
+                android:id="@+id/billPrice"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:textSize="17sp"
+                android:fontFamily="serif"/>
+
+
+            <Button
+                android:id="@+id/clearButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clear List"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:fontFamily="serif"/>
+
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
