@@ -26,7 +26,7 @@ public class DBHelper extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db)
     {
-        String query="CREATE TABLE products("+prodId+" TEXT PRIMARY KEY, "+prodName+" TEXT, "+prodPrice+" INTEGER);";
+        String query="CREATE TABLE products("+prodId+" TEXT PRIMARY KEY , "+prodName+" TEXT, "+prodPrice+" INTEGER);";
         db.execSQL(query);
 
         query="CREATE TABLE bill("+prodId+" TEXT PRIMARY KEY, qty INTEGER);";
