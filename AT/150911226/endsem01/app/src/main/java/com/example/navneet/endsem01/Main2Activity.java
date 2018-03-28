@@ -41,7 +41,7 @@ public class Main2Activity extends AppCompatActivity {
         final Context context = this;
 
         Bundle bn = getIntent().getExtras();
-        String msg = bn.getString("msg");
+        String msg = bn.getString("msg1");
         tv.setText(msg);
         try{
             db = openOrCreateDatabase("end", MODE_PRIVATE, null);

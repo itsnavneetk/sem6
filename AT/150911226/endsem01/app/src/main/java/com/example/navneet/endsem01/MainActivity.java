@@ -75,6 +75,8 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(MainActivity.this, Main2Activity.class);
                 Bundle bn = new Bundle();
                 bn.putString("msg", "message from act 1");
+                bn.putString("msg1", "message 2");
+                bn.putString("msg2", "message 3");
                 intent.putExtras(bn);
                 startActivity(intent);
             }
